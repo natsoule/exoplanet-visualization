@@ -91,8 +91,8 @@
 		.data(data)
 		.enter().append("path")
 		.attr("class", "symbol")
-		.attr("d", function(d, i) { return symbol.type(symbols(d.method_index))(); })
-		.style("fill", function(d) { return color(d.method_index); })
+		.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
+		.style("fill", function(d) { return color(d.method); })
 		.attr("transform", function(d) { 
 			return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
     });
@@ -118,7 +118,7 @@
 	if (clicked !== d){
 		d3.selectAll(".symbol")
 			.filter(function(e){
-			return e.method_index !== d;
+			return e.method !== d;
 		 })
 		.style("opacity",0.1)
 		 clicked = d

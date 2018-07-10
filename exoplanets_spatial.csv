@@ -1,0 +1,3325 @@
+method,method_index,name,period,distance
+Astrometry,0,DENIS-P J082303.1-491201 b,246,21
+Eclipse Timing Variations,1,NN Ser c,5,574,500
+Eclipse Timing Variations,1,NN Ser d,2,884,500
+Imaging,2,2MASS J21402931+1625183 A b,7,337,25
+Imaging,2,bet Pic b,7,665,19
+Imaging,2,CFBDSIR J145829+101343 b,10,038,23
+Imaging,2,Fomalhaut b,555,530,8
+Imaging,2,HR 8799 b,170,000,39
+Imaging,2,HR 8799 c,69,000,39
+Imaging,2,HR 8799 d,37,000,39
+Imaging,2,HR 8799 e,18,000,39
+Imaging,2,Oph 11 b,7,300,000,125
+Microlensing,3,MOA-2009-BLG-266L b,2,774,3,040
+Microlensing,3,MOA-2009-BLG-387L b,1,982,5,690
+Microlensing,3,OGLE-2005-BLG-390L b,3,285,6,600
+Microlensing,3,OGLE-2006-BLG-109L b,1,789,1,510
+Microlensing,3,OGLE-2006-BLG-109L c,4,928,1,510
+Microlensing,3,OGLE-2007-BLG-349L AB c,2,557,2,760
+Microlensing,3,OGLE-2016-BLG-1190L b,1,224,6,770
+Orbital Brightness Modulation,4,Kepler-76 b,2,844
+Orbital Brightness Modulation,4,KOI-55 b,0,1,180
+Orbital Brightness Modulation,4,KOI-55 c,0,1,180
+Pulsar Timing,5,PSR B1257+12 b,25,600
+Pulsar Timing,5,PSR B1257+12 c,67,600
+Pulsar Timing,5,PSR B1257+12 d,98,600
+Pulsar Timing,5,PSR J1719-1438 b,0,1,200
+Pulsar Timing,5,PSR J2322-2650 b,0,230
+Pulsation Timing Variations,6,V0391 Peg b,1,170,1,400
+Radial Velocity,7,4 UMa b,269,77
+Radial Velocity,7,6 Lyn b,875,57
+Radial Velocity,7,7 CMa b,796,20
+Radial Velocity,7,8 UMi b,93,159
+Radial Velocity,7,11 Com b,326,111
+Radial Velocity,7,11 UMi b,516,119
+Radial Velocity,7,14 And b,186,76
+Radial Velocity,7,14 Her b,1,773,18
+Radial Velocity,7,16 Cyg B b,799,21
+Radial Velocity,7,18 Del b,993,73
+Radial Velocity,7,24 Boo b,30,98
+Radial Velocity,7,24 Sex b,453,75
+Radial Velocity,7,24 Sex c,883,75
+Radial Velocity,7,30 Ari B b,335,39
+Radial Velocity,7,42 Dra b,479,97
+Radial Velocity,7,47 UMa b,1,078,14
+Radial Velocity,7,47 UMa c,2,391,14
+Radial Velocity,7,47 UMa d,14,002,14
+Radial Velocity,7,51 Peg b,4,15
+Radial Velocity,7,55 Cnc b,15,13
+Radial Velocity,7,55 Cnc c,44,13
+Radial Velocity,7,55 Cnc d,4,825,13
+Radial Velocity,7,55 Cnc e,1,13
+Radial Velocity,7,55 Cnc f,262,13
+Radial Velocity,7,61 Vir b,4,9
+Radial Velocity,7,61 Vir c,38,9
+Radial Velocity,7,61 Vir d,123,9
+Radial Velocity,7,70 Vir b,117,18
+Radial Velocity,7,75 Cet b,692,82
+Radial Velocity,7,81 Cet b,953,97
+Radial Velocity,7,91 Aqr b,181,46
+Radial Velocity,7,alf Ari b,381,20
+Radial Velocity,7,alf Tau b,629,20
+Radial Velocity,7,BD-06 1339 b,4,20
+Radial Velocity,7,BD-06 1339 c,126,20
+Radial Velocity,7,BD-08 2823 b,6,42
+Radial Velocity,7,BD-08 2823 c,238,42
+Radial Velocity,7,BD-10 3166 b,3,80
+Radial Velocity,7,BD-11 4672 b,1,667,27
+Radial Velocity,7,BD-13 2130 b,714,766
+Radial Velocity,7,BD-17 63 b,656,38
+Radial Velocity,7,BD+03 2562 b,482,2,618
+Radial Velocity,7,BD+14 4559 b,269,50
+Radial Velocity,7,BD+15 2375 b,153,774
+Radial Velocity,7,BD+15 2940 b,137,175
+Radial Velocity,7,BD+20 274 b,578,1,084
+Radial Velocity,7,BD+20 2457 b,380,200
+Radial Velocity,7,BD+20 2457 c,622,200
+Radial Velocity,7,BD+48 740 b,733,752
+Radial Velocity,7,BD+49 828 b,2,590,408
+Radial Velocity,7,bet Cnc b,605,89
+Radial Velocity,7,bet UMi b,522,39
+Radial Velocity,7,CoRoT-7 c,4,154
+Radial Velocity,7,eps CrB b,418,70
+Radial Velocity,7,eps Eri b,2,502,3
+Radial Velocity,7,eps Tau b,595,48
+Radial Velocity,7,gam 1 Leo b,429,39
+Radial Velocity,7,gam Cep b,903,14
+Radial Velocity,7,gam Lib b,415,47
+Radial Velocity,7,gam Lib c,965,47
+Radial Velocity,7,GJ 86 b,16,11
+Radial Velocity,7,GJ 163 b,9,15
+Radial Velocity,7,GJ 163 c,26,15
+Radial Velocity,7,GJ 163 d,604,15
+Radial Velocity,7,GJ 179 b,2,288,12
+Radial Velocity,7,GJ 273 b,19,4
+Radial Velocity,7,GJ 273 c,5,4
+Radial Velocity,7,GJ 317 b,692,15
+Radial Velocity,7,GJ 328 b,4,100,20
+Radial Velocity,7,GJ 433 b,7,9
+Radial Velocity,7,GJ 436 b,3,10
+Radial Velocity,7,GJ 536 b,9,10
+Radial Velocity,7,GJ 581 b,5,6
+Radial Velocity,7,GJ 581 c,13,6
+Radial Velocity,7,GJ 581 e,3,6
+Radial Velocity,7,GJ 625 b,15,6
+Radial Velocity,7,GJ 649 b,598,10
+Radial Velocity,7,GJ 667 C b,7,7
+Radial Velocity,7,GJ 667 C c,28,7
+Radial Velocity,7,GJ 667 C e,62,7
+Radial Velocity,7,GJ 667 C f,39,7
+Radial Velocity,7,GJ 667 C g,256,7
+Radial Velocity,7,GJ 674 b,5,5
+Radial Velocity,7,GJ 676 A b,1,057,17
+Radial Velocity,7,GJ 676 A c,7,337,17
+Radial Velocity,7,GJ 676 A d,4,17
+Radial Velocity,7,GJ 676 A e,35,17
+Radial Velocity,7,GJ 687 b,38,5
+Radial Velocity,7,GJ 832 b,3,657,5
+Radial Velocity,7,GJ 832 c,36,5
+Radial Velocity,7,GJ 849 b,1,882,9
+Radial Velocity,7,GJ 876 b,61,5
+Radial Velocity,7,GJ 876 c,30,5
+Radial Velocity,7,GJ 876 d,2,5
+Radial Velocity,7,GJ 876 e,124,5
+Radial Velocity,7,GJ 1148 b,41,11
+Radial Velocity,7,GJ 1148 c,533,11
+Radial Velocity,7,GJ 3021 b,134,18
+Radial Velocity,7,GJ 3138 b,1,28
+Radial Velocity,7,GJ 3138 c,6,28
+Radial Velocity,7,GJ 3138 d,258,28
+Radial Velocity,7,GJ 3293 b,31,16
+Radial Velocity,7,GJ 3293 c,123,16
+Radial Velocity,7,GJ 3293 d,48,16
+Radial Velocity,7,GJ 3293 e,13,16
+Radial Velocity,7,GJ 3323 b,5,5
+Radial Velocity,7,GJ 3323 c,41,5
+Radial Velocity,7,GJ 3341 b,14,23
+Radial Velocity,7,GJ 3470 b,3,25
+Radial Velocity,7,GJ 3634 b,3,20
+Radial Velocity,7,GJ 3942 b,7,17
+Radial Velocity,7,GJ 3998 b,3,18
+Radial Velocity,7,GJ 3998 c,14,18
+Radial Velocity,7,HAT-P-13 c,446,214
+Radial Velocity,7,HAT-P-17 c,5,584,90
+Radial Velocity,7,HAT-P-44 c,872,363
+Radial Velocity,7,HD 142 b,350,26
+Radial Velocity,7,HD 142 c,6,005,26
+Radial Velocity,7,HD 564 b,492,54
+Radial Velocity,7,HD 1461 b,6,23
+Radial Velocity,7,HD 1461 c,14,23
+Radial Velocity,7,HD 1502 b,432,168
+Radial Velocity,7,HD 1605 b,578,85
+Radial Velocity,7,HD 1605 c,2,111,85
+Radial Velocity,7,HD 1666 b,270,111
+Radial Velocity,7,HD 1690 b,533,7
+Radial Velocity,7,HD 2039 b,1,120,90
+Radial Velocity,7,HD 2638 b,3,54
+Radial Velocity,7,HD 2952 b,312,115
+Radial Velocity,7,HD 3167 d,9,46
+Radial Velocity,7,HD 3651 b,62,11
+Radial Velocity,7,HD 4113 b,527,44
+Radial Velocity,7,HD 4203 b,432,78
+Radial Velocity,7,HD 4203 c,6,700,78
+Radial Velocity,7,HD 4208 b,828,33
+Radial Velocity,7,HD 4308 b,16,22
+Radial Velocity,7,HD 4313 b,356,131
+Radial Velocity,7,HD 4732 b,360,57
+Radial Velocity,7,HD 4732 c,2,732,57
+Radial Velocity,7,HD 5319 b,641,114
+Radial Velocity,7,HD 5319 c,886,114
+Radial Velocity,7,HD 5583 b,139,221
+Radial Velocity,7,HD 5608 b,793,58
+Radial Velocity,7,HD 5891 b,177,151
+Radial Velocity,7,HD 6434 b,22,40
+Radial Velocity,7,HD 6718 b,2,496,55
+Radial Velocity,7,HD 7199 b,615,36
+Radial Velocity,7,HD 7449 b,1,275,39
+Radial Velocity,7,HD 7924 b,5,17
+Radial Velocity,7,HD 7924 c,15,17
+Radial Velocity,7,HD 7924 d,24,17
+Radial Velocity,7,HD 8535 b,1,313,53
+Radial Velocity,7,HD 8574 b,227,44
+Radial Velocity,7,HD 8673 b,1,634,38
+Radial Velocity,7,HD 9174 b,1,179,79
+Radial Velocity,7,HD 9446 b,30,53
+Radial Velocity,7,HD 9446 c,193,53
+Radial Velocity,7,HD 10180 c,6,39
+Radial Velocity,7,HD 10180 d,16,39
+Radial Velocity,7,HD 10180 e,50,39
+Radial Velocity,7,HD 10180 f,123,39
+Radial Velocity,7,HD 10180 g,605,39
+Radial Velocity,7,HD 10180 h,2,205,39
+Radial Velocity,7,HD 10442 b,1,043,130
+Radial Velocity,7,HD 10647 b,989,17
+Radial Velocity,7,HD 10697 b,1,075,33
+Radial Velocity,7,HD 11506 b,1,405,52
+Radial Velocity,7,HD 11506 c,224,52
+Radial Velocity,7,HD 11755 b,434,232
+Radial Velocity,7,HD 11964 b,1,945,34
+Radial Velocity,7,HD 11964 c,38,34
+Radial Velocity,7,HD 11977 b,711,66
+Radial Velocity,7,HD 12484 b,59,51
+Radial Velocity,7,HD 12648 b,134,158
+Radial Velocity,7,HD 12661 b,263,37
+Radial Velocity,7,HD 12661 c,1,708,37
+Radial Velocity,7,HD 13189 b,472,300
+Radial Velocity,7,HD 13908 b,19,67
+Radial Velocity,7,HD 13908 c,931,67
+Radial Velocity,7,HD 13931 b,4,218,46
+Radial Velocity,7,HD 14067 b,1,455,163
+Radial Velocity,7,HD 16141 b,76,36
+Radial Velocity,7,HD 16175 b,990,60
+Radial Velocity,7,HD 16417 b,17,26
+Radial Velocity,7,HD 17092 b,360,225
+Radial Velocity,7,HD 17156 b,21,75
+Radial Velocity,7,HD 17674 b,624,45
+Radial Velocity,7,HD 18742 b,772,128
+Radial Velocity,7,HD 19994 b,466,22
+Radial Velocity,7,HD 20782 b,592,36
+Radial Velocity,7,HD 20794 b,18,6
+Radial Velocity,7,HD 20794 c,40,6
+Radial Velocity,7,HD 20794 d,90,6
+Radial Velocity,7,HD 20794 e,147,6
+Radial Velocity,7,HD 20868 b,381,49
+Radial Velocity,7,HD 22781 b,528,32
+Radial Velocity,7,HD 23079 b,731,35
+Radial Velocity,7,HD 23127 b,1,214,89
+Radial Velocity,7,HD 23596 b,1,561,52
+Radial Velocity,7,HD 24040 b,3,668,47
+Radial Velocity,7,HD 24064 b,536,264
+Radial Velocity,7,HD 25171 b,1,845,56
+Radial Velocity,7,HD 27442 b,428,18
+Radial Velocity,7,HD 27631 b,2,208,45
+Radial Velocity,7,HD 27894 b,18,42
+Radial Velocity,7,HD 27894 c,36,42
+Radial Velocity,7,HD 27894 d,5,174,42
+Radial Velocity,7,HD 28185 b,379,40
+Radial Velocity,7,HD 28254 b,1,116,55
+Radial Velocity,7,HD 28678 b,387,169
+Radial Velocity,7,HD 29021 b,1,362,31
+Radial Velocity,7,HD 30177 b,2,770,55
+Radial Velocity,7,HD 30177 c,11,613,55
+Radial Velocity,7,HD 30562 b,1,157,27
+Radial Velocity,7,HD 30669 b,1,684,57
+Radial Velocity,7,HD 30856 b,912,121
+Radial Velocity,7,HD 31253 b,466,54
+Radial Velocity,7,HD 32518 b,158,117
+Radial Velocity,7,HD 32963 b,2,372,35
+Radial Velocity,7,HD 33142 b,327,137
+Radial Velocity,7,HD 33283 b,18,87
+Radial Velocity,7,HD 33564 b,388,21
+Radial Velocity,7,HD 33844 b,551,101
+Radial Velocity,7,HD 33844 c,916,101
+Radial Velocity,7,HD 34445 b,1,049,45
+Radial Velocity,7,HD 34445 c,215,45
+Radial Velocity,7,HD 34445 d,118,45
+Radial Velocity,7,HD 34445 e,49,45
+Radial Velocity,7,HD 34445 f,677,45
+Radial Velocity,7,HD 34445 g,5,700,45
+Radial Velocity,7,HD 35759 b,82,73
+Radial Velocity,7,HD 37124 b,154,33
+Radial Velocity,7,HD 37124 c,886,33
+Radial Velocity,7,HD 37124 d,1,862,33
+Radial Velocity,7,HD 37605 b,55,43
+Radial Velocity,7,HD 37605 c,2,720,43
+Radial Velocity,7,HD 38283 b,363,38
+Radial Velocity,7,HD 38529 b,14,42
+Radial Velocity,7,HD 38529 c,2,140,42
+Radial Velocity,7,HD 38801 b,696,99
+Radial Velocity,7,HD 39091 b,2,151,18
+Radial Velocity,7,HD 40307 b,4,13
+Radial Velocity,7,HD 40307 c,10,13
+Radial Velocity,7,HD 40307 d,20,13
+Radial Velocity,7,HD 40307 f,52,13
+Radial Velocity,7,HD 40307 g,198,13
+Radial Velocity,7,HD 40956 b,579,118
+Radial Velocity,7,HD 40979 b,264,33
+Radial Velocity,7,HD 41004 A b,963,43
+Radial Velocity,7,HD 41004 B b,1,43
+Radial Velocity,7,HD 42012 b,858,37
+Radial Velocity,7,HD 42618 b,150,24
+Radial Velocity,7,HD 43197 b,328,56
+Radial Velocity,7,HD 43691 b,37,93
+Radial Velocity,7,HD 44219 b,472,50
+Radial Velocity,7,HD 45350 b,964,49
+Radial Velocity,7,HD 45364 b,227,33
+Radial Velocity,7,HD 45364 c,343,33
+Radial Velocity,7,HD 45652 b,44,36
+Radial Velocity,7,HD 46375 b,3,33
+Radial Velocity,7,HD 47186 b,4,38
+Radial Velocity,7,HD 47186 c,1,354,38
+Radial Velocity,7,HD 47366 b,363,80
+Radial Velocity,7,HD 47366 c,685,80
+Radial Velocity,7,HD 47536 b,712,121
+Radial Velocity,7,HD 48265 b,780,85
+Radial Velocity,7,HD 49674 b,5,41
+Radial Velocity,7,HD 50499 b,2,483,47
+Radial Velocity,7,HD 50554 b,1,293,31
+Radial Velocity,7,HD 52265 b,119,28
+Radial Velocity,7,HD 59686 A b,299,97
+Radial Velocity,7,HD 60532 b,202,25
+Radial Velocity,7,HD 60532 c,600,25
+Radial Velocity,7,HD 62509 b,590,10
+Radial Velocity,7,HD 63454 b,3,36
+Radial Velocity,7,HD 63765 b,358,33
+Radial Velocity,7,HD 65216 b,613,36
+Radial Velocity,7,HD 65216 c,153,36
+Radial Velocity,7,HD 66141 b,481,80
+Radial Velocity,7,HD 66428 b,1,973,55
+Radial Velocity,7,HD 67087 b,352,89
+Radial Velocity,7,HD 67087 c,2,374,89
+Radial Velocity,7,HD 68402 b,1,103,78
+Radial Velocity,7,HD 68988 b,6,59
+Radial Velocity,7,HD 69830 b,9,13
+Radial Velocity,7,HD 69830 c,32,13
+Radial Velocity,7,HD 69830 d,197,13
+Radial Velocity,7,HD 70573 b,852,46
+Radial Velocity,7,HD 70642 b,2,068,29
+Radial Velocity,7,HD 72659 b,3,658,51
+Radial Velocity,7,HD 72892 b,39,73
+Radial Velocity,7,HD 73256 b,3,37
+Radial Velocity,7,HD 73267 b,1,260,55
+Radial Velocity,7,HD 73526 b,188,95
+Radial Velocity,7,HD 73526 c,379,95
+Radial Velocity,7,HD 73534 b,1,770,81
+Radial Velocity,7,HD 74156 b,52,65
+Radial Velocity,7,HD 74156 c,2,473,65
+Radial Velocity,7,HD 75289 b,4,29
+Radial Velocity,7,HD 75784 b,5,040,69
+Radial Velocity,7,HD 75898 b,418,81
+Radial Velocity,7,HD 76700 b,4,60
+Radial Velocity,7,HD 76920 b,415,185
+Radial Velocity,7,HD 77338 b,6,41
+Radial Velocity,7,HD 79498 b,1,966,49
+Radial Velocity,7,HD 80606 b,111,29
+Radial Velocity,7,HD 81040 b,1,002,33
+Radial Velocity,7,HD 81688 b,184,88
+Radial Velocity,7,HD 82886 b,705,112
+Radial Velocity,7,HD 82943 b,441,27
+Radial Velocity,7,HD 82943 c,220,27
+Radial Velocity,7,HD 83443 b,3,44
+Radial Velocity,7,HD 85390 b,788,34
+Radial Velocity,7,HD 85512 b,58,11
+Radial Velocity,7,HD 86081 b,2,91
+Radial Velocity,7,HD 86226 b,1,695,42
+Radial Velocity,7,HD 86264 b,1,475,73
+Radial Velocity,7,HD 86950 b,1,270,169
+Radial Velocity,7,HD 87646 b,13,74
+Radial Velocity,7,HD 87883 b,2,754,18
+Radial Velocity,7,HD 88133 b,3,74
+Radial Velocity,7,HD 89307 b,2,166,31
+Radial Velocity,7,HD 89744 b,257,39
+Radial Velocity,7,HD 90156 b,50,22
+Radial Velocity,7,HD 92788 b,326,32
+Radial Velocity,7,HD 93083 b,144,29
+Radial Velocity,7,HD 95089 b,507,149
+Radial Velocity,7,HD 95127 b,482,332
+Radial Velocity,7,HD 95872 b,4,375,8
+Radial Velocity,7,HD 96063 b,361,133
+Radial Velocity,7,HD 96127 b,647,221
+Radial Velocity,7,HD 96167 b,499,84
+Radial Velocity,7,HD 97658 b,9,21
+Radial Velocity,7,HD 98219 b,437,150
+Radial Velocity,7,HD 98649 b,4,951,43
+Radial Velocity,7,HD 99109 b,439,60
+Radial Velocity,7,HD 99492 b,17,56
+Radial Velocity,7,HD 99706 b,868,131
+Radial Velocity,7,HD 100655 b,158,141
+Radial Velocity,7,HD 100777 b,384,53
+Radial Velocity,7,HD 101930 b,70,31
+Radial Velocity,7,HD 102117 b,21,42
+Radial Velocity,7,HD 102195 b,4,29
+Radial Velocity,7,HD 102272 b,128,164
+Radial Velocity,7,HD 102329 b,778,139
+Radial Velocity,7,HD 102365 b,122,9
+Radial Velocity,7,HD 102956 b,6,121
+Radial Velocity,7,HD 103197 b,48,49
+Radial Velocity,7,HD 103720 b,5,42
+Radial Velocity,7,HD 103774 b,6,53
+Radial Velocity,7,HD 104067 b,56,21
+Radial Velocity,7,HD 104985 b,200,102
+Radial Velocity,7,HD 106252 b,1,531,37
+Radial Velocity,7,HD 106270 b,2,890,88
+Radial Velocity,7,HD 106515 A b,3,630,36
+Radial Velocity,7,HD 107148 b,48,51
+Radial Velocity,7,HD 108147 b,11,39
+Radial Velocity,7,HD 108341 b,1,129,49
+Radial Velocity,7,HD 108863 b,443,139
+Radial Velocity,7,HD 108874 b,394,69
+Radial Velocity,7,HD 108874 c,1,624,69
+Radial Velocity,7,HD 109246 b,68,66
+Radial Velocity,7,HD 109271 b,8,57
+Radial Velocity,7,HD 109271 c,31,57
+Radial Velocity,7,HD 109749 b,5,59
+Radial Velocity,7,HD 110014 b,835,90
+Radial Velocity,7,HD 111232 b,1,143,29
+Radial Velocity,7,HD 111591 b,1,056,108
+Radial Velocity,7,HD 111998 b,826,33
+Radial Velocity,7,HD 113337 b,324,37
+Radial Velocity,7,HD 113538 b,663,16
+Radial Velocity,7,HD 113538 c,1,818,16
+Radial Velocity,7,HD 113996 b,610,102
+Radial Velocity,7,HD 114386 b,938,28
+Radial Velocity,7,HD 114613 b,3,827,20
+Radial Velocity,7,HD 114729 b,1,114,35
+Radial Velocity,7,HD 114762 b,84,41
+Radial Velocity,7,HD 114783 b,494,20
+Radial Velocity,7,HD 116029 b,670,111
+Radial Velocity,7,HD 117207 b,2,597,33
+Radial Velocity,7,HD 117618 b,26,38
+Radial Velocity,7,HD 118203 b,6,89
+Radial Velocity,7,HD 120084 b,2,082,98
+Radial Velocity,7,HD 121504 b,63,44
+Radial Velocity,7,HD 125595 b,10,27
+Radial Velocity,7,HD 125612 b,559,53
+Radial Velocity,7,HD 125612 c,4,53
+Radial Velocity,7,HD 125612 d,3,008,53
+Radial Velocity,7,HD 126614 b,1,244,68
+Radial Velocity,7,HD 128311 b,453,17
+Radial Velocity,7,HD 128311 c,922,17
+Radial Velocity,7,HD 128356 b,298,26
+Radial Velocity,7,HD 129445 b,1,840,68
+Radial Velocity,7,HD 130322 b,11,30
+Radial Velocity,7,HD 131496 b,883,121
+Radial Velocity,7,HD 131664 b,1,951,57
+Radial Velocity,7,HD 132406 b,974,71
+Radial Velocity,7,HD 132563 b,1,544,99
+Radial Velocity,7,HD 133131 A b,649,47
+Radial Velocity,7,HD 133131 A c,3,568,47
+Radial Velocity,7,HD 133131 B b,5,769,47
+Radial Velocity,7,HD 134987 b,258,22
+Radial Velocity,7,HD 134987 c,5,000,22
+Radial Velocity,7,HD 136418 b,464,106
+Radial Velocity,7,HD 137388 A b,330,38
+Radial Velocity,7,HD 139357 b,1,126,121
+Radial Velocity,7,HD 141399 b,94,36
+Radial Velocity,7,HD 141399 c,202,36
+Radial Velocity,7,HD 141399 d,1,070,36
+Radial Velocity,7,HD 141399 e,5,000,36
+Radial Velocity,7,HD 141937 b,653,33
+Radial Velocity,7,HD 142022 A b,1,928,36
+Radial Velocity,7,HD 142245 b,1,299,106
+Radial Velocity,7,HD 142415 b,386,35
+Radial Velocity,7,HD 143105 b,2,49
+Radial Velocity,7,HD 143361 b,1,046,66
+Radial Velocity,7,HD 145377 b,104,55
+Radial Velocity,7,HD 145457 b,176,126
+Radial Velocity,7,HD 145934 b,2,730,240
+Radial Velocity,7,HD 147018 b,44,43
+Radial Velocity,7,HD 147018 c,1,008,43
+Radial Velocity,7,HD 147379 b,87,11
+Radial Velocity,7,HD 147513 b,528,13
+Radial Velocity,7,HD 147873 b,117,105
+Radial Velocity,7,HD 147873 c,492,105
+Radial Velocity,7,HD 148156 b,1,027,53
+Radial Velocity,7,HD 148427 b,332,59
+Radial Velocity,7,HD 149026 b,3,79
+Radial Velocity,7,HD 149143 b,4,63
+Radial Velocity,7,HD 150706 b,5,894,27
+Radial Velocity,7,HD 152079 b,2,899,83
+Radial Velocity,7,HD 152581 b,689,183
+Radial Velocity,7,HD 153950 b,499,52
+Radial Velocity,7,HD 154345 b,3,342,18
+Radial Velocity,7,HD 154672 b,164,65
+Radial Velocity,7,HD 154857 b,409,69
+Radial Velocity,7,HD 154857 c,3,452,69
+Radial Velocity,7,HD 155233 b,819,75
+Radial Velocity,7,HD 155358 b,194,43
+Radial Velocity,7,HD 155358 c,392,43
+Radial Velocity,7,HD 156279 b,131,35
+Radial Velocity,7,HD 156411 b,842,55
+Radial Velocity,7,HD 156668 b,5,24
+Radial Velocity,7,HD 156846 b,360,49
+Radial Velocity,7,HD 158038 b,521,114
+Radial Velocity,7,HD 158996 b,820,294
+Radial Velocity,7,HD 159243 b,13,69
+Radial Velocity,7,HD 159243 c,248,69
+Radial Velocity,7,HD 159868 b,1,178,53
+Radial Velocity,7,HD 159868 c,352,53
+Radial Velocity,7,HD 160691 b,643,15
+Radial Velocity,7,HD 160691 c,4,206,15
+Radial Velocity,7,HD 160691 d,10,15
+Radial Velocity,7,HD 160691 e,311,15
+Radial Velocity,7,HD 162020 b,8,31
+Radial Velocity,7,HD 163607 b,75,69
+Radial Velocity,7,HD 163607 c,1,314,69
+Radial Velocity,7,HD 164509 b,282,52
+Radial Velocity,7,HD 164595 b,40,29
+Radial Velocity,7,HD 164604 b,606,38
+Radial Velocity,7,HD 164922 b,1,155,22
+Radial Velocity,7,HD 164922 c,76,22
+Radial Velocity,7,HD 165155 b,435,65
+Radial Velocity,7,HD 166724 b,5,144,43
+Radial Velocity,7,HD 167042 b,421,50
+Radial Velocity,7,HD 168443 b,58,38
+Radial Velocity,7,HD 168443 c,1,750,38
+Radial Velocity,7,HD 168746 b,6,43
+Radial Velocity,7,HD 169830 b,226,36
+Radial Velocity,7,HD 169830 c,2,102,36
+Radial Velocity,7,HD 170469 b,1,145,65
+Radial Velocity,7,HD 171028 b,550,90
+Radial Velocity,7,HD 171238 b,1,523,44
+Radial Velocity,7,HD 173416 b,324,135
+Radial Velocity,7,HD 175167 b,1,290,67
+Radial Velocity,7,HD 175541 b,297,128
+Radial Velocity,7,HD 175607 b,29,45
+Radial Velocity,7,HD 176986 b,6,26
+Radial Velocity,7,HD 176986 c,17,26
+Radial Velocity,7,HD 177565 b,45,17
+Radial Velocity,7,HD 177830 b,410,59
+Radial Velocity,7,HD 177830 c,111,59
+Radial Velocity,7,HD 178911 B b,71,47
+Radial Velocity,7,HD 179079 b,14,64
+Radial Velocity,7,HD 179949 b,3,27
+Radial Velocity,7,HD 180314 b,396,132
+Radial Velocity,7,HD 180902 b,479,115
+Radial Velocity,7,HD 181342 b,663,111
+Radial Velocity,7,HD 181433 b,9,26
+Radial Velocity,7,HD 181433 c,962,26
+Radial Velocity,7,HD 181433 d,2,172,26
+Radial Velocity,7,HD 181720 b,956,56
+Radial Velocity,7,HD 183263 b,627,53
+Radial Velocity,7,HD 183263 c,3,070,53
+Radial Velocity,7,HD 185269 b,7,47
+Radial Velocity,7,HD 187085 b,986,45
+Radial Velocity,7,HD 187123 b,3,48
+Radial Velocity,7,HD 187123 c,3,810,48
+Radial Velocity,7,HD 188015 b,461,53
+Radial Velocity,7,HD 189733 b,2,19
+Radial Velocity,7,HD 190360 b,2,915,16
+Radial Velocity,7,HD 190360 c,17,16
+Radial Velocity,7,HD 190647 b,1,038,54
+Radial Velocity,7,HD 190984 b,4,885,189
+Radial Velocity,7,HD 191806 b,1,606,73
+Radial Velocity,7,HD 192263 b,24,20
+Radial Velocity,7,HD 192310 b,75,9
+Radial Velocity,7,HD 192310 c,526,9
+Radial Velocity,7,HD 192699 b,346,67
+Radial Velocity,7,HD 195019 b,18,37
+Radial Velocity,7,HD 196050 b,1,378,47
+Radial Velocity,7,HD 196067 b,3,638,44
+Radial Velocity,7,HD 196885 b,1,333,33
+Radial Velocity,7,HD 197037 b,1,036,33
+Radial Velocity,7,HD 200964 b,614,68
+Radial Velocity,7,HD 200964 c,825,68
+Radial Velocity,7,HD 202206 c,1,260,46
+Radial Velocity,7,HD 204313 b,1,920,47
+Radial Velocity,7,HD 204313 c,35,47
+Radial Velocity,7,HD 204941 b,1,733,27
+Radial Velocity,7,HD 205739 b,280,90
+Radial Velocity,7,HD 206610 b,610,170
+Radial Velocity,7,HD 207832 b,162,55
+Radial Velocity,7,HD 207832 c,1,156,55
+Radial Velocity,7,HD 208487 b,130,44
+Radial Velocity,7,HD 208527 b,876,352
+Radial Velocity,7,HD 208897 b,353,65
+Radial Velocity,7,HD 209458 b,4,47
+Radial Velocity,7,HD 210277 b,442,21
+Radial Velocity,7,HD 210702 b,355,56
+Radial Velocity,7,HD 212301 b,2,53
+Radial Velocity,7,HD 212771 b,373,122
+Radial Velocity,7,HD 213240 b,883,41
+Radial Velocity,7,HD 214823 b,1,877,97
+Radial Velocity,7,HD 215152 b,6,22
+Radial Velocity,7,HD 215152 c,7,22
+Radial Velocity,7,HD 215152 d,11,22
+Radial Velocity,7,HD 215152 e,25,22
+Radial Velocity,7,HD 215497 b,4,44
+Radial Velocity,7,HD 215497 c,568,44
+Radial Velocity,7,HD 216435 b,1,311,33
+Radial Velocity,7,HD 216437 b,1,256,27
+Radial Velocity,7,HD 216536 b,149,369
+Radial Velocity,7,HD 216770 b,118,38
+Radial Velocity,7,HD 217107 b,7,20
+Radial Velocity,7,HD 217107 c,4,270,20
+Radial Velocity,7,HD 217786 b,1,319,55
+Radial Velocity,7,HD 218566 b,226,30
+Radial Velocity,7,HD 219077 b,5,501,29
+Radial Velocity,7,HD 219134 b,3,7
+Radial Velocity,7,HD 219134 c,7,7
+Radial Velocity,7,HD 219134 d,47,7
+Radial Velocity,7,HD 219134 f,23,7
+Radial Velocity,7,HD 219134 g,94,7
+Radial Velocity,7,HD 219134 h,2,247,7
+Radial Velocity,7,HD 219415 b,2,093,170
+Radial Velocity,7,HD 219828 b,4,78
+Radial Velocity,7,HD 219828 c,4,791,78
+Radial Velocity,7,HD 220074 b,672,289
+Radial Velocity,7,HD 220689 b,2,209,45
+Radial Velocity,7,HD 220773 b,3,725,49
+Radial Velocity,7,HD 220842 b,218,63
+Radial Velocity,7,HD 221287 b,456,53
+Radial Velocity,7,HD 221585 b,1,173,54
+Radial Velocity,7,HD 222076 b,871,84
+Radial Velocity,7,HD 222155 b,3,999,50
+Radial Velocity,7,HD 222582 b,572,42
+Radial Velocity,7,HD 224538 b,1,189,78
+Radial Velocity,7,HD 224693 b,27,94
+Radial Velocity,7,HD 231701 b,142,108
+Radial Velocity,7,HD 233604 b,192,673
+Radial Velocity,7,HD 238914 b,4,100,301
+Radial Velocity,7,HD 240210 b,502,143
+Radial Velocity,7,HD 240237 b,746,308
+Radial Velocity,7,HD 285507 b,6,42
+Radial Velocity,7,HD 285968 b,9,9
+Radial Velocity,7,HD 290327 b,2,443,57
+Radial Velocity,7,HD 330075 b,3,50
+Radial Velocity,7,HIP 5158 b,346,45
+Radial Velocity,7,HIP 5158 c,9,018,45
+Radial Velocity,7,HIP 8541 b,1,560,169
+Radial Velocity,7,HIP 12961 b,57,24
+Radial Velocity,7,HIP 14810 b,7,53
+Radial Velocity,7,HIP 14810 c,148,53
+Radial Velocity,7,HIP 14810 d,952,53
+Radial Velocity,7,HIP 57274 b,8,26
+Radial Velocity,7,HIP 57274 c,32,26
+Radial Velocity,7,HIP 57274 d,432,26
+Radial Velocity,7,HIP 63242 b,125,149
+Radial Velocity,7,HIP 65407 b,28,56
+Radial Velocity,7,HIP 65407 c,67,56
+Radial Velocity,7,HIP 65891 b,1,085,136
+Radial Velocity,7,HIP 67537 b,2,557,113
+Radial Velocity,7,HIP 67851 b,89,66
+Radial Velocity,7,HIP 67851 c,2,132,66
+Radial Velocity,7,HIP 70849 b,17,338,24
+Radial Velocity,7,HIP 74890 b,822,91
+Radial Velocity,7,HIP 75458 b,511,31
+Radial Velocity,7,HIP 79431 b,112,15
+Radial Velocity,7,HIP 91258 b,5,44
+Radial Velocity,7,HIP 97233 b,1,059,107
+Radial Velocity,7,HIP 105854 b,184,85
+Radial Velocity,7,HIP 107773 b,144,104
+Radial Velocity,7,HIP 109384 b,499,56
+Radial Velocity,7,HIP 109600 b,232,59
+Radial Velocity,7,HR 810 b,303,17
+Radial Velocity,7,K2-18 c,9,34
+Radial Velocity,7,kap CrB b,1,262,31
+Radial Velocity,7,Kapteyn c,122,4
+Radial Velocity,7,KELT-6 c,1,276,222
+Radial Velocity,7,Kepler-19 d,63,2,119
+Radial Velocity,7,Kepler-20 g,35,290
+Radial Velocity,7,Kepler-25 d,123,254
+Radial Velocity,7,Kepler-56 d,1,002,914
+Radial Velocity,7,Kepler-68 d,625,135
+Radial Velocity,7,Kepler-94 c,820,191
+Radial Velocity,7,Kepler-97 c,789,393
+Radial Velocity,7,Kepler-432 c,406,870
+Radial Velocity,7,Kepler-454 c,524,233
+Radial Velocity,7,mu Leo b,358,41
+Radial Velocity,7,NGC 2682 Sand 364 b,122,1,694
+Radial Velocity,7,NGC 2682 Sand 978 b,511,629
+Radial Velocity,7,NGC 4349 127 b,678,2,200
+Radial Velocity,7,nu Oph b,530,47
+Radial Velocity,7,nu Oph c,3,186,47
+Radial Velocity,7,ome Ser b,277,81
+Radial Velocity,7,omi CrB b,188,84
+Radial Velocity,7,omi UMa b,1,630,56
+Radial Velocity,7,Pr0201 b,4,177
+Radial Velocity,7,Proxima Cen b,11,1
+Radial Velocity,7,psi 1 Dra B b,3,117,22
+Radial Velocity,7,rho CrB b,40,17
+Radial Velocity,7,rho CrB c,103,17
+Radial Velocity,7,Ross 128 b,10,3
+Radial Velocity,7,TAP 26 b,11,147
+Radial Velocity,7,tau Boo b,3,16
+Radial Velocity,7,tau Cet e,163,4
+Radial Velocity,7,tau Cet f,636,4
+Radial Velocity,7,tau Cet g,20,4
+Radial Velocity,7,tau Cet h,49,4
+Radial Velocity,7,tau Gem b,306,93
+Radial Velocity,7,TYC 1422-614-1 b,198,759
+Radial Velocity,7,TYC 1422-614-1 c,559,759
+Radial Velocity,7,TYC 3318-01333-1 b,562,555
+Radial Velocity,7,TYC 3667-1280-1 b,26,481
+Radial Velocity,7,TYC 4282-00605-1 b,102,700
+Radial Velocity,7,ups And b,5,13
+Radial Velocity,7,ups And c,241,13
+Radial Velocity,7,ups And d,1,276,13
+Radial Velocity,7,V830 Tau b,5,150
+Radial Velocity,7,WASP-8 c,4,323,87
+Radial Velocity,7,WASP-41 c,421,180
+Radial Velocity,7,WASP-47 c,581,200
+Radial Velocity,7,WASP-94 B b,2,180
+Radial Velocity,7,Wolf 1061 b,5,4
+Radial Velocity,7,Wolf 1061 c,18,4
+Radial Velocity,7,Wolf 1061 d,217,4
+Radial Velocity,7,xi Aql b,137,63
+Radial Velocity,7,XO-2 S b,18,148
+Radial Velocity,7,XO-2 S c,121,148
+Radial Velocity,7,YZ Cet b,2,4
+Radial Velocity,7,YZ Cet c,3,4
+Radial Velocity,7,YZ Cet d,5,4
+Transit,8,CoRoT-2 b,2,200
+Transit,8,CoRoT-3 b,4,680
+Transit,8,CoRoT-7 b,1,154
+Transit,8,CoRoT-8 b,6,380
+Transit,8,CoRoT-9 b,95,460
+Transit,8,CoRoT-10 b,13,345
+Transit,8,CoRoT-11 b,3,560
+Transit,8,CoRoT-12 b,3,1,150
+Transit,8,CoRoT-13 b,4,1,060
+Transit,8,CoRoT-14 b,2,1,340
+Transit,8,CoRoT-16 b,5,840
+Transit,8,CoRoT-17 b,4,920
+Transit,8,CoRoT-18 b,2,870
+Transit,8,CoRoT-19 b,4,770
+Transit,8,CoRoT-20 b,9,1,230
+Transit,8,CoRoT-22 b,10,592
+Transit,8,CoRoT-23 b,4,600
+Transit,8,CoRoT-24 b,5,600
+Transit,8,CoRoT-24 c,12,600
+Transit,8,CoRoT-25 b,5,1,000
+Transit,8,CoRoT-26 b,4,1,670
+Transit,8,CoRoT-28 b,5,560
+Transit,8,CoRoT-29 b,3,765
+Transit,8,EPIC 211945201 b,19,183
+Transit,8,GJ 1132 b,2,12
+Transit,8,GJ 1214 b,2,13
+Transit,8,GJ 9827 b,1,30
+Transit,8,GJ 9827 c,4,30
+Transit,8,GJ 9827 d,6,30
+Transit,8,HAT-P-1 b,4,139
+Transit,8,HAT-P-2 b,6,135
+Transit,8,HAT-P-3 b,3,138
+Transit,8,HAT-P-4 b,3,314
+Transit,8,HAT-P-5 b,3,340
+Transit,8,HAT-P-6 b,4,261
+Transit,8,HAT-P-7 b,2,320
+Transit,8,HAT-P-8 b,3,230
+Transit,8,HAT-P-9 b,4,480
+Transit,8,HAT-P-11 b,5,38
+Transit,8,HAT-P-12 b,3,143
+Transit,8,HAT-P-13 b,3,214
+Transit,8,HAT-P-14 b,5,205
+Transit,8,HAT-P-15 b,11,190
+Transit,8,HAT-P-16 b,3,235
+Transit,8,HAT-P-17 b,10,90
+Transit,8,HAT-P-18 b,6,166
+Transit,8,HAT-P-19 b,4,215
+Transit,8,HAT-P-20 b,3,70
+Transit,8,HAT-P-21 b,4,254
+Transit,8,HAT-P-22 b,3,82
+Transit,8,HAT-P-23 b,1,393
+Transit,8,HAT-P-24 b,3,396
+Transit,8,HAT-P-25 b,4,297
+Transit,8,HAT-P-26 b,4,134
+Transit,8,HAT-P-27 b,3,204
+Transit,8,HAT-P-28 b,3,395
+Transit,8,HAT-P-29 b,6,322
+Transit,8,HAT-P-30 b,3,193
+Transit,8,HAT-P-31 b,5,354
+Transit,8,HAT-P-32 b,2,283
+Transit,8,HAT-P-33 b,3,387
+Transit,8,HAT-P-34 b,5,257
+Transit,8,HAT-P-35 b,4,535
+Transit,8,HAT-P-36 b,1,317
+Transit,8,HAT-P-37 b,3,411
+Transit,8,HAT-P-38 b,5,249
+Transit,8,HAT-P-39 b,4,642
+Transit,8,HAT-P-40 b,4,501
+Transit,8,HAT-P-41 b,3,344
+Transit,8,HAT-P-42 b,5,447
+Transit,8,HAT-P-43 b,3,542
+Transit,8,HAT-P-44 b,4,363
+Transit,8,HAT-P-45 b,3,305
+Transit,8,HAT-P-46 b,4,296
+Transit,8,HAT-P-49 b,3,322
+Transit,8,HAT-P-50 b,3,497
+Transit,8,HAT-P-51 b,4,470
+Transit,8,HAT-P-52 b,3,385
+Transit,8,HAT-P-53 b,2,719
+Transit,8,HAT-P-55 b,4,480
+Transit,8,HAT-P-56 b,3,311
+Transit,8,HAT-P-57 b,2,303
+Transit,8,HAT-P-65 b,3,841
+Transit,8,HAT-P-66 b,3,927
+Transit,8,HAT-P-67 b,5,320
+Transit,8,HATS-1 b,3,303
+Transit,8,HATS-2 b,1,360
+Transit,8,HATS-3 b,4,453
+Transit,8,HATS-4 b,3,420
+Transit,8,HATS-5 b,5,257
+Transit,8,HATS-6 b,3,148
+Transit,8,HATS-7 b,3,257
+Transit,8,HATS-8 b,4,829
+Transit,8,HATS-9 b,2,622
+Transit,8,HATS-10 b,3,496
+Transit,8,HATS-13 b,3,476
+Transit,8,HATS-14 b,3,513
+Transit,8,HATS-15 b,2,689
+Transit,8,HATS-16 b,3,774
+Transit,8,HATS-17 b,16,339
+Transit,8,HATS-18 b,1,645
+Transit,8,HATS-22 b,5,208
+Transit,8,HATS-23 b,2,747
+Transit,8,HATS-24 b,1,510
+Transit,8,HATS-25 b,4,466
+Transit,8,HATS-26 b,3,907
+Transit,8,HATS-27 b,5,840
+Transit,8,HATS-28 b,3,521
+Transit,8,HATS-29 b,5,351
+Transit,8,HATS-30 b,3,339
+Transit,8,HATS-31 b,3,872
+Transit,8,HATS-32 b,3,839
+Transit,8,HATS-33 b,3,255
+Transit,8,HATS-34 b,2,532
+Transit,8,HATS-35 b,2,557
+Transit,8,HATS-36 b,4,962
+Transit,8,HATS-39 b,5,773
+Transit,8,HATS-40 b,3,1,431
+Transit,8,HATS-41 b,4,800
+Transit,8,HATS-42 b,2,942
+Transit,8,HATS-43 b,4,341
+Transit,8,HATS-44 b,3,463
+Transit,8,HATS-45 b,4,818
+Transit,8,HATS-46 b,5,448
+Transit,8,HATS-50 b,4,717
+Transit,8,HATS-51 b,3,478
+Transit,8,HATS-52 b,1,631
+Transit,8,HATS-53 b,4,613
+Transit,8,HD 3167 b,1,46
+Transit,8,HD 3167 c,30,46
+Transit,8,HD 89345 b,12,127
+Transit,8,HIP 41378 b,16,116
+Transit,8,HIP 41378 c,32,116
+Transit,8,HIP 41378 d,156,116
+Transit,8,HIP 41378 e,131,116
+Transit,8,HIP 41378 f,324,116
+Transit,8,HIP 116454 b,9,55
+Transit,8,K2-18 b,33,34
+Transit,8,K2-65 b,13,78
+Transit,8,K2-116 b,5,56
+Transit,8,K2-117 b,1,100
+Transit,8,K2-117 c,5,100
+Transit,8,K2-122 b,2,74
+Transit,8,K2-123 b,31,156
+Transit,8,K2-138 b,2,183
+Transit,8,K2-138 c,4,183
+Transit,8,K2-138 d,5,183
+Transit,8,K2-138 e,8,183
+Transit,8,K2-138 f,13,183
+Transit,8,K2-139 b,28,152
+Transit,8,K2-140 b,7,340
+Transit,8,K2-141 b,0,59
+Transit,8,K2-141 c,8,59
+Transit,8,K2-146 b,3,86
+Transit,8,K2-147 b,1,88
+Transit,8,K2-148 b,4,121
+Transit,8,K2-148 c,7,121
+Transit,8,K2-148 d,10,121
+Transit,8,K2-149 b,11,118
+Transit,8,K2-150 b,11,110
+Transit,8,K2-151 b,4,63
+Transit,8,K2-152 b,33,112
+Transit,8,K2-153 b,8,126
+Transit,8,K2-154 b,4,133
+Transit,8,K2-154 c,8,133
+Transit,8,K2-155 b,6,82
+Transit,8,K2-155 c,14,82
+Transit,8,K2-155 d,41,82
+Transit,8,K2-167 b,10,78
+Transit,8,K2-229 b,1,104
+Transit,8,K2-229 c,8,104
+Transit,8,K2-231 b,14,295
+Transit,8,K2-232 b,11,130
+Transit,8,K2-233 b,2,69
+Transit,8,K2-233 c,7,69
+Transit,8,K2-233 d,24,69
+Transit,8,KELT-1 b,1,262
+Transit,8,KELT-2 A b,4,124
+Transit,8,KELT-3 b,3,178
+Transit,8,KELT-4 A b,3,210
+Transit,8,KELT-6 b,8,222
+Transit,8,KELT-7 b,3,129
+Transit,8,KELT-8 b,3,236
+Transit,8,KELT-9 b,1,189
+Transit,8,KELT-10 b,4,183
+Transit,8,KELT-11 b,5,98
+Transit,8,KELT-12 b,5,360
+Transit,8,KELT-14 b,2,266
+Transit,8,KELT-15 b,3,291
+Transit,8,KELT-16 b,1,395
+Transit,8,KELT-17 b,3,210
+Transit,8,KELT-18 b,3,311
+Transit,8,KELT-19 A b,5,292
+Transit,8,KELT-20 b,3,140
+Transit,8,KELT-21 b,4,415
+Transit,8,Kepler-4 b,3,550
+Transit,8,Kepler-5 b,4,898
+Transit,8,Kepler-6 b,3,590
+Transit,8,Kepler-7 b,5,907
+Transit,8,Kepler-8 b,4,1,330
+Transit,8,Kepler-9 b,19,650
+Transit,8,Kepler-9 c,39,650
+Transit,8,Kepler-9 d,2,650
+Transit,8,Kepler-10 b,1,173
+Transit,8,Kepler-10 c,45,173
+Transit,8,Kepler-11 b,10,613
+Transit,8,Kepler-11 c,13,613
+Transit,8,Kepler-11 d,23,613
+Transit,8,Kepler-11 e,32,613
+Transit,8,Kepler-11 f,47,613
+Transit,8,Kepler-11 g,118,613
+Transit,8,Kepler-12 b,4,600
+Transit,8,Kepler-14 b,7,980
+Transit,8,Kepler-15 b,5,598
+Transit,8,Kepler-16 b,229,61
+Transit,8,Kepler-17 b,1,800
+Transit,8,Kepler-18 b,4,507
+Transit,8,Kepler-18 c,8,507
+Transit,8,Kepler-18 d,15,507
+Transit,8,Kepler-19 b,9,2,119
+Transit,8,Kepler-20 b,4,290
+Transit,8,Kepler-20 c,11,290
+Transit,8,Kepler-20 d,78,290
+Transit,8,Kepler-20 e,6,290
+Transit,8,Kepler-20 f,20,290
+Transit,8,Kepler-21 b,3,113
+Transit,8,Kepler-22 b,290,190
+Transit,8,Kepler-23 b,7,800
+Transit,8,Kepler-23 c,11,800
+Transit,8,Kepler-23 d,15,800
+Transit,8,Kepler-24 b,8,1,200
+Transit,8,Kepler-24 c,12,1,200
+Transit,8,Kepler-24 d,4,1,200
+Transit,8,Kepler-24 e,19,1,200
+Transit,8,Kepler-25 b,6,254
+Transit,8,Kepler-25 c,13,254
+Transit,8,Kepler-26 b,12,339
+Transit,8,Kepler-26 c,17,339
+Transit,8,Kepler-26 d,4,339
+Transit,8,Kepler-26 e,47,339
+Transit,8,Kepler-27 b,15,1,140
+Transit,8,Kepler-27 c,31,1,140
+Transit,8,Kepler-28 b,6,472
+Transit,8,Kepler-28 c,9,472
+Transit,8,Kepler-29 b,10,1,400
+Transit,8,Kepler-29 c,13,1,400
+Transit,8,Kepler-30 b,29,1,400
+Transit,8,Kepler-30 c,60,1,400
+Transit,8,Kepler-30 d,143,1,400
+Transit,8,Kepler-31 b,21,2,100
+Transit,8,Kepler-31 c,43,2,100
+Transit,8,Kepler-31 d,88,2,100
+Transit,8,Kepler-32 b,6,303
+Transit,8,Kepler-32 c,9,303
+Transit,8,Kepler-32 d,23,303
+Transit,8,Kepler-32 e,3,303
+Transit,8,Kepler-32 f,1,303
+Transit,8,Kepler-33 b,6,1,113
+Transit,8,Kepler-33 c,13,1,113
+Transit,8,Kepler-33 d,22,1,113
+Transit,8,Kepler-33 e,32,1,113
+Transit,8,Kepler-33 f,41,1,113
+Transit,8,Kepler-34 b,289,1,499
+Transit,8,Kepler-35 b,131,1,645
+Transit,8,Kepler-36 b,14,470
+Transit,8,Kepler-36 c,16,470
+Transit,8,Kepler-37 b,13,66
+Transit,8,Kepler-37 c,21,66
+Transit,8,Kepler-37 d,40,66
+Transit,8,Kepler-38 b,106,600
+Transit,8,Kepler-39 b,21,1,200
+Transit,8,Kepler-40 b,7,2,700
+Transit,8,Kepler-41 b,2,770
+Transit,8,Kepler-42 b,1,39
+Transit,8,Kepler-42 c,0,39
+Transit,8,Kepler-42 d,2,39
+Transit,8,Kepler-43 b,3,1,950
+Transit,8,Kepler-44 b,3,2,250
+Transit,8,Kepler-45 b,2,333
+Transit,8,Kepler-46 b,34,855
+Transit,8,Kepler-46 d,7,855
+Transit,8,Kepler-47 b,50,1,500
+Transit,8,Kepler-47 c,303,1,500
+Transit,8,Kepler-49 b,7,306
+Transit,8,Kepler-49 c,11,306
+Transit,8,Kepler-49 d,3,306
+Transit,8,Kepler-49 e,19,306
+Transit,8,Kepler-50 b,8,255
+Transit,8,Kepler-50 c,9,255
+Transit,8,Kepler-51 b,45,1,013
+Transit,8,Kepler-51 c,85,1,013
+Transit,8,Kepler-51 d,130,1,013
+Transit,8,Kepler-52 b,8,336
+Transit,8,Kepler-52 c,16,336
+Transit,8,Kepler-52 d,36,336
+Transit,8,Kepler-53 b,19,1,235
+Transit,8,Kepler-53 c,39,1,235
+Transit,8,Kepler-53 d,10,1,235
+Transit,8,Kepler-54 b,8,234
+Transit,8,Kepler-54 c,12,234
+Transit,8,Kepler-54 d,21,234
+Transit,8,Kepler-55 b,28,568
+Transit,8,Kepler-55 c,42,568
+Transit,8,Kepler-55 d,2,568
+Transit,8,Kepler-55 e,5,568
+Transit,8,Kepler-55 f,10,568
+Transit,8,Kepler-56 b,11,914
+Transit,8,Kepler-56 c,21,914
+Transit,8,Kepler-57 b,6,674
+Transit,8,Kepler-57 c,12,674
+Transit,8,Kepler-58 b,10,1,562
+Transit,8,Kepler-58 c,16,1,562
+Transit,8,Kepler-58 d,40,1,562
+Transit,8,Kepler-59 b,12,1,021
+Transit,8,Kepler-59 c,18,1,021
+Transit,8,Kepler-60 b,7,899
+Transit,8,Kepler-60 c,9,899
+Transit,8,Kepler-60 d,12,899
+Transit,8,Kepler-61 b,60,314
+Transit,8,Kepler-62 b,6,368
+Transit,8,Kepler-62 c,12,368
+Transit,8,Kepler-62 d,18,368
+Transit,8,Kepler-62 e,122,368
+Transit,8,Kepler-62 f,267,368
+Transit,8,Kepler-63 b,9,200
+Transit,8,Kepler-65 b,2,291
+Transit,8,Kepler-65 c,6,291
+Transit,8,Kepler-65 d,8,291
+Transit,8,Kepler-66 b,18,1,107
+Transit,8,Kepler-67 b,16,1,107
+Transit,8,Kepler-68 b,5,135
+Transit,8,Kepler-68 c,10,135
+Transit,8,Kepler-69 b,14,584
+Transit,8,Kepler-69 c,242,584
+Transit,8,Kepler-74 b,7,1,330
+Transit,8,Kepler-75 b,9,1,140
+Transit,8,Kepler-77 b,4,570
+Transit,8,Kepler-79 b,13,995
+Transit,8,Kepler-79 c,27,995
+Transit,8,Kepler-79 d,52,995
+Transit,8,Kepler-79 e,81,995
+Transit,8,Kepler-80 b,7,357
+Transit,8,Kepler-80 c,10,357
+Transit,8,Kepler-80 d,3,357
+Transit,8,Kepler-80 e,5,357
+Transit,8,Kepler-80 f,1,357
+Transit,8,Kepler-80 g,15,357
+Transit,8,Kepler-81 b,6,366
+Transit,8,Kepler-81 c,12,366
+Transit,8,Kepler-81 d,21,366
+Transit,8,Kepler-82 b,26,987
+Transit,8,Kepler-82 c,52,987
+Transit,8,Kepler-82 d,2,987
+Transit,8,Kepler-82 e,6,987
+Transit,8,Kepler-83 b,10,365
+Transit,8,Kepler-83 c,20,365
+Transit,8,Kepler-83 d,5,365
+Transit,8,Kepler-84 b,9,1,066
+Transit,8,Kepler-84 c,13,1,066
+Transit,8,Kepler-84 d,4,1,066
+Transit,8,Kepler-84 e,27,1,066
+Transit,8,Kepler-84 f,45,1,066
+Transit,8,Kepler-85 b,8,789
+Transit,8,Kepler-85 c,13,789
+Transit,8,Kepler-85 d,18,789
+Transit,8,Kepler-85 e,25,789
+Transit,8,Kepler-87 b,115,1,525
+Transit,8,Kepler-87 c,191,1,525
+Transit,8,Kepler-91 b,6,1,030
+Transit,8,Kepler-92 b,14,444
+Transit,8,Kepler-92 c,27,444
+Transit,8,Kepler-92 d,49,444
+Transit,8,Kepler-94 b,3,191
+Transit,8,Kepler-95 b,12,443
+Transit,8,Kepler-96 b,16,134
+Transit,8,Kepler-97 b,3,393
+Transit,8,Kepler-98 b,2,390
+Transit,8,Kepler-99 b,5,210
+Transit,8,Kepler-100 b,7,297
+Transit,8,Kepler-100 c,13,297
+Transit,8,Kepler-100 d,35,297
+Transit,8,Kepler-101 b,3,657
+Transit,8,Kepler-101 c,6,657
+Transit,8,Kepler-102 b,5,110
+Transit,8,Kepler-102 c,7,110
+Transit,8,Kepler-102 d,10,110
+Transit,8,Kepler-102 e,16,110
+Transit,8,Kepler-102 f,27,110
+Transit,8,Kepler-103 b,16,485
+Transit,8,Kepler-103 c,180,485
+Transit,8,Kepler-104 b,11,403
+Transit,8,Kepler-104 c,24,403
+Transit,8,Kepler-104 d,52,403
+Transit,8,Kepler-105 b,5,524
+Transit,8,Kepler-105 c,7,524
+Transit,8,Kepler-106 b,6,451
+Transit,8,Kepler-106 c,14,451
+Transit,8,Kepler-106 d,24,451
+Transit,8,Kepler-106 e,44,451
+Transit,8,Kepler-107 b,3,512
+Transit,8,Kepler-107 c,5,512
+Transit,8,Kepler-107 d,8,512
+Transit,8,Kepler-107 e,15,512
+Transit,8,Kepler-108 b,49,729
+Transit,8,Kepler-108 c,190,729
+Transit,8,Kepler-109 b,6,482
+Transit,8,Kepler-109 c,21,482
+Transit,8,Kepler-110 b,13,692
+Transit,8,Kepler-110 c,32,692
+Transit,8,Kepler-111 b,3,698
+Transit,8,Kepler-111 c,225,698
+Transit,8,Kepler-112 b,8,499
+Transit,8,Kepler-112 c,29,499
+Transit,8,Kepler-113 b,5,255
+Transit,8,Kepler-113 c,9,255
+Transit,8,Kepler-114 b,5,255
+Transit,8,Kepler-114 c,8,255
+Transit,8,Kepler-114 d,12,255
+Transit,8,Kepler-115 b,2,631
+Transit,8,Kepler-115 c,9,631
+Transit,8,Kepler-116 b,6,987
+Transit,8,Kepler-116 c,13,987
+Transit,8,Kepler-117 b,19,1,430
+Transit,8,Kepler-117 c,51,1,430
+Transit,8,Kepler-118 b,8,577
+Transit,8,Kepler-118 c,20,577
+Transit,8,Kepler-119 b,2,733
+Transit,8,Kepler-119 c,4,733
+Transit,8,Kepler-120 b,6,376
+Transit,8,Kepler-120 c,13,376
+Transit,8,Kepler-121 b,3,622
+Transit,8,Kepler-121 c,41,622
+Transit,8,Kepler-122 b,6,946
+Transit,8,Kepler-122 c,12,946
+Transit,8,Kepler-122 d,22,946
+Transit,8,Kepler-122 e,38,946
+Transit,8,Kepler-123 b,17,934
+Transit,8,Kepler-123 c,27,934
+Transit,8,Kepler-124 b,3,383
+Transit,8,Kepler-124 c,14,383
+Transit,8,Kepler-124 d,31,383
+Transit,8,Kepler-125 b,4,171
+Transit,8,Kepler-125 c,6,171
+Transit,8,Kepler-126 b,10,231
+Transit,8,Kepler-126 c,22,231
+Transit,8,Kepler-126 d,100,231
+Transit,8,Kepler-127 b,14,353
+Transit,8,Kepler-127 c,29,353
+Transit,8,Kepler-127 d,49,353
+Transit,8,Kepler-128 b,15,399
+Transit,8,Kepler-128 c,23,399
+Transit,8,Kepler-129 b,16,371
+Transit,8,Kepler-129 c,82,371
+Transit,8,Kepler-130 b,8,330
+Transit,8,Kepler-130 c,28,330
+Transit,8,Kepler-130 d,88,330
+Transit,8,Kepler-131 b,16,235
+Transit,8,Kepler-131 c,26,235
+Transit,8,Kepler-132 b,6,303
+Transit,8,Kepler-132 c,6,303
+Transit,8,Kepler-132 d,18,303
+Transit,8,Kepler-132 e,110,303
+Transit,8,Kepler-133 b,8,530
+Transit,8,Kepler-133 c,32,530
+Transit,8,Kepler-134 b,5,369
+Transit,8,Kepler-134 c,10,369
+Transit,8,Kepler-135 b,6,604
+Transit,8,Kepler-135 c,11,604
+Transit,8,Kepler-136 b,12,366
+Transit,8,Kepler-136 c,16,366
+Transit,8,Kepler-137 b,8,289
+Transit,8,Kepler-137 c,19,289
+Transit,8,Kepler-138 b,10,52
+Transit,8,Kepler-138 c,14,52
+Transit,8,Kepler-138 d,23,52
+Transit,8,Kepler-139 b,16,417
+Transit,8,Kepler-139 c,157,417
+Transit,8,Kepler-140 b,3,572
+Transit,8,Kepler-140 c,91,572
+Transit,8,Kepler-141 b,3,301
+Transit,8,Kepler-141 c,7,301
+Transit,8,Kepler-142 b,2,583
+Transit,8,Kepler-142 c,5,583
+Transit,8,Kepler-142 d,42,583
+Transit,8,Kepler-143 b,16,746
+Transit,8,Kepler-143 c,27,746
+Transit,8,Kepler-144 b,6,487
+Transit,8,Kepler-144 c,10,487
+Transit,8,Kepler-145 b,23,577
+Transit,8,Kepler-145 c,43,577
+Transit,8,Kepler-146 b,31,799
+Transit,8,Kepler-146 c,77,799
+Transit,8,Kepler-147 b,13,902
+Transit,8,Kepler-147 c,33,902
+Transit,8,Kepler-148 b,2,796
+Transit,8,Kepler-148 c,4,796
+Transit,8,Kepler-148 d,52,796
+Transit,8,Kepler-149 b,29,521
+Transit,8,Kepler-149 c,55,521
+Transit,8,Kepler-149 d,160,521
+Transit,8,Kepler-150 b,3,927
+Transit,8,Kepler-150 c,7,927
+Transit,8,Kepler-150 d,13,927
+Transit,8,Kepler-150 e,31,927
+Transit,8,Kepler-150 f,637,927
+Transit,8,Kepler-151 b,15,661
+Transit,8,Kepler-151 c,25,661
+Transit,8,Kepler-152 b,18,459
+Transit,8,Kepler-152 c,88,459
+Transit,8,Kepler-153 b,19,504
+Transit,8,Kepler-153 c,47,504
+Transit,8,Kepler-154 b,33,855
+Transit,8,Kepler-154 c,62,855
+Transit,8,Kepler-154 d,21,855
+Transit,8,Kepler-154 e,4,855
+Transit,8,Kepler-154 f,10,855
+Transit,8,Kepler-155 b,6,293
+Transit,8,Kepler-155 c,53,293
+Transit,8,Kepler-156 b,5,439
+Transit,8,Kepler-156 c,16,439
+Transit,8,Kepler-157 b,2,749
+Transit,8,Kepler-157 c,14,749
+Transit,8,Kepler-157 d,7,749
+Transit,8,Kepler-158 b,17,351
+Transit,8,Kepler-158 c,29,351
+Transit,8,Kepler-159 b,10,397
+Transit,8,Kepler-159 c,44,397
+Transit,8,Kepler-160 b,4,841
+Transit,8,Kepler-160 c,14,841
+Transit,8,Kepler-161 b,5,464
+Transit,8,Kepler-161 c,7,464
+Transit,8,Kepler-162 b,7,905
+Transit,8,Kepler-162 c,19,905
+Transit,8,Kepler-163 b,8,750
+Transit,8,Kepler-163 c,21,750
+Transit,8,Kepler-164 b,5,991
+Transit,8,Kepler-164 c,11,991
+Transit,8,Kepler-164 d,29,991
+Transit,8,Kepler-165 b,8,581
+Transit,8,Kepler-165 c,15,581
+Transit,8,Kepler-166 b,8,655
+Transit,8,Kepler-166 c,34,655
+Transit,8,Kepler-166 d,2,655
+Transit,8,Kepler-167 b,4,330
+Transit,8,Kepler-167 c,7,330
+Transit,8,Kepler-167 d,22,330
+Transit,8,Kepler-167 e,1,071,330
+Transit,8,Kepler-168 b,4,1,476
+Transit,8,Kepler-168 c,13,1,476
+Transit,8,Kepler-169 b,3,434
+Transit,8,Kepler-169 c,6,434
+Transit,8,Kepler-169 d,8,434
+Transit,8,Kepler-169 e,14,434
+Transit,8,Kepler-169 f,87,434
+Transit,8,Kepler-170 b,8,743
+Transit,8,Kepler-170 c,17,743
+Transit,8,Kepler-171 b,4,1,026
+Transit,8,Kepler-171 c,11,1,026
+Transit,8,Kepler-171 d,40,1,026
+Transit,8,Kepler-172 b,3,796
+Transit,8,Kepler-172 c,6,796
+Transit,8,Kepler-172 d,15,796
+Transit,8,Kepler-172 e,35,796
+Transit,8,Kepler-173 b,4,810
+Transit,8,Kepler-173 c,8,810
+Transit,8,Kepler-174 b,14,371
+Transit,8,Kepler-174 c,44,371
+Transit,8,Kepler-174 d,247,371
+Transit,8,Kepler-175 b,12,1,279
+Transit,8,Kepler-175 c,34,1,279
+Transit,8,Kepler-176 b,5,564
+Transit,8,Kepler-176 c,13,564
+Transit,8,Kepler-176 d,26,564
+Transit,8,Kepler-176 e,51,564
+Transit,8,Kepler-177 b,37,1,068
+Transit,8,Kepler-177 c,49,1,068
+Transit,8,Kepler-178 b,10,741
+Transit,8,Kepler-178 c,21,741
+Transit,8,Kepler-178 d,97,741
+Transit,8,Kepler-179 b,3,660
+Transit,8,Kepler-179 c,6,660
+Transit,8,Kepler-180 b,14,675
+Transit,8,Kepler-180 c,42,675
+Transit,8,Kepler-181 b,3,667
+Transit,8,Kepler-181 c,4,667
+Transit,8,Kepler-182 b,10,1,409
+Transit,8,Kepler-182 c,21,1,409
+Transit,8,Kepler-183 b,6,1,015
+Transit,8,Kepler-183 c,12,1,015
+Transit,8,Kepler-184 b,11,716
+Transit,8,Kepler-184 c,20,716
+Transit,8,Kepler-184 d,29,716
+Transit,8,Kepler-185 b,2,511
+Transit,8,Kepler-185 c,21,511
+Transit,8,Kepler-186 b,4,172
+Transit,8,Kepler-186 c,7,172
+Transit,8,Kepler-186 d,13,172
+Transit,8,Kepler-186 e,22,172
+Transit,8,Kepler-186 f,130,172
+Transit,8,Kepler-187 b,5,867
+Transit,8,Kepler-187 c,11,867
+Transit,8,Kepler-188 b,2,896
+Transit,8,Kepler-188 c,6,896
+Transit,8,Kepler-189 b,10,618
+Transit,8,Kepler-189 c,20,618
+Transit,8,Kepler-190 b,2,455
+Transit,8,Kepler-190 c,4,455
+Transit,8,Kepler-191 b,10,626
+Transit,8,Kepler-191 c,18,626
+Transit,8,Kepler-191 d,6,626
+Transit,8,Kepler-192 b,10,616
+Transit,8,Kepler-192 c,21,616
+Transit,8,Kepler-192 d,6,616
+Transit,8,Kepler-193 b,11,1,196
+Transit,8,Kepler-193 c,51,1,196
+Transit,8,Kepler-194 b,2,1,218
+Transit,8,Kepler-194 c,17,1,218
+Transit,8,Kepler-194 d,53,1,218
+Transit,8,Kepler-195 b,8,649
+Transit,8,Kepler-195 c,34,649
+Transit,8,Kepler-196 b,21,452
+Transit,8,Kepler-196 c,47,452
+Transit,8,Kepler-197 b,6,341
+Transit,8,Kepler-197 c,10,341
+Transit,8,Kepler-197 d,16,341
+Transit,8,Kepler-197 e,25,341
+Transit,8,Kepler-198 b,18,512
+Transit,8,Kepler-198 c,50,512
+Transit,8,Kepler-198 d,1,512
+Transit,8,Kepler-199 b,24,493
+Transit,8,Kepler-199 c,67,493
+Transit,8,Kepler-200 b,9,658
+Transit,8,Kepler-200 c,10,658
+Transit,8,Kepler-201 b,26,613
+Transit,8,Kepler-201 c,152,613
+Transit,8,Kepler-202 b,4,302
+Transit,8,Kepler-202 c,16,302
+Transit,8,Kepler-203 b,3,697
+Transit,8,Kepler-203 c,5,697
+Transit,8,Kepler-203 d,11,697
+Transit,8,Kepler-204 b,14,769
+Transit,8,Kepler-204 c,26,769
+Transit,8,Kepler-205 b,3,150
+Transit,8,Kepler-205 c,20,150
+Transit,8,Kepler-206 b,8,617
+Transit,8,Kepler-206 c,13,617
+Transit,8,Kepler-206 d,23,617
+Transit,8,Kepler-207 b,2,760
+Transit,8,Kepler-207 c,3,760
+Transit,8,Kepler-207 d,6,760
+Transit,8,Kepler-208 b,4,856
+Transit,8,Kepler-208 c,7,856
+Transit,8,Kepler-208 d,11,856
+Transit,8,Kepler-208 e,16,856
+Transit,8,Kepler-209 b,16,584
+Transit,8,Kepler-209 c,42,584
+Transit,8,Kepler-210 b,2,242
+Transit,8,Kepler-210 c,8,242
+Transit,8,Kepler-211 b,4,322
+Transit,8,Kepler-211 c,6,322
+Transit,8,Kepler-212 b,16,597
+Transit,8,Kepler-212 c,32,597
+Transit,8,Kepler-213 b,2,578
+Transit,8,Kepler-213 c,5,578
+Transit,8,Kepler-214 b,16,804
+Transit,8,Kepler-214 c,29,804
+Transit,8,Kepler-215 b,9,467
+Transit,8,Kepler-215 c,15,467
+Transit,8,Kepler-215 d,31,467
+Transit,8,Kepler-215 e,68,467
+Transit,8,Kepler-216 b,8,913
+Transit,8,Kepler-216 c,17,913
+Transit,8,Kepler-217 b,5,1,066
+Transit,8,Kepler-217 c,9,1,066
+Transit,8,Kepler-217 d,4,1,066
+Transit,8,Kepler-218 b,4,636
+Transit,8,Kepler-218 c,45,636
+Transit,8,Kepler-218 d,125,636
+Transit,8,Kepler-219 b,5,946
+Transit,8,Kepler-219 c,23,946
+Transit,8,Kepler-219 d,48,946
+Transit,8,Kepler-220 b,4,154
+Transit,8,Kepler-220 c,9,154
+Transit,8,Kepler-220 d,28,154
+Transit,8,Kepler-220 e,46,154
+Transit,8,Kepler-221 b,3,414
+Transit,8,Kepler-221 c,6,414
+Transit,8,Kepler-221 d,10,414
+Transit,8,Kepler-221 e,18,414
+Transit,8,Kepler-222 b,4,781
+Transit,8,Kepler-222 c,10,781
+Transit,8,Kepler-222 d,28,781
+Transit,8,Kepler-223 b,7,1,135
+Transit,8,Kepler-223 c,10,1,135
+Transit,8,Kepler-223 d,15,1,135
+Transit,8,Kepler-223 e,20,1,135
+Transit,8,Kepler-224 b,3,783
+Transit,8,Kepler-224 c,6,783
+Transit,8,Kepler-224 d,11,783
+Transit,8,Kepler-224 e,19,783
+Transit,8,Kepler-225 b,7,498
+Transit,8,Kepler-225 c,19,498
+Transit,8,Kepler-226 b,4,966
+Transit,8,Kepler-226 c,5,966
+Transit,8,Kepler-226 d,8,966
+Transit,8,Kepler-227 b,9,1,095
+Transit,8,Kepler-227 c,54,1,095
+Transit,8,Kepler-228 b,3,1,307
+Transit,8,Kepler-228 c,4,1,307
+Transit,8,Kepler-228 d,11,1,307
+Transit,8,Kepler-229 b,6,877
+Transit,8,Kepler-229 c,16,877
+Transit,8,Kepler-229 d,41,877
+Transit,8,Kepler-230 b,33,775
+Transit,8,Kepler-230 c,92,775
+Transit,8,Kepler-231 b,10,325
+Transit,8,Kepler-231 c,19,325
+Transit,8,Kepler-232 b,4,1,155
+Transit,8,Kepler-232 c,11,1,155
+Transit,8,Kepler-233 b,8,825
+Transit,8,Kepler-233 c,60,825
+Transit,8,Kepler-234 b,3,1,651
+Transit,8,Kepler-234 c,7,1,651
+Transit,8,Kepler-235 b,3,369
+Transit,8,Kepler-235 c,8,369
+Transit,8,Kepler-235 d,20,369
+Transit,8,Kepler-235 e,46,369
+Transit,8,Kepler-236 b,8,265
+Transit,8,Kepler-236 c,24,265
+Transit,8,Kepler-237 b,5,647
+Transit,8,Kepler-237 c,8,647
+Transit,8,Kepler-238 b,2,1,369
+Transit,8,Kepler-238 c,6,1,369
+Transit,8,Kepler-238 d,13,1,369
+Transit,8,Kepler-238 e,24,1,369
+Transit,8,Kepler-238 f,50,1,369
+Transit,8,Kepler-239 b,12,658
+Transit,8,Kepler-239 c,56,658
+Transit,8,Kepler-240 b,4,738
+Transit,8,Kepler-240 c,8,738
+Transit,8,Kepler-241 b,13,512
+Transit,8,Kepler-241 c,36,512
+Transit,8,Kepler-242 b,8,670
+Transit,8,Kepler-242 c,14,670
+Transit,8,Kepler-243 b,6,669
+Transit,8,Kepler-243 c,20,669
+Transit,8,Kepler-244 b,4,928
+Transit,8,Kepler-244 c,10,928
+Transit,8,Kepler-244 d,20,928
+Transit,8,Kepler-245 b,7,866
+Transit,8,Kepler-245 c,17,866
+Transit,8,Kepler-245 d,36,866
+Transit,8,Kepler-245 e,3,866
+Transit,8,Kepler-246 b,5,736
+Transit,8,Kepler-246 c,11,736
+Transit,8,Kepler-247 b,3,667
+Transit,8,Kepler-247 c,9,667
+Transit,8,Kepler-247 d,20,667
+Transit,8,Kepler-248 b,6,800
+Transit,8,Kepler-248 c,16,800
+Transit,8,Kepler-249 b,3,133
+Transit,8,Kepler-249 c,7,133
+Transit,8,Kepler-249 d,15,133
+Transit,8,Kepler-250 b,4,788
+Transit,8,Kepler-250 c,7,788
+Transit,8,Kepler-250 d,18,788
+Transit,8,Kepler-251 b,5,1,014
+Transit,8,Kepler-251 c,17,1,014
+Transit,8,Kepler-251 d,30,1,014
+Transit,8,Kepler-251 e,100,1,014
+Transit,8,Kepler-252 b,7,391
+Transit,8,Kepler-252 c,11,391
+Transit,8,Kepler-253 b,4,849
+Transit,8,Kepler-253 c,10,849
+Transit,8,Kepler-253 d,18,849
+Transit,8,Kepler-254 b,6,1,366
+Transit,8,Kepler-254 c,12,1,366
+Transit,8,Kepler-254 d,19,1,366
+Transit,8,Kepler-255 b,6,1,011
+Transit,8,Kepler-255 c,10,1,011
+Transit,8,Kepler-255 d,1,1,011
+Transit,8,Kepler-256 b,2,1,181
+Transit,8,Kepler-256 c,3,1,181
+Transit,8,Kepler-256 d,6,1,181
+Transit,8,Kepler-256 e,11,1,181
+Transit,8,Kepler-257 b,2,775
+Transit,8,Kepler-257 c,7,775
+Transit,8,Kepler-257 d,25,775
+Transit,8,Kepler-258 b,13,592
+Transit,8,Kepler-258 c,34,592
+Transit,8,Kepler-259 b,8,1,014
+Transit,8,Kepler-259 c,37,1,014
+Transit,8,Kepler-260 b,8,589
+Transit,8,Kepler-260 c,76,589
+Transit,8,Kepler-261 b,10,338
+Transit,8,Kepler-261 c,25,338
+Transit,8,Kepler-262 b,13,810
+Transit,8,Kepler-262 c,22,810
+Transit,8,Kepler-263 b,17,891
+Transit,8,Kepler-263 c,47,891
+Transit,8,Kepler-264 b,41,955
+Transit,8,Kepler-264 c,140,955
+Transit,8,Kepler-265 b,7,1,360
+Transit,8,Kepler-265 c,17,1,360
+Transit,8,Kepler-265 d,43,1,360
+Transit,8,Kepler-265 e,68,1,360
+Transit,8,Kepler-266 b,7,1,090
+Transit,8,Kepler-266 c,108,1,090
+Transit,8,Kepler-267 b,3,281
+Transit,8,Kepler-267 c,7,281
+Transit,8,Kepler-267 d,28,281
+Transit,8,Kepler-268 b,26,818
+Transit,8,Kepler-268 c,83,818
+Transit,8,Kepler-269 b,5,1,193
+Transit,8,Kepler-269 c,8,1,193
+Transit,8,Kepler-270 b,11,1,019
+Transit,8,Kepler-270 c,25,1,019
+Transit,8,Kepler-271 b,5,418
+Transit,8,Kepler-271 c,7,418
+Transit,8,Kepler-271 d,5,418
+Transit,8,Kepler-272 b,3,699
+Transit,8,Kepler-272 c,6,699
+Transit,8,Kepler-272 d,11,699
+Transit,8,Kepler-273 b,3,874
+Transit,8,Kepler-273 c,8,874
+Transit,8,Kepler-274 b,12,1,172
+Transit,8,Kepler-274 c,33,1,172
+Transit,8,Kepler-275 b,10,1,818
+Transit,8,Kepler-275 c,16,1,818
+Transit,8,Kepler-275 d,36,1,818
+Transit,8,Kepler-276 b,14,1,326
+Transit,8,Kepler-276 c,32,1,326
+Transit,8,Kepler-276 d,49,1,326
+Transit,8,Kepler-277 b,17,859
+Transit,8,Kepler-277 c,33,859
+Transit,8,Kepler-278 b,30,431
+Transit,8,Kepler-278 c,51,431
+Transit,8,Kepler-279 b,12,1,223
+Transit,8,Kepler-279 c,36,1,223
+Transit,8,Kepler-279 d,54,1,223
+Transit,8,Kepler-280 b,2,751
+Transit,8,Kepler-280 c,5,751
+Transit,8,Kepler-281 b,15,1,276
+Transit,8,Kepler-281 c,36,1,276
+Transit,8,Kepler-282 b,9,1,048
+Transit,8,Kepler-282 c,14,1,048
+Transit,8,Kepler-282 d,25,1,048
+Transit,8,Kepler-282 e,44,1,048
+Transit,8,Kepler-283 b,11,453
+Transit,8,Kepler-283 c,93,453
+Transit,8,Kepler-284 b,13,1,219
+Transit,8,Kepler-284 c,38,1,219
+Transit,8,Kepler-285 b,3,789
+Transit,8,Kepler-285 c,6,789
+Transit,8,Kepler-286 b,2,1,281
+Transit,8,Kepler-286 c,3,1,281
+Transit,8,Kepler-286 d,6,1,281
+Transit,8,Kepler-286 e,29,1,281
+Transit,8,Kepler-287 b,20,866
+Transit,8,Kepler-287 c,45,866
+Transit,8,Kepler-288 b,6,1,176
+Transit,8,Kepler-288 c,19,1,176
+Transit,8,Kepler-288 d,57,1,176
+Transit,8,Kepler-289 b,35,700
+Transit,8,Kepler-289 c,126,700
+Transit,8,Kepler-289 d,66,700
+Transit,8,Kepler-290 b,15,741
+Transit,8,Kepler-290 c,37,741
+Transit,8,Kepler-291 b,4,1,296
+Transit,8,Kepler-291 c,6,1,296
+Transit,8,Kepler-292 b,3,1,051
+Transit,8,Kepler-292 c,4,1,051
+Transit,8,Kepler-292 d,7,1,051
+Transit,8,Kepler-292 e,12,1,051
+Transit,8,Kepler-292 f,21,1,051
+Transit,8,Kepler-293 b,19,1,068
+Transit,8,Kepler-293 c,54,1,068
+Transit,8,Kepler-294 b,4,1,364
+Transit,8,Kepler-294 c,7,1,364
+Transit,8,Kepler-295 b,13,630
+Transit,8,Kepler-295 c,22,630
+Transit,8,Kepler-295 d,34,630
+Transit,8,Kepler-296 b,11,226
+Transit,8,Kepler-296 c,6,226
+Transit,8,Kepler-296 d,20,226
+Transit,8,Kepler-296 e,34,226
+Transit,8,Kepler-296 f,63,226
+Transit,8,Kepler-297 b,39,745
+Transit,8,Kepler-297 c,75,745
+Transit,8,Kepler-298 b,10,504
+Transit,8,Kepler-298 c,23,504
+Transit,8,Kepler-298 d,77,504
+Transit,8,Kepler-299 b,3,1,024
+Transit,8,Kepler-299 c,7,1,024
+Transit,8,Kepler-299 d,15,1,024
+Transit,8,Kepler-299 e,38,1,024
+Transit,8,Kepler-300 b,10,872
+Transit,8,Kepler-300 c,41,872
+Transit,8,Kepler-301 b,3,742
+Transit,8,Kepler-301 c,5,742
+Transit,8,Kepler-301 d,14,742
+Transit,8,Kepler-302 b,30,1,433
+Transit,8,Kepler-302 c,127,1,433
+Transit,8,Kepler-303 b,2,175
+Transit,8,Kepler-303 c,7,175
+Transit,8,Kepler-304 b,3,483
+Transit,8,Kepler-304 c,5,483
+Transit,8,Kepler-304 d,10,483
+Transit,8,Kepler-304 e,1,483
+Transit,8,Kepler-305 b,5,864
+Transit,8,Kepler-305 c,8,864
+Transit,8,Kepler-305 d,17,864
+Transit,8,Kepler-306 b,5,753
+Transit,8,Kepler-306 c,7,753
+Transit,8,Kepler-306 d,17,753
+Transit,8,Kepler-306 e,45,753
+Transit,8,Kepler-307 b,10,600
+Transit,8,Kepler-307 c,13,600
+Transit,8,Kepler-308 b,10,1,284
+Transit,8,Kepler-308 c,15,1,284
+Transit,8,Kepler-309 b,6,524
+Transit,8,Kepler-309 c,105,524
+Transit,8,Kepler-310 b,14,634
+Transit,8,Kepler-310 c,56,634
+Transit,8,Kepler-310 d,93,634
+Transit,8,Kepler-311 b,9,774
+Transit,8,Kepler-311 c,20,774
+Transit,8,Kepler-312 b,2,569
+Transit,8,Kepler-312 c,20,569
+Transit,8,Kepler-313 b,15,954
+Transit,8,Kepler-313 c,32,954
+Transit,8,Kepler-314 b,2,263
+Transit,8,Kepler-314 c,6,263
+Transit,8,Kepler-315 b,96,1,112
+Transit,8,Kepler-315 c,265,1,112
+Transit,8,Kepler-316 b,2,342
+Transit,8,Kepler-316 c,7,342
+Transit,8,Kepler-317 b,6,1,220
+Transit,8,Kepler-317 c,9,1,220
+Transit,8,Kepler-318 b,5,463
+Transit,8,Kepler-318 c,12,463
+Transit,8,Kepler-319 b,4,549
+Transit,8,Kepler-319 c,7,549
+Transit,8,Kepler-319 d,32,549
+Transit,8,Kepler-320 b,8,1,022
+Transit,8,Kepler-320 c,18,1,022
+Transit,8,Kepler-321 b,5,377
+Transit,8,Kepler-321 c,13,377
+Transit,8,Kepler-322 b,2,428
+Transit,8,Kepler-322 c,4,428
+Transit,8,Kepler-323 b,2,473
+Transit,8,Kepler-323 c,4,473
+Transit,8,Kepler-324 b,4,492
+Transit,8,Kepler-324 c,52,492
+Transit,8,Kepler-325 b,5,883
+Transit,8,Kepler-325 c,13,883
+Transit,8,Kepler-325 d,39,883
+Transit,8,Kepler-326 b,2,355
+Transit,8,Kepler-326 c,5,355
+Transit,8,Kepler-326 d,7,355
+Transit,8,Kepler-327 b,3,217
+Transit,8,Kepler-327 c,5,217
+Transit,8,Kepler-327 d,14,217
+Transit,8,Kepler-328 b,35,2,078
+Transit,8,Kepler-328 c,71,2,078
+Transit,8,Kepler-329 b,7,338
+Transit,8,Kepler-329 c,19,338
+Transit,8,Kepler-330 b,8,686
+Transit,8,Kepler-330 c,16,686
+Transit,8,Kepler-331 b,8,626
+Transit,8,Kepler-331 c,17,626
+Transit,8,Kepler-331 d,32,626
+Transit,8,Kepler-332 b,8,372
+Transit,8,Kepler-332 c,16,372
+Transit,8,Kepler-332 d,34,372
+Transit,8,Kepler-333 b,13,300
+Transit,8,Kepler-333 c,24,300
+Transit,8,Kepler-334 b,5,473
+Transit,8,Kepler-334 c,13,473
+Transit,8,Kepler-334 d,25,473
+Transit,8,Kepler-335 b,7,1,174
+Transit,8,Kepler-335 c,68,1,174
+Transit,8,Kepler-336 b,2,721
+Transit,8,Kepler-336 c,10,721
+Transit,8,Kepler-336 d,21,721
+Transit,8,Kepler-337 b,3,518
+Transit,8,Kepler-337 c,10,518
+Transit,8,Kepler-338 b,14,568
+Transit,8,Kepler-338 c,24,568
+Transit,8,Kepler-338 d,44,568
+Transit,8,Kepler-339 b,5,722
+Transit,8,Kepler-339 c,7,722
+Transit,8,Kepler-339 d,11,722
+Transit,8,Kepler-340 b,15,1,060
+Transit,8,Kepler-340 c,23,1,060
+Transit,8,Kepler-341 b,5,873
+Transit,8,Kepler-341 c,8,873
+Transit,8,Kepler-341 d,28,873
+Transit,8,Kepler-341 e,42,873
+Transit,8,Kepler-342 b,15,772
+Transit,8,Kepler-342 c,26,772
+Transit,8,Kepler-342 d,39,772
+Transit,8,Kepler-342 e,2,772
+Transit,8,Kepler-343 b,9,987
+Transit,8,Kepler-343 c,23,987
+Transit,8,Kepler-344 b,22,1,027
+Transit,8,Kepler-344 c,126,1,027
+Transit,8,Kepler-345 b,7,260
+Transit,8,Kepler-345 c,9,260
+Transit,8,Kepler-346 b,7,1,032
+Transit,8,Kepler-346 c,24,1,032
+Transit,8,Kepler-347 b,13,950
+Transit,8,Kepler-347 c,27,950
+Transit,8,Kepler-348 b,7,623
+Transit,8,Kepler-348 c,17,623
+Transit,8,Kepler-349 b,6,1,172
+Transit,8,Kepler-349 c,12,1,172
+Transit,8,Kepler-350 b,11,931
+Transit,8,Kepler-350 c,18,931
+Transit,8,Kepler-350 d,26,931
+Transit,8,Kepler-351 b,37,1,078
+Transit,8,Kepler-351 c,57,1,078
+Transit,8,Kepler-351 d,143,1,078
+Transit,8,Kepler-352 b,10,279
+Transit,8,Kepler-352 c,16,279
+Transit,8,Kepler-353 b,6,333
+Transit,8,Kepler-353 c,8,333
+Transit,8,Kepler-354 b,5,574
+Transit,8,Kepler-354 c,17,574
+Transit,8,Kepler-354 d,24,574
+Transit,8,Kepler-355 b,11,1,143
+Transit,8,Kepler-355 c,26,1,143
+Transit,8,Kepler-356 b,5,639
+Transit,8,Kepler-356 c,13,639
+Transit,8,Kepler-357 b,6,741
+Transit,8,Kepler-357 c,17,741
+Transit,8,Kepler-357 d,49,741
+Transit,8,Kepler-358 b,34,1,067
+Transit,8,Kepler-358 c,83,1,067
+Transit,8,Kepler-359 b,26,2,037
+Transit,8,Kepler-359 c,58,2,037
+Transit,8,Kepler-359 d,77,2,037
+Transit,8,Kepler-360 b,3,881
+Transit,8,Kepler-360 c,7,881
+Transit,8,Kepler-361 b,8,800
+Transit,8,Kepler-361 c,55,800
+Transit,8,Kepler-362 b,10,658
+Transit,8,Kepler-362 c,38,658
+Transit,8,Kepler-363 b,4,606
+Transit,8,Kepler-363 c,8,606
+Transit,8,Kepler-363 d,12,606
+Transit,8,Kepler-364 b,26,941
+Transit,8,Kepler-364 c,60,941
+Transit,8,Kepler-365 b,11,950
+Transit,8,Kepler-365 c,18,950
+Transit,8,Kepler-366 b,3,1,156
+Transit,8,Kepler-366 c,13,1,156
+Transit,8,Kepler-367 b,38,198
+Transit,8,Kepler-367 c,54,198
+Transit,8,Kepler-368 b,27,488
+Transit,8,Kepler-368 c,72,488
+Transit,8,Kepler-369 b,3,214
+Transit,8,Kepler-369 c,15,214
+Transit,8,Kepler-370 b,5,1,078
+Transit,8,Kepler-370 c,19,1,078
+Transit,8,Kepler-371 b,35,603
+Transit,8,Kepler-371 c,68,603
+Transit,8,Kepler-372 b,7,1,378
+Transit,8,Kepler-372 c,20,1,378
+Transit,8,Kepler-372 d,30,1,378
+Transit,8,Kepler-373 b,6,718
+Transit,8,Kepler-373 c,17,718
+Transit,8,Kepler-374 b,2,978
+Transit,8,Kepler-374 c,3,978
+Transit,8,Kepler-374 d,5,978
+Transit,8,Kepler-375 b,12,1,209
+Transit,8,Kepler-375 c,20,1,209
+Transit,8,Kepler-376 b,5,806
+Transit,8,Kepler-376 c,14,806
+Transit,8,Kepler-377 b,13,791
+Transit,8,Kepler-377 c,27,791
+Transit,8,Kepler-378 b,16,155
+Transit,8,Kepler-378 c,29,155
+Transit,8,Kepler-379 b,20,719
+Transit,8,Kepler-379 c,63,719
+Transit,8,Kepler-380 b,4,741
+Transit,8,Kepler-380 c,8,741
+Transit,8,Kepler-381 b,6,368
+Transit,8,Kepler-381 c,13,368
+Transit,8,Kepler-382 b,5,684
+Transit,8,Kepler-382 c,12,684
+Transit,8,Kepler-383 b,13,470
+Transit,8,Kepler-383 c,31,470
+Transit,8,Kepler-384 b,23,559
+Transit,8,Kepler-384 c,45,559
+Transit,8,Kepler-385 b,10,1,550
+Transit,8,Kepler-385 c,15,1,550
+Transit,8,Kepler-386 b,12,847
+Transit,8,Kepler-386 c,25,847
+Transit,8,Kepler-387 b,7,714
+Transit,8,Kepler-387 c,12,714
+Transit,8,Kepler-388 b,3,425
+Transit,8,Kepler-388 c,13,425
+Transit,8,Kepler-389 b,3,977
+Transit,8,Kepler-389 c,15,977
+Transit,8,Kepler-390 b,7,435
+Transit,8,Kepler-390 c,13,435
+Transit,8,Kepler-391 b,7,1,064
+Transit,8,Kepler-391 c,20,1,064
+Transit,8,Kepler-392 b,5,673
+Transit,8,Kepler-392 c,10,673
+Transit,8,Kepler-393 b,9,789
+Transit,8,Kepler-393 c,15,789
+Transit,8,Kepler-394 b,8,1,297
+Transit,8,Kepler-394 c,12,1,297
+Transit,8,Kepler-395 b,7,360
+Transit,8,Kepler-395 c,35,360
+Transit,8,Kepler-396 b,43,233
+Transit,8,Kepler-396 c,89,233
+Transit,8,Kepler-397 b,22,969
+Transit,8,Kepler-397 c,135,969
+Transit,8,Kepler-398 b,4,185
+Transit,8,Kepler-398 c,11,185
+Transit,8,Kepler-398 d,7,185
+Transit,8,Kepler-399 b,14,699
+Transit,8,Kepler-399 c,27,699
+Transit,8,Kepler-399 d,58,699
+Transit,8,Kepler-400 b,9,709
+Transit,8,Kepler-400 c,17,709
+Transit,8,Kepler-401 b,14,739
+Transit,8,Kepler-401 c,47,739
+Transit,8,Kepler-401 d,184,739
+Transit,8,Kepler-402 b,4,720
+Transit,8,Kepler-402 c,6,720
+Transit,8,Kepler-402 d,9,720
+Transit,8,Kepler-402 e,11,720
+Transit,8,Kepler-403 b,7,671
+Transit,8,Kepler-403 c,54,671
+Transit,8,Kepler-403 d,14,671
+Transit,8,Kepler-405 b,11,1,226
+Transit,8,Kepler-405 c,30,1,226
+Transit,8,Kepler-406 b,2,331
+Transit,8,Kepler-406 c,5,331
+Transit,8,Kepler-408 b,2,89
+Transit,8,Kepler-409 b,69,69
+Transit,8,Kepler-410 A b,18,132
+Transit,8,Kepler-411 b,3,153
+Transit,8,Kepler-411 c,8,153
+Transit,8,Kepler-412 b,2,1,056
+Transit,8,Kepler-418 b,87,1,017
+Transit,8,Kepler-419 b,70,872
+Transit,8,Kepler-421 b,704,320
+Transit,8,Kepler-422 b,8,692
+Transit,8,Kepler-423 b,3,725
+Transit,8,Kepler-425 b,4,650
+Transit,8,Kepler-426 b,3,880
+Transit,8,Kepler-427 b,10,1,100
+Transit,8,Kepler-428 b,4,720
+Transit,8,Kepler-430 b,36,816
+Transit,8,Kepler-430 c,111,816
+Transit,8,Kepler-431 b,7,427
+Transit,8,Kepler-431 c,9,427
+Transit,8,Kepler-431 d,12,427
+Transit,8,Kepler-432 b,53,870
+Transit,8,Kepler-433 b,5,1,870
+Transit,8,Kepler-434 b,13,1,240
+Transit,8,Kepler-435 b,9,2,070
+Transit,8,Kepler-436 b,64,618
+Transit,8,Kepler-436 c,17,618
+Transit,8,Kepler-437 b,67,417
+Transit,8,Kepler-438 b,35,145
+Transit,8,Kepler-439 b,178,693
+Transit,8,Kepler-440 b,101,261
+Transit,8,Kepler-441 b,207,284
+Transit,8,Kepler-442 b,112,342
+Transit,8,Kepler-443 b,178,779
+Transit,8,Kepler-444 b,4,36
+Transit,8,Kepler-444 c,5,36
+Transit,8,Kepler-444 d,6,36
+Transit,8,Kepler-444 e,8,36
+Transit,8,Kepler-444 f,10,36
+Transit,8,Kepler-445 b,3,90
+Transit,8,Kepler-445 c,5,90
+Transit,8,Kepler-445 d,8,90
+Transit,8,Kepler-446 b,2,120
+Transit,8,Kepler-446 c,3,120
+Transit,8,Kepler-446 d,5,120
+Transit,8,Kepler-447 b,8,283
+Transit,8,Kepler-449 b,13,279
+Transit,8,Kepler-449 c,34,279
+Transit,8,Kepler-450 b,28,437
+Transit,8,Kepler-450 c,15,437
+Transit,8,Kepler-450 d,8,437
+Transit,8,Kepler-452 b,385,548
+Transit,8,Kepler-454 b,11,233
+Transit,8,Kepler-460 c,220,848
+Transit,8,Kepler-461 b,8,468
+Transit,8,Kepler-462 b,85,733
+Transit,8,Kepler-463 b,9,336
+Transit,8,Kepler-464 b,7,653
+Transit,8,Kepler-465 b,10,587
+Transit,8,Kepler-466 b,51,436
+Transit,8,Kepler-466 c,4,436
+Transit,8,Kepler-467 b,25,458
+Transit,8,Kepler-468 b,38,474
+Transit,8,Kepler-470 b,25,989
+Transit,8,Kepler-471 b,5,1,373
+Transit,8,Kepler-472 b,4,302
+Transit,8,Kepler-473 b,15,641
+Transit,8,Kepler-474 b,6,568
+Transit,8,Kepler-475 b,3,280
+Transit,8,Kepler-476 b,14,687
+Transit,8,Kepler-477 b,11,367
+Transit,8,Kepler-478 b,13,420
+Transit,8,Kepler-479 b,12,371
+Transit,8,Kepler-480 b,5,806
+Transit,8,Kepler-481 b,10,713
+Transit,8,Kepler-482 b,56,290
+Transit,8,Kepler-483 b,30,953
+Transit,8,Kepler-484 b,10,377
+Transit,8,Kepler-485 b,3,1,173
+Transit,8,Kepler-486 b,30,428
+Transit,8,Kepler-487 b,15,835
+Transit,8,Kepler-487 c,39,835
+Transit,8,Kepler-488 b,3,1,157
+Transit,8,Kepler-489 b,17,379
+Transit,8,Kepler-490 b,3,1,249
+Transit,8,Kepler-491 b,4,657
+Transit,8,Kepler-492 b,12,642
+Transit,8,Kepler-493 b,3,1,942
+Transit,8,Kepler-494 b,8,862
+Transit,8,Kepler-495 b,3,630
+Transit,8,Kepler-496 b,8,655
+Transit,8,Kepler-497 b,4,1,070
+Transit,8,Kepler-498 b,10,746
+Transit,8,Kepler-499 b,6,523
+Transit,8,Kepler-500 b,9,747
+Transit,8,Kepler-501 b,6,1,044
+Transit,8,Kepler-502 b,4,1,433
+Transit,8,Kepler-503 b,7,888
+Transit,8,Kepler-504 b,10,75
+Transit,8,Kepler-505 b,28,222
+Transit,8,Kepler-506 b,7,231
+Transit,8,Kepler-507 b,4,410
+Transit,8,Kepler-508 b,25,325
+Transit,8,Kepler-509 b,42,339
+Transit,8,Kepler-510 b,20,378
+Transit,8,Kepler-511 b,297,448
+Transit,8,Kepler-512 b,34,531
+Transit,8,Kepler-513 b,29,467
+Transit,8,Kepler-514 b,6,489
+Transit,8,Kepler-515 b,20,255
+Transit,8,Kepler-516 b,25,777
+Transit,8,Kepler-517 b,61,284
+Transit,8,Kepler-518 b,9,324
+Transit,8,Kepler-519 b,24,234
+Transit,8,Kepler-520 b,20,492
+Transit,8,Kepler-520 c,5,492
+Transit,8,Kepler-521 b,22,737
+Transit,8,Kepler-522 b,39,749
+Transit,8,Kepler-523 b,6,270
+Transit,8,Kepler-524 b,8,730
+Transit,8,Kepler-524 c,2,730
+Transit,8,Kepler-525 b,19,566
+Transit,8,Kepler-526 b,5,504
+Transit,8,Kepler-527 b,13,901
+Transit,8,Kepler-528 b,20,711
+Transit,8,Kepler-529 b,2,787
+Transit,8,Kepler-529 c,13,787
+Transit,8,Kepler-530 b,39,464
+Transit,8,Kepler-531 b,30,254
+Transit,8,Kepler-532 b,13,325
+Transit,8,Kepler-533 b,29,305
+Transit,8,Kepler-534 b,16,473
+Transit,8,Kepler-535 b,5,678
+Transit,8,Kepler-536 b,2,446
+Transit,8,Kepler-537 b,3,465
+Transit,8,Kepler-538 b,82,165
+Transit,8,Kepler-539 b,126,313
+Transit,8,Kepler-539 c,1,000,313
+Transit,8,Kepler-540 b,173,350
+Transit,8,Kepler-541 b,5,1,020
+Transit,8,Kepler-542 b,13,439
+Transit,8,Kepler-543 b,14,212
+Transit,8,Kepler-544 b,21,797
+Transit,8,Kepler-545 b,13,831
+Transit,8,Kepler-546 b,4,896
+Transit,8,Kepler-547 b,6,361
+Transit,8,Kepler-548 b,4,776
+Transit,8,Kepler-549 b,43,648
+Transit,8,Kepler-549 c,117,648
+Transit,8,Kepler-550 b,9,563
+Transit,8,Kepler-551 b,12,312
+Transit,8,Kepler-552 b,5,834
+Transit,8,Kepler-553 b,4,725
+Transit,8,Kepler-553 c,328,725
+Transit,8,Kepler-554 b,2,642
+Transit,8,Kepler-555 b,16,772
+Transit,8,Kepler-556 b,12,729
+Transit,8,Kepler-557 b,4,1,126
+Transit,8,Kepler-558 b,29,652
+Transit,8,Kepler-559 b,18,793
+Transit,8,Kepler-560 b,18,88
+Transit,8,Kepler-561 b,58,667
+Transit,8,Kepler-561 c,5,667
+Transit,8,Kepler-562 b,18,822
+Transit,8,Kepler-563 b,22,557
+Transit,8,Kepler-564 b,4,830
+Transit,8,Kepler-565 b,4,1,041
+Transit,8,Kepler-566 b,18,628
+Transit,8,Kepler-567 b,17,568
+Transit,8,Kepler-568 b,11,126
+Transit,8,Kepler-569 b,34,645
+Transit,8,Kepler-570 b,4,642
+Transit,8,Kepler-571 b,5,756
+Transit,8,Kepler-572 b,17,532
+Transit,8,Kepler-573 b,22,758
+Transit,8,Kepler-574 b,8,747
+Transit,8,Kepler-575 b,9,852
+Transit,8,Kepler-576 b,30,698
+Transit,8,Kepler-577 b,26,549
+Transit,8,Kepler-578 b,2,568
+Transit,8,Kepler-579 b,10,663
+Transit,8,Kepler-580 b,8,333
+Transit,8,Kepler-581 b,41,833
+Transit,8,Kepler-582 b,18,751
+Transit,8,Kepler-583 b,7,805
+Transit,8,Kepler-584 b,35,1,445
+Transit,8,Kepler-585 b,3,604
+Transit,8,Kepler-586 b,2,707
+Transit,8,Kepler-587 b,11,852
+Transit,8,Kepler-588 b,4,972
+Transit,8,Kepler-589 b,17,643
+Transit,8,Kepler-590 b,6,986
+Transit,8,Kepler-591 b,81,793
+Transit,8,Kepler-592 b,3,1,034
+Transit,8,Kepler-593 b,21,1,016
+Transit,8,Kepler-594 b,14,742
+Transit,8,Kepler-595 b,25,639
+Transit,8,Kepler-596 b,21,1,083
+Transit,8,Kepler-597 b,13,660
+Transit,8,Kepler-598 b,4,686
+Transit,8,Kepler-599 b,16,627
+Transit,8,Kepler-600 b,24,624
+Transit,8,Kepler-601 b,5,429
+Transit,8,Kepler-602 b,15,971
+Transit,8,Kepler-603 b,21,967
+Transit,8,Kepler-603 c,128,967
+Transit,8,Kepler-603 d,6,967
+Transit,8,Kepler-604 b,26,981
+Transit,8,Kepler-605 b,3,570
+Transit,8,Kepler-605 c,2,570
+Transit,8,Kepler-606 b,24,1,208
+Transit,8,Kepler-607 b,1,500
+Transit,8,Kepler-608 b,6,926
+Transit,8,Kepler-609 b,7,1,143
+Transit,8,Kepler-610 b,7,1,113
+Transit,8,Kepler-610 c,152,1,113
+Transit,8,Kepler-611 b,2,906
+Transit,8,Kepler-612 b,4,932
+Transit,8,Kepler-613 b,16,864
+Transit,8,Kepler-614 b,14,571
+Transit,8,Kepler-615 b,10,330
+Transit,8,Kepler-616 b,10,1,019
+Transit,8,Kepler-616 c,90,1,019
+Transit,8,Kepler-617 b,2,150
+Transit,8,Kepler-618 b,4,1,115
+Transit,8,Kepler-619 b,5,1,111
+Transit,8,Kepler-619 c,1,1,111
+Transit,8,Kepler-620 b,13,1,241
+Transit,8,Kepler-621 b,3,389
+Transit,8,Kepler-622 b,14,259
+Transit,8,Kepler-623 b,9,811
+Transit,8,Kepler-624 b,15,731
+Transit,8,Kepler-625 b,8,502
+Transit,8,Kepler-625 c,4,502
+Transit,8,Kepler-626 b,14,690
+Transit,8,Kepler-627 b,41,1,143
+Transit,8,Kepler-628 b,15,579
+Transit,8,Kepler-629 b,7,383
+Transit,8,Kepler-630 b,161,657
+Transit,8,Kepler-631 b,18,843
+Transit,8,Kepler-632 b,31,349
+Transit,8,Kepler-633 b,9,634
+Transit,8,Kepler-634 b,5,757
+Transit,8,Kepler-635 b,23,826
+Transit,8,Kepler-636 b,16,341
+Transit,8,Kepler-637 b,23,1,575
+Transit,8,Kepler-638 b,6,426
+Transit,8,Kepler-639 b,10,680
+Transit,8,Kepler-640 b,22,538
+Transit,8,Kepler-641 b,9,673
+Transit,8,Kepler-642 b,4,1,022
+Transit,8,Kepler-643 b,16,1,029
+Transit,8,Kepler-644 b,3,1,413
+Transit,8,Kepler-645 b,3,901
+Transit,8,Kepler-646 b,16,513
+Transit,8,Kepler-647 b,16,789
+Transit,8,Kepler-648 b,17,665
+Transit,8,Kepler-649 b,30,525
+Transit,8,Kepler-650 b,3,805
+Transit,8,Kepler-651 b,21,537
+Transit,8,Kepler-652 b,4,423
+Transit,8,Kepler-653 b,15,593
+Transit,8,Kepler-653 c,1,593
+Transit,8,Kepler-654 b,14,661
+Transit,8,Kepler-655 b,46,783
+Transit,8,Kepler-656 b,1,867
+Transit,8,Kepler-657 b,25,1,244
+Transit,8,Kepler-658 b,1,341
+Transit,8,Kepler-659 b,18,688
+Transit,8,Kepler-660 b,9,564
+Transit,8,Kepler-661 b,6,558
+Transit,8,Kepler-662 b,22,641
+Transit,8,Kepler-663 b,5,1,030
+Transit,8,Kepler-664 b,3,1,386
+Transit,8,Kepler-665 b,16,651
+Transit,8,Kepler-666 b,4,1,330
+Transit,8,Kepler-667 b,41,907
+Transit,8,Kepler-668 b,8,877
+Transit,8,Kepler-669 b,4,1,778
+Transit,8,Kepler-670 b,3,980
+Transit,8,Kepler-671 b,4,1,139
+Transit,8,Kepler-672 b,38,1,011
+Transit,8,Kepler-673 b,4,978
+Transit,8,Kepler-674 b,2,302
+Transit,8,Kepler-675 b,2,651
+Transit,8,Kepler-676 b,12,243
+Transit,8,Kepler-677 b,7,1,180
+Transit,8,Kepler-678 b,7,875
+Transit,8,Kepler-679 b,12,968
+Transit,8,Kepler-680 b,4,1,342
+Transit,8,Kepler-681 b,26,666
+Transit,8,Kepler-682 b,13,951
+Transit,8,Kepler-683 b,3,976
+Transit,8,Kepler-684 b,7,1,066
+Transit,8,Kepler-685 b,2,1,145
+Transit,8,Kepler-686 b,2,1,203
+Transit,8,Kepler-687 b,21,628
+Transit,8,Kepler-688 b,4,1,247
+Transit,8,Kepler-689 b,22,1,044
+Transit,8,Kepler-690 b,8,1,653
+Transit,8,Kepler-691 b,8,239
+Transit,8,Kepler-692 b,22,1,000
+Transit,8,Kepler-693 b,15,1,002
+Transit,8,Kepler-694 b,6,1,023
+Transit,8,Kepler-695 b,3,620
+Transit,8,Kepler-696 b,4,1,285
+Transit,8,Kepler-697 b,4,1,091
+Transit,8,Kepler-698 b,16,1,135
+Transit,8,Kepler-699 b,28,888
+Transit,8,Kepler-700 b,81,1,061
+Transit,8,Kepler-701 b,10,755
+Transit,8,Kepler-702 b,11,892
+Transit,8,Kepler-703 b,5,1,482
+Transit,8,Kepler-704 b,4,1,054
+Transit,8,Kepler-705 b,56,251
+Transit,8,Kepler-706 b,41,810
+Transit,8,Kepler-707 b,2,626
+Transit,8,Kepler-708 b,3,1,241
+Transit,8,Kepler-709 b,16,668
+Transit,8,Kepler-710 b,4,919
+Transit,8,Kepler-711 b,24,664
+Transit,8,Kepler-712 b,21,944
+Transit,8,Kepler-712 c,227,944
+Transit,8,Kepler-713 b,7,1,003
+Transit,8,Kepler-714 b,8,1,460
+Transit,8,Kepler-715 b,10,1,214
+Transit,8,Kepler-716 b,10,675
+Transit,8,Kepler-717 b,4,1,126
+Transit,8,Kepler-718 b,2,1,520
+Transit,8,Kepler-719 b,5,1,427
+Transit,8,Kepler-720 b,5,880
+Transit,8,Kepler-721 b,5,848
+Transit,8,Kepler-722 b,4,1,375
+Transit,8,Kepler-722 c,105,1,375
+Transit,8,Kepler-723 b,4,965
+Transit,8,Kepler-724 b,3,862
+Transit,8,Kepler-725 b,40,778
+Transit,8,Kepler-726 b,22,838
+Transit,8,Kepler-727 b,5,892
+Transit,8,Kepler-728 b,6,1,236
+Transit,8,Kepler-729 b,3,1,271
+Transit,8,Kepler-730 b,6,1,455
+Transit,8,Kepler-731 b,4,1,311
+Transit,8,Kepler-732 b,9,150
+Transit,8,Kepler-732 c,1,150
+Transit,8,Kepler-733 b,21,980
+Transit,8,Kepler-734 b,6,553
+Transit,8,Kepler-735 b,12,790
+Transit,8,Kepler-736 b,4,1,007
+Transit,8,Kepler-737 b,29,195
+Transit,8,Kepler-738 b,25,992
+Transit,8,Kepler-739 b,13,1,128
+Transit,8,Kepler-740 b,4,1,262
+Transit,8,Kepler-741 b,7,1,530
+Transit,8,Kepler-742 b,8,499
+Transit,8,Kepler-743 b,3,258
+Transit,8,Kepler-744 b,12,486
+Transit,8,Kepler-745 b,10,1,199
+Transit,8,Kepler-746 b,3,450
+Transit,8,Kepler-747 b,36,855
+Transit,8,Kepler-748 b,7,1,271
+Transit,8,Kepler-749 b,17,753
+Transit,8,Kepler-750 b,9,1,181
+Transit,8,Kepler-750 c,4,1,181
+Transit,8,Kepler-751 b,17,748
+Transit,8,Kepler-752 b,19,1,075
+Transit,8,Kepler-753 b,6,278
+Transit,8,Kepler-754 b,15,1,192
+Transit,8,Kepler-755 b,1,368
+Transit,8,Kepler-755 c,3,368
+Transit,8,Kepler-756 b,1,852
+Transit,8,Kepler-757 b,1,1,016
+Transit,8,Kepler-758 b,12,1,353
+Transit,8,Kepler-758 c,5,1,353
+Transit,8,Kepler-758 d,20,1,353
+Transit,8,Kepler-758 e,8,1,353
+Transit,8,Kepler-759 b,42,892
+Transit,8,Kepler-760 b,9,782
+Transit,8,Kepler-760 c,2,782
+Transit,8,Kepler-761 b,10,867
+Transit,8,Kepler-762 b,4,1,465
+Transit,8,Kepler-763 b,1,902
+Transit,8,Kepler-764 b,7,1,013
+Transit,8,Kepler-765 b,28,1,000
+Transit,8,Kepler-766 b,6,1,614
+Transit,8,Kepler-767 b,162,1,185
+Transit,8,Kepler-768 b,11,795
+Transit,8,Kepler-769 b,7,1,362
+Transit,8,Kepler-769 c,16,1,362
+Transit,8,Kepler-770 b,19,761
+Transit,8,Kepler-770 c,1,761
+Transit,8,Kepler-770 d,4,761
+Transit,8,Kepler-771 b,9,1,000
+Transit,8,Kepler-772 b,13,689
+Transit,8,Kepler-773 b,4,528
+Transit,8,Kepler-774 b,11,1,190
+Transit,8,Kepler-775 b,1,400
+Transit,8,Kepler-776 b,5,727
+Transit,8,Kepler-777 b,6,383
+Transit,8,Kepler-778 b,4,899
+Transit,8,Kepler-779 b,7,224
+Transit,8,Kepler-780 b,1,520
+Transit,8,Kepler-781 b,13,1,036
+Transit,8,Kepler-782 b,159,412
+Transit,8,Kepler-783 b,4,544
+Transit,8,Kepler-784 b,32,604
+Transit,8,Kepler-785 b,2,666
+Transit,8,Kepler-786 b,54,512
+Transit,8,Kepler-787 b,1,468
+Transit,8,Kepler-788 b,8,1,649
+Transit,8,Kepler-789 b,9,915
+Transit,8,Kepler-790 b,14,727
+Transit,8,Kepler-791 b,15,1,447
+Transit,8,Kepler-792 b,11,1,205
+Transit,8,Kepler-793 b,4,794
+Transit,8,Kepler-794 b,11,763
+Transit,8,Kepler-795 b,30,458
+Transit,8,Kepler-796 b,6,377
+Transit,8,Kepler-797 b,27,752
+Transit,8,Kepler-798 b,14,1,085
+Transit,8,Kepler-799 b,133,1,029
+Transit,8,Kepler-800 b,14,1,049
+Transit,8,Kepler-801 b,11,419
+Transit,8,Kepler-802 b,40,828
+Transit,8,Kepler-803 b,50,615
+Transit,8,Kepler-804 b,14,648
+Transit,8,Kepler-804 c,10,648
+Transit,8,Kepler-805 b,31,657
+Transit,8,Kepler-806 b,8,260
+Transit,8,Kepler-807 b,118,1,312
+Transit,8,Kepler-808 b,1,321
+Transit,8,Kepler-809 b,56,933
+Transit,8,Kepler-810 b,5,1,554
+Transit,8,Kepler-811 b,24,847
+Transit,8,Kepler-812 b,10,1,482
+Transit,8,Kepler-813 b,19,840
+Transit,8,Kepler-814 b,6,1,327
+Transit,8,Kepler-815 b,9,1,199
+Transit,8,Kepler-816 b,11,1,059
+Transit,8,Kepler-817 b,4,1,401
+Transit,8,Kepler-818 b,10,967
+Transit,8,Kepler-819 b,33,722
+Transit,8,Kepler-820 b,128,989
+Transit,8,Kepler-821 b,2,619
+Transit,8,Kepler-822 b,3,956
+Transit,8,Kepler-823 b,4,896
+Transit,8,Kepler-824 b,5,1,352
+Transit,8,Kepler-825 b,4,820
+Transit,8,Kepler-825 c,8,820
+Transit,8,Kepler-826 b,4,649
+Transit,8,Kepler-827 b,52,1,352
+Transit,8,Kepler-828 b,1,625
+Transit,8,Kepler-829 b,7,954
+Transit,8,Kepler-830 b,11,1,122
+Transit,8,Kepler-831 b,6,577
+Transit,8,Kepler-832 b,7,1,346
+Transit,8,Kepler-833 b,19,421
+Transit,8,Kepler-834 b,13,620
+Transit,8,Kepler-835 b,11,2,011
+Transit,8,Kepler-836 b,11,1,003
+Transit,8,Kepler-837 b,17,846
+Transit,8,Kepler-838 b,16,1,210
+Transit,8,Kepler-839 b,38,833
+Transit,8,Kepler-840 b,2,778
+Transit,8,Kepler-841 b,124,1,052
+Transit,8,Kepler-842 b,1,552
+Transit,8,Kepler-843 b,2,1,247
+Transit,8,Kepler-844 b,3,394
+Transit,8,Kepler-845 b,1,471
+Transit,8,Kepler-846 b,20,1,233
+Transit,8,Kepler-847 b,2,529
+Transit,8,Kepler-848 b,7,797
+Transit,8,Kepler-849 b,395,747
+Transit,8,Kepler-850 b,7,1,535
+Transit,8,Kepler-851 b,9,869
+Transit,8,Kepler-852 b,45,854
+Transit,8,Kepler-853 b,7,610
+Transit,8,Kepler-854 b,2,741
+Transit,8,Kepler-855 b,8,1,043
+Transit,8,Kepler-856 b,8,1,175
+Transit,8,Kepler-857 b,85,1,039
+Transit,8,Kepler-858 b,76,296
+Transit,8,Kepler-859 b,20,915
+Transit,8,Kepler-860 b,5,1,295
+Transit,8,Kepler-861 b,4,806
+Transit,8,Kepler-862 b,3,806
+Transit,8,Kepler-863 b,16,1,145
+Transit,8,Kepler-864 b,6,1,573
+Transit,8,Kepler-865 b,14,664
+Transit,8,Kepler-866 b,3,690
+Transit,8,Kepler-867 b,150,824
+Transit,8,Kepler-868 b,5,1,269
+Transit,8,Kepler-869 b,40,957
+Transit,8,Kepler-870 b,21,1,231
+Transit,8,Kepler-871 b,22,1,695
+Transit,8,Kepler-872 b,3,1,114
+Transit,8,Kepler-873 b,21,1,397
+Transit,8,Kepler-874 b,40,1,072
+Transit,8,Kepler-875 b,28,1,244
+Transit,8,Kepler-876 b,5,735
+Transit,8,Kepler-877 b,18,572
+Transit,8,Kepler-878 b,26,567
+Transit,8,Kepler-879 b,33,772
+Transit,8,Kepler-880 b,8,673
+Transit,8,Kepler-881 b,4,1,364
+Transit,8,Kepler-882 b,4,525
+Transit,8,Kepler-883 b,13,549
+Transit,8,Kepler-884 b,6,420
+Transit,8,Kepler-885 b,18,632
+Transit,8,Kepler-886 b,6,857
+Transit,8,Kepler-887 b,20,831
+Transit,8,Kepler-887 c,8,831
+Transit,8,Kepler-888 b,71,413
+Transit,8,Kepler-889 b,4,513
+Transit,8,Kepler-890 b,53,1,387
+Transit,8,Kepler-891 b,53,1,372
+Transit,8,Kepler-892 b,14,640
+Transit,8,Kepler-893 b,6,1,216
+Transit,8,Kepler-894 b,10,1,090
+Transit,8,Kepler-895 b,3,516
+Transit,8,Kepler-896 b,145,896
+Transit,8,Kepler-897 b,8,1,147
+Transit,8,Kepler-898 b,6,479
+Transit,8,Kepler-899 b,19,1,038
+Transit,8,Kepler-900 b,7,505
+Transit,8,Kepler-901 b,4,241
+Transit,8,Kepler-902 b,40,904
+Transit,8,Kepler-903 b,10,829
+Transit,8,Kepler-903 c,63,829
+Transit,8,Kepler-904 b,3,1,151
+Transit,8,Kepler-905 b,5,521
+Transit,8,Kepler-906 b,42,758
+Transit,8,Kepler-907 b,16,352
+Transit,8,Kepler-908 b,1,250
+Transit,8,Kepler-909 b,14,318
+Transit,8,Kepler-910 b,2,402
+Transit,8,Kepler-911 b,20,567
+Transit,8,Kepler-912 b,3,1,265
+Transit,8,Kepler-913 b,10,597
+Transit,8,Kepler-914 b,4,678
+Transit,8,Kepler-915 b,5,806
+Transit,8,Kepler-916 b,32,769
+Transit,8,Kepler-917 b,3,1,027
+Transit,8,Kepler-918 b,5,1,245
+Transit,8,Kepler-919 b,11,1,219
+Transit,8,Kepler-920 b,7,926
+Transit,8,Kepler-920 c,101,926
+Transit,8,Kepler-921 b,51,847
+Transit,8,Kepler-922 b,1,558
+Transit,8,Kepler-923 b,7,966
+Transit,8,Kepler-924 b,61,995
+Transit,8,Kepler-925 b,34,623
+Transit,8,Kepler-926 b,52,771
+Transit,8,Kepler-927 b,9,879
+Transit,8,Kepler-928 b,4,532
+Transit,8,Kepler-929 b,1,820
+Transit,8,Kepler-930 b,71,905
+Transit,8,Kepler-931 b,8,490
+Transit,8,Kepler-932 b,2,478
+Transit,8,Kepler-933 b,14,922
+Transit,8,Kepler-934 b,56,603
+Transit,8,Kepler-935 b,5,482
+Transit,8,Kepler-936 b,11,687
+Transit,8,Kepler-937 b,68,1,482
+Transit,8,Kepler-937 c,153,1,482
+Transit,8,Kepler-938 b,53,861
+Transit,8,Kepler-939 b,15,1,029
+Transit,8,Kepler-940 b,60,1,317
+Transit,8,Kepler-941 b,17,1,105
+Transit,8,Kepler-942 b,45,218
+Transit,8,Kepler-943 b,50,1,239
+Transit,8,Kepler-944 b,43,1,035
+Transit,8,Kepler-945 b,31,1,543
+Transit,8,Kepler-946 b,12,918
+Transit,8,Kepler-947 b,27,1,188
+Transit,8,Kepler-948 b,8,884
+Transit,8,Kepler-949 b,9,572
+Transit,8,Kepler-950 b,99,1,489
+Transit,8,Kepler-951 b,72,408
+Transit,8,Kepler-952 b,130,1,167
+Transit,8,Kepler-953 b,88,240
+Transit,8,Kepler-953 c,9,240
+Transit,8,Kepler-954 b,17,224
+Transit,8,Kepler-955 b,15,637
+Transit,8,Kepler-956 b,5,631
+Transit,8,Kepler-957 b,6,749
+Transit,8,Kepler-958 b,10,467
+Transit,8,Kepler-959 b,15,1,003
+Transit,8,Kepler-960 b,3,298
+Transit,8,Kepler-961 b,17,607
+Transit,8,Kepler-962 b,12,439
+Transit,8,Kepler-963 b,10,786
+Transit,8,Kepler-964 b,14,478
+Transit,8,Kepler-965 b,134,618
+Transit,8,Kepler-966 b,100,773
+Transit,8,Kepler-967 b,13,499
+Transit,8,Kepler-967 c,199,499
+Transit,8,Kepler-968 b,4,312
+Transit,8,Kepler-968 c,6,312
+Transit,8,Kepler-969 b,34,411
+Transit,8,Kepler-969 c,2,411
+Transit,8,Kepler-970 b,17,350
+Transit,8,Kepler-971 b,10,345
+Transit,8,Kepler-972 b,7,1,304
+Transit,8,Kepler-973 b,50,297
+Transit,8,Kepler-974 b,4,121
+Transit,8,Kepler-975 b,2,404
+Transit,8,Kepler-976 b,106,1,020
+Transit,8,Kepler-977 b,27,664
+Transit,8,Kepler-978 b,50,624
+Transit,8,Kepler-979 b,8,606
+Transit,8,Kepler-980 b,12,804
+Transit,8,Kepler-981 b,4,913
+Transit,8,Kepler-982 b,16,702
+Transit,8,Kepler-983 b,60,655
+Transit,8,Kepler-984 b,43,461
+Transit,8,Kepler-985 b,116,741
+Transit,8,Kepler-986 b,56,563
+Transit,8,Kepler-987 b,105,936
+Transit,8,Kepler-988 b,18,248
+Transit,8,Kepler-989 b,8,484
+Transit,8,Kepler-990 b,10,933
+Transit,8,Kepler-990 c,1,933
+Transit,8,Kepler-991 b,83,370
+Transit,8,Kepler-992 b,20,268
+Transit,8,Kepler-993 b,22,298
+Transit,8,Kepler-994 b,1,170
+Transit,8,Kepler-995 b,28,659
+Transit,8,Kepler-996 b,4,1,098
+Transit,8,Kepler-997 b,3,470
+Transit,8,Kepler-998 b,6,996
+Transit,8,Kepler-999 b,6,568
+Transit,8,Kepler-1000 b,120,925
+Transit,8,Kepler-1001 b,14,1,009
+Transit,8,Kepler-1002 b,4,425
+Transit,8,Kepler-1003 b,4,873
+Transit,8,Kepler-1004 b,5,1,080
+Transit,8,Kepler-1005 b,6,515
+Transit,8,Kepler-1006 b,20,496
+Transit,8,Kepler-1007 b,5,365
+Transit,8,Kepler-1008 b,12,299
+Transit,8,Kepler-1009 b,11,281
+Transit,8,Kepler-1010 b,34,610
+Transit,8,Kepler-1011 b,6,860
+Transit,8,Kepler-1012 b,6,420
+Transit,8,Kepler-1013 b,19,433
+Transit,8,Kepler-1014 b,17,672
+Transit,8,Kepler-1015 b,16,932
+Transit,8,Kepler-1016 b,2,1,239
+Transit,8,Kepler-1016 c,106,1,239
+Transit,8,Kepler-1017 b,7,554
+Transit,8,Kepler-1018 b,49,894
+Transit,8,Kepler-1019 b,1,198
+Transit,8,Kepler-1020 b,97,446
+Transit,8,Kepler-1021 b,13,837
+Transit,8,Kepler-1022 b,11,455
+Transit,8,Kepler-1023 b,62,686
+Transit,8,Kepler-1024 b,66,1,017
+Transit,8,Kepler-1025 b,37,716
+Transit,8,Kepler-1026 b,37,389
+Transit,8,Kepler-1027 b,2,291
+Transit,8,Kepler-1028 b,3,633
+Transit,8,Kepler-1029 b,4,422
+Transit,8,Kepler-1030 b,19,795
+Transit,8,Kepler-1031 b,1,741
+Transit,8,Kepler-1032 b,3,607
+Transit,8,Kepler-1033 b,8,1,425
+Transit,8,Kepler-1034 b,12,706
+Transit,8,Kepler-1035 b,3,408
+Transit,8,Kepler-1036 b,123,507
+Transit,8,Kepler-1037 b,1,451
+Transit,8,Kepler-1038 b,148,622
+Transit,8,Kepler-1039 b,1,324
+Transit,8,Kepler-1040 b,201,473
+Transit,8,Kepler-1041 b,25,979
+Transit,8,Kepler-1042 b,10,659
+Transit,8,Kepler-1043 b,39,838
+Transit,8,Kepler-1044 b,7,1,507
+Transit,8,Kepler-1045 b,26,971
+Transit,8,Kepler-1046 b,14,518
+Transit,8,Kepler-1047 b,56,566
+Transit,8,Kepler-1047 c,3,566
+Transit,8,Kepler-1048 b,7,415
+Transit,8,Kepler-1049 b,3,129
+Transit,8,Kepler-1050 b,15,555
+Transit,8,Kepler-1050 c,21,555
+Transit,8,Kepler-1051 b,26,1,021
+Transit,8,Kepler-1052 b,35,1,051
+Transit,8,Kepler-1053 b,2,171
+Transit,8,Kepler-1054 b,4,1,050
+Transit,8,Kepler-1055 b,2,422
+Transit,8,Kepler-1056 b,27,971
+Transit,8,Kepler-1057 b,14,1,462
+Transit,8,Kepler-1058 b,111,525
+Transit,8,Kepler-1059 b,4,673
+Transit,8,Kepler-1060 b,47,861
+Transit,8,Kepler-1061 b,3,585
+Transit,8,Kepler-1062 b,9,388
+Transit,8,Kepler-1063 b,14,365
+Transit,8,Kepler-1064 b,17,374
+Transit,8,Kepler-1065 b,4,1,078
+Transit,8,Kepler-1065 c,2,1,078
+Transit,8,Kepler-1066 b,2,399
+Transit,8,Kepler-1067 b,1,689
+Transit,8,Kepler-1068 b,17,1,532
+Transit,8,Kepler-1069 b,24,435
+Transit,8,Kepler-1070 b,6,1,040
+Transit,8,Kepler-1071 b,6,964
+Transit,8,Kepler-1072 b,2,976
+Transit,8,Kepler-1073 b,9,837
+Transit,8,Kepler-1073 c,4,837
+Transit,8,Kepler-1074 b,6,245
+Transit,8,Kepler-1075 b,2,265
+Transit,8,Kepler-1076 b,6,199
+Transit,8,Kepler-1077 b,34,1,098
+Transit,8,Kepler-1078 b,3,1,215
+Transit,8,Kepler-1079 b,13,481
+Transit,8,Kepler-1080 b,77,688
+Transit,8,Kepler-1081 b,4,425
+Transit,8,Kepler-1082 b,2,628
+Transit,8,Kepler-1083 b,33,912
+Transit,8,Kepler-1084 b,2,427
+Transit,8,Kepler-1085 b,219,1,518
+Transit,8,Kepler-1086 b,19,464
+Transit,8,Kepler-1086 c,162,464
+Transit,8,Kepler-1087 b,1,354
+Transit,8,Kepler-1088 b,23,300
+Transit,8,Kepler-1089 b,5,227
+Transit,8,Kepler-1090 b,199,702
+Transit,8,Kepler-1091 b,1,915
+Transit,8,Kepler-1092 b,59,914
+Transit,8,Kepler-1093 b,25,848
+Transit,8,Kepler-1093 c,90,848
+Transit,8,Kepler-1094 b,78,1,371
+Transit,8,Kepler-1095 b,4,758
+Transit,8,Kepler-1096 b,3,344
+Transit,8,Kepler-1097 b,188,738
+Transit,8,Kepler-1098 b,3,876
+Transit,8,Kepler-1099 b,2,1,209
+Transit,8,Kepler-1100 b,6,940
+Transit,8,Kepler-1101 b,81,897
+Transit,8,Kepler-1102 b,51,986
+Transit,8,Kepler-1103 b,20,921
+Transit,8,Kepler-1104 b,5,516
+Transit,8,Kepler-1105 b,4,369
+Transit,8,Kepler-1106 b,1,1,168
+Transit,8,Kepler-1107 b,1,457
+Transit,8,Kepler-1108 b,5,764
+Transit,8,Kepler-1109 b,38,797
+Transit,8,Kepler-1110 b,10,726
+Transit,8,Kepler-1111 b,9,1,142
+Transit,8,Kepler-1112 b,14,1,734
+Transit,8,Kepler-1113 b,42,1,127
+Transit,8,Kepler-1114 b,15,427
+Transit,8,Kepler-1115 b,24,935
+Transit,8,Kepler-1116 b,42,1,017
+Transit,8,Kepler-1117 b,5,619
+Transit,8,Kepler-1118 b,39,818
+Transit,8,Kepler-1119 b,8,1,288
+Transit,8,Kepler-1120 b,3,635
+Transit,8,Kepler-1121 b,13,529
+Transit,8,Kepler-1122 b,42,924
+Transit,8,Kepler-1123 b,4,796
+Transit,8,Kepler-1124 b,3,177
+Transit,8,Kepler-1125 b,18,910
+Transit,8,Kepler-1126 b,109,668
+Transit,8,Kepler-1127 b,5,996
+Transit,8,Kepler-1128 b,62,1,163
+Transit,8,Kepler-1129 b,24,1,258
+Transit,8,Kepler-1129 c,77,1,258
+Transit,8,Kepler-1130 b,5,234
+Transit,8,Kepler-1131 b,4,1,109
+Transit,8,Kepler-1132 b,63,940
+Transit,8,Kepler-1133 b,12,821
+Transit,8,Kepler-1134 b,17,997
+Transit,8,Kepler-1135 b,77,728
+Transit,8,Kepler-1136 b,2,545
+Transit,8,Kepler-1137 b,24,971
+Transit,8,Kepler-1138 b,3,1,101
+Transit,8,Kepler-1139 b,1,555
+Transit,8,Kepler-1140 b,24,657
+Transit,8,Kepler-1141 b,2,365
+Transit,8,Kepler-1142 b,18,697
+Transit,8,Kepler-1143 b,3,632
+Transit,8,Kepler-1143 c,211,632
+Transit,8,Kepler-1144 b,17,1,012
+Transit,8,Kepler-1145 b,4,714
+Transit,8,Kepler-1146 b,2,694
+Transit,8,Kepler-1147 b,11,1,476
+Transit,8,Kepler-1148 b,1,682
+Transit,8,Kepler-1149 b,4,1,023
+Transit,8,Kepler-1150 b,3,373
+Transit,8,Kepler-1151 b,66,763
+Transit,8,Kepler-1152 b,2,184
+Transit,8,Kepler-1153 b,2,1,185
+Transit,8,Kepler-1154 b,5,1,531
+Transit,8,Kepler-1154 c,8,1,531
+Transit,8,Kepler-1155 b,33,987
+Transit,8,Kepler-1156 b,12,759
+Transit,8,Kepler-1157 b,4,346
+Transit,8,Kepler-1158 b,14,1,258
+Transit,8,Kepler-1159 b,23,1,238
+Transit,8,Kepler-1160 b,8,1,293
+Transit,8,Kepler-1161 b,11,428
+Transit,8,Kepler-1162 b,33,989
+Transit,8,Kepler-1163 b,6,487
+Transit,8,Kepler-1164 b,4,447
+Transit,8,Kepler-1165 b,9,1,081
+Transit,8,Kepler-1166 b,33,648
+Transit,8,Kepler-1167 b,1,811
+Transit,8,Kepler-1168 b,56,911
+Transit,8,Kepler-1169 b,6,538
+Transit,8,Kepler-1170 b,10,911
+Transit,8,Kepler-1171 b,1,615
+Transit,8,Kepler-1172 b,26,1,292
+Transit,8,Kepler-1173 b,1,402
+Transit,8,Kepler-1174 b,7,829
+Transit,8,Kepler-1175 b,38,1,244
+Transit,8,Kepler-1176 b,24,1,023
+Transit,8,Kepler-1177 b,106,829
+Transit,8,Kepler-1178 b,32,336
+Transit,8,Kepler-1179 b,3,454
+Transit,8,Kepler-1180 b,17,1,284
+Transit,8,Kepler-1181 b,5,867
+Transit,8,Kepler-1182 b,11,1,258
+Transit,8,Kepler-1183 b,29,1,378
+Transit,8,Kepler-1184 b,54,1,193
+Transit,8,Kepler-1185 b,104,296
+Transit,8,Kepler-1186 b,16,1,112
+Transit,8,Kepler-1187 b,19,1,029
+Transit,8,Kepler-1188 b,17,1,202
+Transit,8,Kepler-1189 b,4,883
+Transit,8,Kepler-1190 b,10,384
+Transit,8,Kepler-1191 b,6,876
+Transit,8,Kepler-1192 b,25,1,108
+Transit,8,Kepler-1193 b,3,695
+Transit,8,Kepler-1194 b,16,616
+Transit,8,Kepler-1195 b,8,812
+Transit,8,Kepler-1196 b,66,946
+Transit,8,Kepler-1197 b,2,505
+Transit,8,Kepler-1198 b,8,777
+Transit,8,Kepler-1199 b,15,540
+Transit,8,Kepler-1200 b,1,579
+Transit,8,Kepler-1201 b,15,1,202
+Transit,8,Kepler-1202 b,29,1,393
+Transit,8,Kepler-1203 b,1,269
+Transit,8,Kepler-1204 b,86,1,282
+Transit,8,Kepler-1205 b,1,766
+Transit,8,Kepler-1206 b,1,807
+Transit,8,Kepler-1207 b,14,946
+Transit,8,Kepler-1208 b,11,877
+Transit,8,Kepler-1209 b,25,558
+Transit,8,Kepler-1210 b,8,1,155
+Transit,8,Kepler-1211 b,11,1,486
+Transit,8,Kepler-1212 b,13,1,304
+Transit,8,Kepler-1213 b,5,685
+Transit,8,Kepler-1214 b,19,757
+Transit,8,Kepler-1215 b,5,701
+Transit,8,Kepler-1216 b,4,1,124
+Transit,8,Kepler-1217 b,2,1,363
+Transit,8,Kepler-1218 b,23,667
+Transit,8,Kepler-1219 b,16,622
+Transit,8,Kepler-1220 b,7,958
+Transit,8,Kepler-1221 b,12,909
+Transit,8,Kepler-1222 b,2,455
+Transit,8,Kepler-1223 b,16,455
+Transit,8,Kepler-1224 b,13,578
+Transit,8,Kepler-1225 b,7,1,241
+Transit,8,Kepler-1226 b,17,779
+Transit,8,Kepler-1227 b,94,667
+Transit,8,Kepler-1228 b,1,547
+Transit,8,Kepler-1229 b,87,236
+Transit,8,Kepler-1230 b,10,1,433
+Transit,8,Kepler-1231 b,10,948
+Transit,8,Kepler-1232 b,27,740
+Transit,8,Kepler-1233 b,45,1,281
+Transit,8,Kepler-1234 b,12,866
+Transit,8,Kepler-1235 b,4,533
+Transit,8,Kepler-1236 b,31,1,078
+Transit,8,Kepler-1237 b,85,1,121
+Transit,8,Kepler-1238 b,4,1,533
+Transit,8,Kepler-1239 b,5,2,511
+Transit,8,Kepler-1240 b,5,614
+Transit,8,Kepler-1241 b,19,936
+Transit,8,Kepler-1242 b,14,682
+Transit,8,Kepler-1243 b,17,877
+Transit,8,Kepler-1244 b,4,764
+Transit,8,Kepler-1245 b,4,861
+Transit,8,Kepler-1245 c,3,861
+Transit,8,Kepler-1246 b,11,435
+Transit,8,Kepler-1247 b,14,1,094
+Transit,8,Kepler-1248 b,7,540
+Transit,8,Kepler-1249 b,24,1,674
+Transit,8,Kepler-1250 b,3,1,371
+Transit,8,Kepler-1251 b,45,863
+Transit,8,Kepler-1252 b,15,828
+Transit,8,Kepler-1253 b,69,390
+Transit,8,Kepler-1254 b,10,676
+Transit,8,Kepler-1254 c,4,676
+Transit,8,Kepler-1254 d,6,676
+Transit,8,Kepler-1255 b,36,1,344
+Transit,8,Kepler-1256 b,12,862
+Transit,8,Kepler-1257 b,3,1,081
+Transit,8,Kepler-1258 b,1,651
+Transit,8,Kepler-1259 b,1,704
+Transit,8,Kepler-1260 b,19,1,041
+Transit,8,Kepler-1261 b,48,795
+Transit,8,Kepler-1262 b,9,1,153
+Transit,8,Kepler-1263 b,5,695
+Transit,8,Kepler-1264 b,1,814
+Transit,8,Kepler-1265 b,6,581
+Transit,8,Kepler-1266 b,28,901
+Transit,8,Kepler-1267 b,13,1,628
+Transit,8,Kepler-1268 b,41,1,406
+Transit,8,Kepler-1269 b,37,710
+Transit,8,Kepler-1270 b,6,1,204
+Transit,8,Kepler-1271 b,3,885
+Transit,8,Kepler-1272 b,51,896
+Transit,8,Kepler-1273 b,29,1,355
+Transit,8,Kepler-1274 b,7,609
+Transit,8,Kepler-1275 b,4,1,280
+Transit,8,Kepler-1276 b,13,587
+Transit,8,Kepler-1277 b,41,606
+Transit,8,Kepler-1278 b,3,743
+Transit,8,Kepler-1279 b,23,1,017
+Transit,8,Kepler-1280 b,67,1,006
+Transit,8,Kepler-1281 b,3,1,090
+Transit,8,Kepler-1282 b,2,1,126
+Transit,8,Kepler-1283 b,13,1,452
+Transit,8,Kepler-1284 b,1,852
+Transit,8,Kepler-1285 b,15,364
+Transit,8,Kepler-1286 b,11,1,150
+Transit,8,Kepler-1287 b,11,1,027
+Transit,8,Kepler-1288 b,3,715
+Transit,8,Kepler-1289 b,8,1,059
+Transit,8,Kepler-1290 b,5,1,321
+Transit,8,Kepler-1291 b,9,982
+Transit,8,Kepler-1292 b,3,1,406
+Transit,8,Kepler-1293 b,6,770
+Transit,8,Kepler-1294 b,116,1,120
+Transit,8,Kepler-1295 b,4,1,257
+Transit,8,Kepler-1296 b,8,631
+Transit,8,Kepler-1297 b,2,996
+Transit,8,Kepler-1298 b,7,498
+Transit,8,Kepler-1299 b,20,1,352
+Transit,8,Kepler-1300 b,22,757
+Transit,8,Kepler-1301 b,9,816
+Transit,8,Kepler-1302 b,9,727
+Transit,8,Kepler-1303 b,8,905
+Transit,8,Kepler-1304 b,16,682
+Transit,8,Kepler-1305 b,14,1,343
+Transit,8,Kepler-1306 b,16,1,130
+Transit,8,Kepler-1307 b,18,1,396
+Transit,8,Kepler-1308 b,2,73
+Transit,8,Kepler-1309 b,29,845
+Transit,8,Kepler-1310 b,1,583
+Transit,8,Kepler-1311 b,11,705
+Transit,8,Kepler-1311 c,3,705
+Transit,8,Kepler-1312 b,5,305
+Transit,8,Kepler-1313 b,4,187
+Transit,8,Kepler-1314 b,5,462
+Transit,8,Kepler-1315 b,1,505
+Transit,8,Kepler-1316 b,88,753
+Transit,8,Kepler-1317 b,1,734
+Transit,8,Kepler-1318 b,213,475
+Transit,8,Kepler-1319 b,3,114
+Transit,8,Kepler-1320 b,1,771
+Transit,8,Kepler-1321 b,11,547
+Transit,8,Kepler-1321 c,2,547
+Transit,8,Kepler-1322 b,1,1,217
+Transit,8,Kepler-1323 b,1,530
+Transit,8,Kepler-1324 b,4,522
+Transit,8,Kepler-1325 b,34,955
+Transit,8,Kepler-1326 b,42,910
+Transit,8,Kepler-1327 b,15,688
+Transit,8,Kepler-1328 b,5,630
+Transit,8,Kepler-1329 b,9,624
+Transit,8,Kepler-1330 b,10,939
+Transit,8,Kepler-1331 b,1,365
+Transit,8,Kepler-1332 b,12,515
+Transit,8,Kepler-1333 b,110,958
+Transit,8,Kepler-1334 b,16,1,047
+Transit,8,Kepler-1335 b,6,628
+Transit,8,Kepler-1336 b,23,822
+Transit,8,Kepler-1336 c,6,822
+Transit,8,Kepler-1337 b,24,588
+Transit,8,Kepler-1338 b,1,619
+Transit,8,Kepler-1339 b,1,267
+Transit,8,Kepler-1340 b,1,1,421
+Transit,8,Kepler-1341 b,133,466
+Transit,8,Kepler-1342 b,2,941
+Transit,8,Kepler-1343 b,3,1,307
+Transit,8,Kepler-1344 b,5,851
+Transit,8,Kepler-1345 b,45,1,164
+Transit,8,Kepler-1346 b,3,1,123
+Transit,8,Kepler-1347 b,14,321
+Transit,8,Kepler-1348 b,28,1,033
+Transit,8,Kepler-1349 b,2,260
+Transit,8,Kepler-1350 b,4,350
+Transit,8,Kepler-1350 c,2,350
+Transit,8,Kepler-1351 b,1,241
+Transit,8,Kepler-1352 b,2,637
+Transit,8,Kepler-1353 b,25,596
+Transit,8,Kepler-1354 b,77,1,057
+Transit,8,Kepler-1355 b,1,963
+Transit,8,Kepler-1356 b,1,881
+Transit,8,Kepler-1357 b,3,1,026
+Transit,8,Kepler-1358 b,7,558
+Transit,8,Kepler-1359 b,59,669
+Transit,8,Kepler-1360 b,41,1,405
+Transit,8,Kepler-1361 b,4,404
+Transit,8,Kepler-1362 b,136,767
+Transit,8,Kepler-1363 b,3,559
+Transit,8,Kepler-1364 b,13,1,149
+Transit,8,Kepler-1365 b,8,541
+Transit,8,Kepler-1365 c,5,541
+Transit,8,Kepler-1366 b,2,395
+Transit,8,Kepler-1367 b,2,357
+Transit,8,Kepler-1368 b,1,1,750
+Transit,8,Kepler-1369 b,26,1,236
+Transit,8,Kepler-1370 b,20,878
+Transit,8,Kepler-1370 c,7,878
+Transit,8,Kepler-1371 b,3,450
+Transit,8,Kepler-1371 c,2,450
+Transit,8,Kepler-1372 b,1,1,161
+Transit,8,Kepler-1373 b,1,1,112
+Transit,8,Kepler-1374 b,11,1,135
+Transit,8,Kepler-1375 b,3,1,238
+Transit,8,Kepler-1376 b,5,864
+Transit,8,Kepler-1377 b,1,1,019
+Transit,8,Kepler-1378 b,12,562
+Transit,8,Kepler-1379 b,1,951
+Transit,8,Kepler-1380 b,10,1,209
+Transit,8,Kepler-1381 b,25,1,306
+Transit,8,Kepler-1382 b,16,730
+Transit,8,Kepler-1383 b,14,961
+Transit,8,Kepler-1384 b,15,618
+Transit,8,Kepler-1385 b,3,527
+Transit,8,Kepler-1386 b,7,838
+Transit,8,Kepler-1387 b,2,491
+Transit,8,Kepler-1388 b,12,492
+Transit,8,Kepler-1388 c,6,492
+Transit,8,Kepler-1388 d,21,492
+Transit,8,Kepler-1388 e,38,492
+Transit,8,Kepler-1389 b,99,521
+Transit,8,Kepler-1390 b,6,760
+Transit,8,Kepler-1391 b,54,721
+Transit,8,Kepler-1392 b,15,1,117
+Transit,8,Kepler-1393 b,2,462
+Transit,8,Kepler-1394 b,4,820
+Transit,8,Kepler-1395 b,4,507
+Transit,8,Kepler-1396 b,18,1,236
+Transit,8,Kepler-1397 b,47,770
+Transit,8,Kepler-1398 b,3,793
+Transit,8,Kepler-1398 c,4,793
+Transit,8,Kepler-1399 b,2,1,256
+Transit,8,Kepler-1400 b,9,879
+Transit,8,Kepler-1401 b,11,1,242
+Transit,8,Kepler-1402 b,2,681
+Transit,8,Kepler-1403 b,5,1,801
+Transit,8,Kepler-1404 b,16,946
+Transit,8,Kepler-1405 b,28,1,605
+Transit,8,Kepler-1406 b,12,587
+Transit,8,Kepler-1407 b,20,1,275
+Transit,8,Kepler-1408 b,3,426
+Transit,8,Kepler-1409 b,1,722
+Transit,8,Kepler-1410 b,61,367
+Transit,8,Kepler-1411 b,86,1,431
+Transit,8,Kepler-1412 b,4,639
+Transit,8,Kepler-1413 b,13,1,162
+Transit,8,Kepler-1414 b,4,534
+Transit,8,Kepler-1415 b,1,1,066
+Transit,8,Kepler-1416 b,1,807
+Transit,8,Kepler-1417 b,20,656
+Transit,8,Kepler-1418 b,22,499
+Transit,8,Kepler-1419 b,43,1,444
+Transit,8,Kepler-1420 b,7,923
+Transit,8,Kepler-1421 b,7,675
+Transit,8,Kepler-1422 b,19,2,081
+Transit,8,Kepler-1423 b,24,449
+Transit,8,Kepler-1424 b,30,620
+Transit,8,Kepler-1425 b,14,499
+Transit,8,Kepler-1426 b,14,1,211
+Transit,8,Kepler-1427 b,1,1,220
+Transit,8,Kepler-1428 b,11,802
+Transit,8,Kepler-1429 b,4,1,156
+Transit,8,Kepler-1430 b,2,541
+Transit,8,Kepler-1431 b,6,1,270
+Transit,8,Kepler-1432 b,24,1,552
+Transit,8,Kepler-1433 b,4,1,328
+Transit,8,Kepler-1434 b,8,680
+Transit,8,Kepler-1435 b,4,681
+Transit,8,Kepler-1436 b,10,1,142
+Transit,8,Kepler-1437 b,11,1,182
+Transit,8,Kepler-1438 b,2,866
+Transit,8,Kepler-1439 b,8,215
+Transit,8,Kepler-1440 b,40,685
+Transit,8,Kepler-1441 b,39,751
+Transit,8,Kepler-1442 b,81,525
+Transit,8,Kepler-1443 b,2,475
+Transit,8,Kepler-1444 b,33,340
+Transit,8,Kepler-1445 b,11,482
+Transit,8,Kepler-1446 b,1,162
+Transit,8,Kepler-1447 b,57,871
+Transit,8,Kepler-1448 b,12,786
+Transit,8,Kepler-1449 b,13,1,321
+Transit,8,Kepler-1450 b,55,490
+Transit,8,Kepler-1451 b,36,1,159
+Transit,8,Kepler-1452 b,43,974
+Transit,8,Kepler-1453 b,47,1,284
+Transit,8,Kepler-1454 b,47,795
+Transit,8,Kepler-1455 b,49,392
+Transit,8,Kepler-1456 b,18,379
+Transit,8,Kepler-1457 b,51,728
+Transit,8,Kepler-1458 b,48,642
+Transit,8,Kepler-1459 b,63,435
+Transit,8,Kepler-1460 b,30,574
+Transit,8,Kepler-1461 b,29,752
+Transit,8,Kepler-1462 b,66,1,368
+Transit,8,Kepler-1463 b,25,1,341
+Transit,8,Kepler-1464 b,32,692
+Transit,8,Kepler-1464 c,5,692
+Transit,8,Kepler-1465 b,32,350
+Transit,8,Kepler-1466 b,31,686
+Transit,8,Kepler-1467 b,47,890
+Transit,8,Kepler-1468 b,8,1,130
+Transit,8,Kepler-1468 c,4,1,130
+Transit,8,Kepler-1469 b,22,1,255
+Transit,8,Kepler-1470 b,16,569
+Transit,8,Kepler-1471 b,4,1,059
+Transit,8,Kepler-1472 b,38,1,269
+Transit,8,Kepler-1473 b,14,625
+Transit,8,Kepler-1474 b,36,1,214
+Transit,8,Kepler-1475 b,82,1,714
+Transit,8,Kepler-1476 b,10,1,218
+Transit,8,Kepler-1477 b,12,525
+Transit,8,Kepler-1478 b,26,1,405
+Transit,8,Kepler-1479 b,15,619
+Transit,8,Kepler-1480 b,22,540
+Transit,8,Kepler-1481 b,6,493
+Transit,8,Kepler-1482 b,12,442
+Transit,8,Kepler-1483 b,10,1,327
+Transit,8,Kepler-1484 b,30,1,095
+Transit,8,Kepler-1485 b,20,550
+Transit,8,Kepler-1486 b,55,1,465
+Transit,8,Kepler-1487 b,7,1,094
+Transit,8,Kepler-1488 b,40,618
+Transit,8,Kepler-1489 b,82,870
+Transit,8,Kepler-1490 b,92,968
+Transit,8,Kepler-1491 b,17,1,312
+Transit,8,Kepler-1492 b,17,371
+Transit,8,Kepler-1493 b,15,572
+Transit,8,Kepler-1494 b,91,1,059
+Transit,8,Kepler-1495 b,85,1,307
+Transit,8,Kepler-1496 b,65,1,293
+Transit,8,Kepler-1497 b,9,1,122
+Transit,8,Kepler-1498 b,48,740
+Transit,8,Kepler-1499 b,44,310
+Transit,8,Kepler-1500 b,15,904
+Transit,8,Kepler-1501 b,15,888
+Transit,8,Kepler-1502 b,42,1,540
+Transit,8,Kepler-1503 b,96,850
+Transit,8,Kepler-1504 b,82,1,029
+Transit,8,Kepler-1505 b,31,359
+Transit,8,Kepler-1506 b,14,1,318
+Transit,8,Kepler-1507 b,16,342
+Transit,8,Kepler-1508 b,21,892
+Transit,8,Kepler-1509 b,25,1,277
+Transit,8,Kepler-1510 b,85,1,615
+Transit,8,Kepler-1511 b,23,897
+Transit,8,Kepler-1512 b,20,162
+Transit,8,Kepler-1513 b,161,384
+Transit,8,Kepler-1514 b,218,379
+Transit,8,Kepler-1515 b,214,504
+Transit,8,Kepler-1516 b,7,872
+Transit,8,Kepler-1517 b,6,869
+Transit,8,Kepler-1518 b,5,1,140
+Transit,8,Kepler-1519 b,241,858
+Transit,8,Kepler-1520 b,1,636
+Transit,8,Kepler-1521 b,47,227
+Transit,8,Kepler-1522 b,2,690
+Transit,8,Kepler-1523 b,1,918
+Transit,8,Kepler-1524 b,71,506
+Transit,8,Kepler-1525 b,2,396
+Transit,8,Kepler-1526 b,4,576
+Transit,8,Kepler-1527 b,160,1,560
+Transit,8,Kepler-1528 b,2,916
+Transit,8,Kepler-1529 b,5,683
+Transit,8,Kepler-1530 b,3,552
+Transit,8,Kepler-1530 c,5,552
+Transit,8,Kepler-1531 b,1,670
+Transit,8,Kepler-1532 b,1,824
+Transit,8,Kepler-1533 b,309,852
+Transit,8,Kepler-1534 b,6,1,107
+Transit,8,Kepler-1535 b,139,879
+Transit,8,Kepler-1536 b,365,401
+Transit,8,Kepler-1537 b,1,503
+Transit,8,Kepler-1538 b,175,1,291
+Transit,8,Kepler-1539 b,133,788
+Transit,8,Kepler-1540 b,125,262
+Transit,8,Kepler-1541 b,8,414
+Transit,8,Kepler-1542 b,4,336
+Transit,8,Kepler-1542 c,3,336
+Transit,8,Kepler-1542 d,6,336
+Transit,8,Kepler-1542 e,5,336
+Transit,8,Kepler-1543 b,7,1,114
+Transit,8,Kepler-1544 b,169,349
+Transit,8,Kepler-1545 b,164,688
+Transit,8,Kepler-1546 b,20,994
+Transit,8,Kepler-1547 b,1,665
+Transit,8,Kepler-1548 b,125,1,150
+Transit,8,Kepler-1549 b,215,792
+Transit,8,Kepler-1550 b,226,1,202
+Transit,8,Kepler-1551 b,24,1,560
+Transit,8,Kepler-1552 b,185,618
+Transit,8,Kepler-1553 b,4,719
+Transit,8,Kepler-1554 b,198,982
+Transit,8,Kepler-1555 b,8,1,382
+Transit,8,Kepler-1556 b,9,1,060
+Transit,8,Kepler-1557 b,4,1,532
+Transit,8,Kepler-1558 b,4,343
+Transit,8,Kepler-1559 b,1,580
+Transit,8,Kepler-1560 b,3,529
+Transit,8,Kepler-1561 b,1,993
+Transit,8,Kepler-1562 b,64,1,315
+Transit,8,Kepler-1563 b,3,547
+Transit,8,Kepler-1564 b,18,872
+Transit,8,Kepler-1565 b,2,657
+Transit,8,Kepler-1566 b,1,511
+Transit,8,Kepler-1567 b,154,1,226
+Transit,8,Kepler-1568 b,21,883
+Transit,8,Kepler-1569 b,6,1,050
+Transit,8,Kepler-1570 b,27,463
+Transit,8,Kepler-1571 b,3,802
+Transit,8,Kepler-1572 b,5,600
+Transit,8,Kepler-1573 b,3,1,180
+Transit,8,Kepler-1574 b,7,1,275
+Transit,8,Kepler-1575 b,3,1,170
+Transit,8,Kepler-1576 b,7,539
+Transit,8,Kepler-1577 b,6,543
+Transit,8,Kepler-1578 b,1,1,016
+Transit,8,Kepler-1579 b,1,466
+Transit,8,Kepler-1580 b,57,872
+Transit,8,Kepler-1581 b,6,443
+Transit,8,Kepler-1582 b,5,112
+Transit,8,Kepler-1583 b,9,357
+Transit,8,Kepler-1584 b,13,1,325
+Transit,8,Kepler-1585 b,4,1,269
+Transit,8,Kepler-1586 b,16,864
+Transit,8,Kepler-1587 b,9,907
+Transit,8,Kepler-1588 b,8,658
+Transit,8,Kepler-1589 b,1,1,418
+Transit,8,Kepler-1590 b,8,900
+Transit,8,Kepler-1591 b,8,1,090
+Transit,8,Kepler-1592 b,3,1,349
+Transit,8,Kepler-1593 b,175,755
+Transit,8,Kepler-1594 b,3,1,100
+Transit,8,Kepler-1595 b,5,841
+Transit,8,Kepler-1596 b,66,1,166
+Transit,8,Kepler-1597 b,3,1,255
+Transit,8,Kepler-1598 b,4,734
+Transit,8,Kepler-1599 b,122,1,004
+Transit,8,Kepler-1600 b,386,992
+Transit,8,Kepler-1601 b,2,660
+Transit,8,Kepler-1602 b,11,815
+Transit,8,Kepler-1603 b,2,1,751
+Transit,8,Kepler-1604 b,1,562
+Transit,8,Kepler-1605 b,86,224
+Transit,8,Kepler-1606 b,196,880
+Transit,8,Kepler-1607 b,14,735
+Transit,8,Kepler-1608 b,16,832
+Transit,8,Kepler-1609 b,114,1,483
+Transit,8,Kepler-1610 b,9,1,063
+Transit,8,Kepler-1611 b,5,686
+Transit,8,Kepler-1612 b,4,837
+Transit,8,Kepler-1613 b,2,855
+Transit,8,Kepler-1614 b,4,982
+Transit,8,Kepler-1615 b,47,940
+Transit,8,Kepler-1616 b,7,862
+Transit,8,Kepler-1617 b,27,813
+Transit,8,Kepler-1618 b,6,1,238
+Transit,8,Kepler-1619 b,24,520
+Transit,8,Kepler-1620 b,102,773
+Transit,8,Kepler-1621 b,92,1,461
+Transit,8,Kepler-1622 b,11,927
+Transit,8,Kepler-1623 b,4,986
+Transit,8,Kepler-1624 b,3,199
+Transit,8,Kepler-1625 b,287,1,213
+Transit,8,Kepler-1626 b,4,1,718
+Transit,8,Kepler-1627 b,7,311
+Transit,8,Kepler-1628 b,76,352
+Transit,8,Kepler-1629 b,4,390
+Transit,8,Kepler-1630 b,510,278
+Transit,8,Kepler-1631 b,4,1,190
+Transit,8,Kepler-1632 b,448,584
+Transit,8,Kepler-1633 b,186,811
+Transit,8,Kepler-1634 b,375,654
+Transit,8,Kepler-1635 b,470,1,084
+Transit,8,Kepler-1636 b,425,1,567
+Transit,8,Kepler-1637 b,6,506
+Transit,8,Kepler-1638 b,259,879
+Transit,8,Kepler-1639 b,10,1,168
+Transit,8,Kepler-1640 b,8,1,379
+Transit,8,Kepler-1641 b,20,961
+Transit,8,Kepler-1641 c,33,961
+Transit,8,Kepler-1642 b,12,447
+Transit,8,Kepler-1642 c,7,447
+Transit,8,Kepler-1643 b,5,414
+Transit,8,Kepler-1644 b,21,592
+Transit,8,Kepler-1645 b,16,844
+Transit,8,Kepler-1646 b,4,81
+Transit,8,Kepler-1650 b,2,121
+Transit,8,Kepler-1651 b,10,69
+Transit,8,Kepler-1652 b,38,252
+Transit,8,Kepler-1653 b,140,755
+Transit,8,Kepler-1655 b,12,231
+Transit,8,KIC 5437945 b,441,848
+Transit,8,KOI-12 b,18,426
+Transit,8,KOI-13 b,2,415
+Transit,8,KOI-94 b,4,462
+Transit,8,KOI-94 c,10,462
+Transit,8,KOI-94 d,22,462
+Transit,8,KOI-94 e,54,462
+Transit,8,KOI-142 b,11,339
+Transit,8,KOI-217 b,4,800
+Transit,8,KOI-351 b,7,780
+Transit,8,KOI-351 c,9,780
+Transit,8,KOI-351 d,60,780
+Transit,8,KOI-351 e,92,780
+Transit,8,KOI-351 f,125,780
+Transit,8,KOI-351 g,211,780
+Transit,8,KOI-351 h,332,780
+Transit,8,KOI-351 i,14,780
+Transit,8,KOI-1257 b,87,900
+Transit,8,LHS 1140 b,25,12
+Transit,8,Lupus-TR-3 b,4,2,000
+Transit,8,MASCARA-1 b,2,189
+Transit,8,NGTS-1 b,3,224
+Transit,8,NGTS-3 A b,2,1,010
+Transit,8,OGLE-TR-113 b,1,600
+Transit,8,OGLE-TR-132 b,2,2,500
+Transit,8,PH1 b,138,1,000
+Transit,8,PH2 b,283,346
+Transit,8,POTS-1 b,3,1,200
+Transit,8,SWEEPS-4 b,4,8,500
+Transit,8,SWEEPS-11 b,2,8,500
+Transit,8,TRAPPIST-1 b,2,12
+Transit,8,TRAPPIST-1 c,2,12
+Transit,8,TRAPPIST-1 d,4,12
+Transit,8,TRAPPIST-1 e,6,12
+Transit,8,TRAPPIST-1 f,9,12
+Transit,8,TRAPPIST-1 g,12,12
+Transit,8,TRAPPIST-1 h,19,12
+Transit,8,TrES-1 b,3,150
+Transit,8,TrES-2 b,2,213
+Transit,8,TrES-3 b,1,228
+Transit,8,TrES-4 b,4,492
+Transit,8,TrES-5 b,1,360
+Transit,8,WASP-1 b,3,408
+Transit,8,WASP-2 b,2,166
+Transit,8,WASP-3 b,3,220
+Transit,8,WASP-4 b,2,300
+Transit,8,WASP-5 b,2,300
+Transit,8,WASP-7 b,5,140
+Transit,8,WASP-8 b,3,87
+Transit,8,WASP-10 b,3,90
+Transit,8,WASP-11 b,4,122
+Transit,8,WASP-13 b,4,155
+Transit,8,WASP-14 b,2,160
+Transit,8,WASP-16 b,3,208
+Transit,8,WASP-17 b,4,400
+Transit,8,WASP-18 b,1,105
+Transit,8,WASP-19 b,1,250
+Transit,8,WASP-20 b,5,210
+Transit,8,WASP-21 b,4,242
+Transit,8,WASP-22 b,4,300
+Transit,8,WASP-24 b,2,338
+Transit,8,WASP-25 b,4,193
+Transit,8,WASP-26 b,3,250
+Transit,8,WASP-28 b,3,410
+Transit,8,WASP-29 b,4,70
+Transit,8,WASP-31 b,3,360
+Transit,8,WASP-32 b,3,232
+Transit,8,WASP-33 b,1,116
+Transit,8,WASP-34 b,4,120
+Transit,8,WASP-36 b,2,450
+Transit,8,WASP-37 b,4,343
+Transit,8,WASP-38 b,7,110
+Transit,8,WASP-39 b,4,230
+Transit,8,WASP-41 b,3,180
+Transit,8,WASP-42 b,5,160
+Transit,8,WASP-43 b,1,80
+Transit,8,WASP-45 b,3,225
+Transit,8,WASP-47 b,4,200
+Transit,8,WASP-47 d,9,200
+Transit,8,WASP-47 e,1,200
+Transit,8,WASP-49 b,3,170
+Transit,8,WASP-50 b,2,230
+Transit,8,WASP-52 b,2,140
+Transit,8,WASP-54 b,4,200
+Transit,8,WASP-55 b,4,330
+Transit,8,WASP-56 b,5,255
+Transit,8,WASP-57 b,3,455
+Transit,8,WASP-58 b,5,300
+Transit,8,WASP-59 b,8,125
+Transit,8,WASP-60 b,4,400
+Transit,8,WASP-61 b,4,480
+Transit,8,WASP-62 b,4,160
+Transit,8,WASP-63 b,4,330
+Transit,8,WASP-64 b,2,350
+Transit,8,WASP-65 b,2,310
+Transit,8,WASP-66 b,4,380
+Transit,8,WASP-67 b,5,225
+Transit,8,WASP-68 b,5,245
+Transit,8,WASP-69 b,4,50
+Transit,8,WASP-70 A b,4,245
+Transit,8,WASP-71 b,3,345
+Transit,8,WASP-72 b,2,340
+Transit,8,WASP-73 b,4,363
+Transit,8,WASP-74 b,2,120
+Transit,8,WASP-75 b,2,260
+Transit,8,WASP-76 b,2,120
+Transit,8,WASP-77 A b,1,93
+Transit,8,WASP-78 b,2,550
+Transit,8,WASP-79 b,4,240
+Transit,8,WASP-80 b,3,60
+Transit,8,WASP-82 b,3,200
+Transit,8,WASP-83 b,5,300
+Transit,8,WASP-84 b,9,125
+Transit,8,WASP-88 b,5,482
+Transit,8,WASP-90 b,4,340
+Transit,8,WASP-91 b,3,151
+Transit,8,WASP-92 b,2,530
+Transit,8,WASP-93 b,3,250
+Transit,8,WASP-94 A b,4,180
+Transit,8,WASP-95 b,2,141
+Transit,8,WASP-97 b,2,146
+Transit,8,WASP-99 b,6,155
+Transit,8,WASP-100 b,3,332
+Transit,8,WASP-101 b,4,198
+Transit,8,WASP-103 b,1,470
+Transit,8,WASP-104 b,2,143
+Transit,8,WASP-106 b,9,283
+Transit,8,WASP-113 b,5,360
+Transit,8,WASP-114 b,2,460
+Transit,8,WASP-117 b,10,156
+Transit,8,WASP-119 b,2,333
+Transit,8,WASP-120 b,4,437
+Transit,8,WASP-121 b,1,270
+Transit,8,WASP-123 b,3,214
+Transit,8,WASP-124 b,3,433
+Transit,8,WASP-126 b,3,234
+Transit,8,WASP-127 b,4,102
+Transit,8,WASP-129 b,6,246
+Transit,8,WASP-130 b,12,180
+Transit,8,WASP-131 b,5,250
+Transit,8,WASP-132 b,7,120
+Transit,8,WASP-133 b,2,547
+Transit,8,WASP-135 b,1,300
+Transit,8,WASP-136 b,5,164
+Transit,8,WASP-138 b,4,308
+Transit,8,WASP-139 b,6,230
+Transit,8,WASP-140 b,2,180
+Transit,8,WASP-141 b,3,570
+Transit,8,WASP-142 b,2,840
+Transit,8,WASP-153 b,3,430
+Transit,8,WASP-156 b,4,140
+Transit,8,WASP-167 b,2,381
+Transit,8,WTS-1 b,3,3,200
+Transit,8,WTS-2 b,1,1,000
+Transit,8,XO-1 b,4,172
+Transit,8,XO-2 N b,3,146
+Transit,8,XO-3 b,3,174
+Transit,8,XO-4 b,4,293
+Transit,8,XO-5 b,4,260
+Transit,8,XO-6 b,4,233
+Transit Timing Variations,9,Kepler-19 c,29,2,119
+Transit Timing Variations,9,Kepler-37 e,51,66
+Transit Timing Variations,9,Kepler-46 c,57,855
+Transit Timing Variations,9,Kepler-122 f,56,946
+Transit Timing Variations,9,Kepler-338 e,9,568
+Transit Timing Variations,9,Kepler-414 b,5,440
+Transit Timing Variations,9,Kepler-414 c,7,440
+Transit Timing Variations,9,Kepler-415 b,4,617
+Transit Timing Variations,9,Kepler-415 c,9,617
+Transit Timing Variations,9,Kepler-416 b,6,711
+Transit Timing Variations,9,Kepler-416 c,12,711
+Transit Timing Variations,9,Kepler-417 b,12,981
+Transit Timing Variations,9,Kepler-417 c,16,981
+Transit Timing Variations,9,Kepler-419 c,675,872
+Transit Timing Variations,9,KOI-142 c,22,339

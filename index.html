@@ -53,13 +53,13 @@
 		d.distance = +d.distance;
 	});
 
-	x.domain(d3.extent(data, function(d){
+	x.domain([0.01, d3.extent(data, function(d){
 		return d.period;
-	})).nice();
+	})]).nice();
 
-	y.domain(d3.extent(data, function(d){
+	y.domain([1,d3.extent(data, function(d){
 		return d.distance;
-	})).nice();
+	})]).nice();
   
 	svg.append('g')
 		.attr('transform', 'translate(0,' + height + ')')

@@ -148,7 +148,8 @@
 	  if (error) throw error;
 
 	  var root = d3.hierarchy({children: classes})
-		  .sum(function(d) { return d.mass; });
+		  .sum(function(d) { 
+			return d.mass; });
 		  <!-- .each(function(d) { -->
 			<!-- if (id = d.data.id) { -->
 			  <!-- var id, i = id.lastIndexOf("."); -->
@@ -165,7 +166,7 @@
 		  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
 	  node.append("circle")
-		  .attr("id", function(d) { return d.id; })
+		  .attr("id", function(d) { return d.name; })
 		  .attr("r", function(d) { return d.r; })
 		  .style("fill", function(d) { return color(d.method); });
 
@@ -184,7 +185,8 @@
 		  <!-- .text(function(d) { return d; }); -->
 
 	  node.append("title")
-		  .text(function(d) { return 'Name: ' + d.name + "\nMass (Jupiter Masses):" + d.mass; });
+		  .text(function(d) { 
+			return 'Name: ' + d.name + "\nMass (Jupiter Masses):" + d.mass; });
 	});
   </script>
 </html>

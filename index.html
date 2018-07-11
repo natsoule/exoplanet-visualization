@@ -14,7 +14,7 @@
   <script>
   
 	/*scatter plot viz*/
-	var margin = {top: 20, right: 20, bottom: 30, left: 40},
+	/*var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -40,10 +40,6 @@
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-	<!-- var tooltip = d3.select("body").append("div") -->
-					<!-- .attr("class", "tooltip") -->
-					<!-- .style("opacity", 0); -->
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		data.forEach(function(d){
@@ -91,7 +87,7 @@
 		.style("fill", function(d) { return color(d.method); })
 		.attr("transform", function(d) { 
 			return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
-    });
+		});
   
 	var clicked = ""
   
@@ -101,7 +97,7 @@
 		.attr("class", "legend")
 		.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-	  legend.append("path")
+	legend.append("path")
 		.style("fill", function(d) { return color(d); })
 		.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
 		.attr("transform", function(d, i) { 
@@ -109,27 +105,87 @@
 		})
 		.on("click",function(d){
 		
-	d3.selectAll(".symbol").style("opacity",1)
-   
-	if (clicked !== d){
-		d3.selectAll(".symbol")
-			.filter(function(e){
-			return e.method !== d;
-		 })
-		.style("opacity",0.1)
-		 clicked = d
-   }
-    else{
-      clicked = ""
-    }
-  });
+			d3.selectAll(".symbol").style("opacity",1)
+		   
+			if (clicked !== d) {
+				d3.selectAll(".symbol")
+					.filter(function(e){
+						return e.method !== d;
+				 })
+				.style("opacity",0.1)
+				 clicked = d
+		   }
+			else{
+			  clicked = ""
+			}
+	  });
  
-  legend.append("text")
-      .attr("x", width - 24)
-      .attr("y", 9)
-      .attr("dy", ".35em")
-      .style("text-anchor", "end")
-      .text(function(d) { return d; });
+	legend.append("text")
+	  .attr("x", width - 24)
+	  .attr("y", 9)
+	  .attr("dy", ".35em")
+	  .style("text-anchor", "end")
+	  .text(function(d) { return d; });*/
+	  
+	  
+	/*Bubble chart viz*/
+	var svg = d3.select("svg"),
+    var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+	//var format = d3.format(",d");
+
+	var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+	var pack = d3.pack()
+		.size([width, height])
+		.padding(1.5);
+		
+	d3.csv("exoplanets_size.csv", function(d) {
+	  d.mass = +d.mass;
+	}, function(error, classes) {
+	  if (error) throw error;
+
+	  var root = d3.hierarchy({children: classes})
+		  .sum(function(d) { return d.mass; });
+		  <!-- .each(function(d) { -->
+			<!-- if (id = d.data.id) { -->
+			  <!-- var id, i = id.lastIndexOf("."); -->
+			  <!-- d.id = id; -->
+			  <!-- d.package = id.slice(0, i); -->
+			  <!-- d.class = id.slice(i + 1); -->
+			<!-- } -->
+		  <!-- }); -->
+
+	  var node = svg.selectAll(".node")
+		.data(pack(root).leaves())
+		.enter().append("g")
+		  .attr("class", "node")
+		  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+	  node.append("circle")
+		  .attr("id", function(d) { return d.id; })
+		  .attr("r", function(d) { return d.r; })
+		  .style("fill", function(d) { return color(d.method); });
+
+	  <!-- node.append("clipPath") -->
+		  <!-- .attr("id", function(d) { return "clip-" + d.id; }) -->
+		<!-- .append("use") -->
+		  <!-- .attr("xlink:href", function(d) { return "#" + d.id; }); -->
+
+	  <!-- node.append("text") -->
+		  <!-- .attr("clip-path", function(d) { return "url(#clip-" + d.id + ")"; }) -->
+		<!-- .selectAll("tspan") -->
+		<!-- .data(function(d) { return d.class.split(/(?=[A-Z][^A-Z])/g); }) -->
+		<!-- .enter().append("tspan") -->
+		  <!-- .attr("x", 0) -->
+		  <!-- .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; }) -->
+		  <!-- .text(function(d) { return d; }); -->
+
+	  node.append("title")
+		  .text(function(d) { return 'Name: ' d.name + "\nMass (Jupiter Masses):" + d.mass; });
+	});
 
 });
   </script>

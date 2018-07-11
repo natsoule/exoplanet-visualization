@@ -164,12 +164,16 @@
 		.data(pack(root).leaves())
 		.enter().append("g")
 		  .attr("class", "node")
-		  .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+		  .attr("transform", function(d) { 
+				return "translate(" + d.x + "," + d.y + ")"; });
 
 	  node.append("circle")
-		  .attr("id", function(d) { return d.name; })
-		  .attr("r", function(d) { return d.r; })
-		  .style("fill", function(d) { return color(d.method); });
+		.attr("id", function(d) { 
+			return d.name; })
+		.attr("r", 
+			function(d) { return d.r; })
+		.style("fill", 
+			function(d) { return color(d.method); });
 
 	  <!-- node.append("clipPath") -->
 		  <!-- .attr("id", function(d) { return "clip-" + d.id; }) -->

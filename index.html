@@ -175,7 +175,7 @@
 		.attr("r", 
 			function(d) { return d.r; })
 		.style("fill", 
-			function(d) { return color(d.method); });
+			function(d) { return color(d.data.method); });
 
 	  <!-- node.append("clipPath") -->
 		  <!-- .attr("id", function(d) { return "clip-" + d.id; }) -->
@@ -193,7 +193,7 @@
 
 	  node.append("title")
 		  .text(function(d) { 
-			return 'Name: ' + d.name + "\nMass (Jupiter Masses):" + d.mass; });
+			return 'Name: ' + d.data.name + "\nMass (Jupiter Masses):" + d.data.mass; });
 	});
   </script>
 </html>

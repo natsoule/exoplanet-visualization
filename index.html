@@ -144,6 +144,7 @@
 		
 	d3.csv("exoplanets_size.csv", function(d) {
 	  d.mass = +d.mass;
+	  return d;
 	}, function(error, classes) {
 	  if (error) throw error;
 

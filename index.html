@@ -85,11 +85,12 @@
 		.attr("class", "symbol")
 		.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
 		.style("fill", function(d) { return color(d.method); })
+		.attr("title", function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nJupiter Masses: " + d.mass; })
 		.attr("transform", function(d) { 
 			return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
 		});
   
-	var clicked = ""
+	var clicked = "";
   
 	var legend = svg.selectall(".legend")
 		.data(color.domain())
@@ -105,18 +106,18 @@
 		})
 		.on("click",function(d){
 		
-			d3.selectall(".symbol").style("opacity",1)
+			d3.selectall(".symbol").style("opacity",1);
 		   
 			if (clicked !== d) {
 				d3.selectall(".symbol")
 					.filter(function(e){
 						return e.method !== d;
 				 })
-				.style("opacity",0.1)
-				 clicked = d
+				.style("opacity",0.1);
+				 clicked = d;
 		   }
 			else{
-			  clicked = ""
+			  clicked = "";
 			}
 	  });
  

@@ -42,7 +42,7 @@
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
-		data.foreach(function(d){
+		data.forEach(function(d){
 			d.method = d.method;
 			d.name  = d.name;
 			d.period = +d.period;

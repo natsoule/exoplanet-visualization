@@ -14,24 +14,24 @@
   <script>
   
 	/*scatter plot viz*/
-	/*var margin = {top: 20, right: 20, bottom: 30, left: 40},
+	var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-	var x = d3.scaleLog().base(10)
+	var x = d3.scalelog().base(10)
 		.range([0, width]);
 
-	var y = d3.scaleLog().base(10)
+	var y = d3.scalelog().base(10)
 		.range([height, 0]);
   
-	var xAxis = d3.axisBottom()
+	var xaxis = d3.axisbottom()
 		.scale(x);
 
-	var yAxis = d3.axisLeft()
+	var yaxis = d3.axisleft()
 		.scale(y);
   
-	var color = d3.scaleOrdinal(d3.schemeCategory20);
-	var symbols = d3.scaleOrdinal(d3.symbols);
+	var color = d3.scaleordinal(d3.schemecategory20);
+	var symbols = d3.scaleordinal(d3.symbols);
 
 	var symbol = d3.symbol().size(100);
   
@@ -42,7 +42,7 @@
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
-		data.forEach(function(d){
+		data.foreach(function(d){
 		d.method = d.method;
 		d.name  = d.name;
 		d.period = +d.period;
@@ -56,30 +56,30 @@
 	svg.append('g')
 		.attr('transform', 'translate(0,' + height + ')')
 		.attr('class', 'x axis')
-		.call(xAxis);
+		.call(xaxis);
 
 	svg.append('g')
 		.attr('transform', 'translate(0,0)')
 		.attr('class', 'y axis')
-		.call(yAxis);
+		.call(yaxis);
 
 	svg.append('text')
 		.attr('x', 10)
 		.attr('y', 10)
 		.attr('class', 'label')
-		.text('Orbital Period (days)');
+		.text('orbital period (days)');
 
 	svg.append('text')
 		.attr('x', width)
 		.attr('y', height - 10)
 		.attr('text-anchor', 'end')
 		.attr('class', 'label')
-		.text('Stellar Distance (parsecs)');
+		.text('stellar distance (parsecs)');
   	
 	// we use the ordinal scale symbols to generate symbols
-	// such as d3.symbolCross, etc..
-	// -> symbol.type(d3.symbolCross)()
-    svg.selectAll(".symbol")
+	// such as d3.symbolcross, etc..
+	// -> symbol.type(d3.symbolcross)()
+    svg.selectall(".symbol")
 		.data(data)
 		.enter().append("path")
 		.attr("class", "symbol")
@@ -91,7 +91,7 @@
   
 	var clicked = ""
   
-	var legend = svg.selectAll(".legend")
+	var legend = svg.selectall(".legend")
 		.data(color.domain())
 		.enter().append("g")
 		.attr("class", "legend")
@@ -105,10 +105,10 @@
 		})
 		.on("click",function(d){
 		
-			d3.selectAll(".symbol").style("opacity",1)
+			d3.selectall(".symbol").style("opacity",1)
 		   
 			if (clicked !== d) {
-				d3.selectAll(".symbol")
+				d3.selectall(".symbol")
 					.filter(function(e){
 						return e.method !== d;
 				 })
@@ -125,96 +125,96 @@
 	  .attr("y", 9)
 	  .attr("dy", ".35em")
 	  .style("text-anchor", "end")
-	  .text(function(d) { return d; });*/
+	  .text(function(d) { return d; });
 	  
 	  
 	/*Bubble chart viz*/
-    var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    <!-- var margin = {top: 20, right: 20, bottom: 30, left: 40}, -->
+    <!-- width = 960 - margin.left - margin.right, -->
+    <!-- height = 500 - margin.top - margin.bottom; -->
 
-	var svg = d3.select("body").append("svg")
-		.attr("width", width + margin.left + margin.right)
-		.attr("height", height + margin.top + margin.bottom)
-	//var format = d3.format(",d");
+	<!-- var svg = d3.select("body").append("svg") -->
+		<!-- .attr("width", width + margin.left + margin.right) -->
+		<!-- .attr("height", height + margin.top + margin.bottom) -->
+	<!-- //var format = d3.format(",d"); -->
 
-	var color = d3.scaleOrdinal(d3.schemeCategory20);
-	var symbol = d3.symbol().size(100);
+	<!-- var color = d3.scaleOrdinal(d3.schemeCategory20); -->
+	<!-- var symbol = d3.symbol().size(100); -->
 
-	var pack = d3.pack()
-		.size([width, height])
-		.padding(1.5);
+	<!-- var pack = d3.pack() -->
+		<!-- .size([width, height]) -->
+		<!-- .padding(1.5); -->
 		
-	d3.csv("exoplanets_size.csv", function(d) {
-	  d.mass = +d.mass;
-	  return d;
-	}, function(error, classes) {
-	  if (error) throw error;
+	<!-- d3.csv("exoplanets_size.csv", function(d) { -->
+	  <!-- d.mass = +d.mass; -->
+	  <!-- return d; -->
+	<!-- }, function(error, classes) { -->
+	  <!-- if (error) throw error; -->
 
-	  var root = d3.hierarchy({children: classes})
-		  .sum(function(d) { 
-			return d.mass; });
+	  <!-- var root = d3.hierarchy({children: classes}) -->
+		  <!-- .sum(function(d) {  -->
+			<!-- return d.mass; }); -->
 
-	  var node = svg.selectAll(".node")
-		.data(pack(root).leaves())
-		.enter().append("g")
-		  .attr("class", "node")
-		  .attr("transform", function(d) { 
-				return "translate(" + d.x + "," + d.y + ")"; });
+	  <!-- var node = svg.selectAll(".node") -->
+		<!-- .data(pack(root).leaves()) -->
+		<!-- .enter().append("g") -->
+		  <!-- .attr("class", "node") -->
+		  <!-- .attr("transform", function(d) {  -->
+				<!-- return "translate(" + d.x + "," + d.y + ")"; }); -->
 
-	  node.append("circle")
-		.attr("id", function(d) { 
-			return d.name; })
-		.attr("r", 
-			function(d) { return d.r; })
-		.style("fill", 
-			function(d) { return color(d.data.method); });
+	  <!-- node.append("circle") -->
+		<!-- .attr("id", function(d) {  -->
+			<!-- return d.name; }) -->
+		<!-- .attr("r",  -->
+			<!-- function(d) { return d.r; }) -->
+		<!-- .style("fill",  -->
+			<!-- function(d) { return color(d.data.method); }); -->
 
-	  node.append("title")
-		  .text(function(d) { 
-			return 'Name: ' + d.data.name + "\nMethod: " + d.data.method + "\nJupiter Masses: " + d.data.mass; });
-	});
+	  <!-- node.append("title") -->
+		  <!-- .text(function(d) {  -->
+			<!-- return 'Name: ' + d.data.name + "\nMethod: " + d.data.method + "\nJupiter Masses: " + d.data.mass; }); -->
+	<!-- }); -->
 	
-	var clicked = "";
+	<!-- var clicked = ""; -->
 	
-	//set timeout intorduces an async delay so the bubble chart can render first and populate the color domain before the legend gets calculated
-	setTimeout(function() {
-		var legend = svg.selectAll(".legend")
-			.data(color.domain())
-			.enter().append("g")
-			.attr("class", "legend")
-			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+	<!-- //set timeout intorduces an async delay so the bubble chart can render first and populate the color domain before the legend gets calculated -->
+	<!-- setTimeout(function() { -->
+		<!-- var legend = svg.selectAll(".legend") -->
+			<!-- .data(color.domain()) -->
+			<!-- .enter().append("g") -->
+			<!-- .attr("class", "legend") -->
+			<!-- .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; }); -->
 
-		legend.append("path")
-			.style("fill", function(d) { return color(d); })
-			//.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
-			.attr("d", function(d, i) { return symbol.type(d3.symbolCircle)(); })
-			.attr("transform", function(d, i) { 
-				return "translate(" + (width -50) + "," + 10 + ")";
-			})
-			.on("click",function(d){
+		<!-- legend.append("path") -->
+			<!-- .style("fill", function(d) { return color(d); }) -->
+			<!-- //.attr("d", function(d, i) { return symbol.type(symbols(d))(); }) -->
+			<!-- .attr("d", function(d, i) { return symbol.type(d3.symbolCircle)(); }) -->
+			<!-- .attr("transform", function(d, i) {  -->
+				<!-- return "translate(" + (width -50) + "," + 10 + ")"; -->
+			<!-- }) -->
+			<!-- .on("click",function(d){ -->
 			
-				d3.selectAll(".node").style("opacity",1);
+				<!-- d3.selectAll(".node").style("opacity",1); -->
 			   
-				if (clicked !== d) {
-					d3.selectAll(".node")
-						.filter(function(e){
-							return e.data.method !== d;
-					 })
-					.style("opacity",0.1);
-					 clicked = d;
-			   }
-				else{
-				  clicked = "";
-				}
-		  });
+				<!-- if (clicked !== d) { -->
+					<!-- d3.selectAll(".node") -->
+						<!-- .filter(function(e){ -->
+							<!-- return e.data.method !== d; -->
+					 <!-- }) -->
+					<!-- .style("opacity",0.1); -->
+					 <!-- clicked = d; -->
+			   <!-- } -->
+				<!-- else{ -->
+				  <!-- clicked = ""; -->
+				<!-- } -->
+		  <!-- }); -->
 	 
-		legend.append("text")
-		  .attr("x", width - 24)
-		  .attr("y", 9)
-		  .attr("dy", ".35em")
-		  //.style("text-anchor", "end")
-		  .text(function(d) { return d; });
-	}, 1000);
+		<!-- legend.append("text") -->
+		  <!-- .attr("x", width - 24) -->
+		  <!-- .attr("y", 9) -->
+		  <!-- .attr("dy", ".35em") -->
+		  <!-- //.style("text-anchor", "end") -->
+		  <!-- .text(function(d) { return d; }); -->
+	<!-- }, 1000); -->
   </script>
 </html>

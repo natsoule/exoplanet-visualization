@@ -194,14 +194,14 @@
 			})
 			.on("click",function(d){
 			
-				d3.selectall(".node").style("opacity",1)
+				d3.selectall(".node").style("opacity",1);
 			   
 				if (clicked !== d) {
 					d3.selectall(".node")
 						.filter(function(e){
 							return e.method !== d;
 					 })
-					.style("opacity",0.1)
+					.style("opacity",0.1);
 					 clicked = d;
 			   }
 				else{

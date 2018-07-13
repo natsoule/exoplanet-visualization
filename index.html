@@ -174,42 +174,43 @@
 			return 'Name: ' + d.data.name + "\nMethod: " + d.data.method + "\nJupiter Masses: " + d.data.mass; });
 	});
 	
-	var legend = svg.selectAll(".legend")
-		.data(color.domain())
-		.enter().append("g")
-		.attr("class", "legend")
-		.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+	setTimeout(function() {
+		var legend = svg.selectAll(".legend")
+			.data(color.domain())
+			.enter().append("g")
+			.attr("class", "legend")
+			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-	legend.append("path")
-		.style("fill", function(d) { return color(d); })
-		//.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
-		.attr("d", function(d, i) { return d3.symbolCircle; })
-		.attr("transform", function(d, i) { 
-			return "translate(" + (width -10) + "," + 10 + ")";
-		});
-		<!-- .on("click",function(d){ -->
-		
-			<!-- d3.selectAll(".symbol").style("opacity",1) -->
-		   
-			<!-- if (clicked !== d) { -->
-				<!-- d3.selectAll(".symbol") -->
-					<!-- .filter(function(e){ -->
-						<!-- return e.method !== d; -->
-				 <!-- }) -->
-				<!-- .style("opacity",0.1) -->
-				 <!-- clicked = d -->
-		   <!-- } -->
-			<!-- else{ -->
-			  <!-- clicked = "" -->
-			<!-- } -->
-	  <!-- }); -->
- 
-	legend.append("text")
-	  .attr("x", width - 24)
-	  .attr("y", 9)
-	  .attr("dy", ".35em")
-	  .style("text-anchor", "end")
-	  .text(function(d) { return d; })
-	  .call(d3.legend);
+		legend.append("path")
+			.style("fill", function(d) { return color(d); })
+			//.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
+			.attr("d", function(d, i) { return d3.symbolCircle; })
+			.attr("transform", function(d, i) { 
+				return "translate(" + (width -10) + "," + 10 + ")";
+			});
+			<!-- .on("click",function(d){ -->
+			
+				<!-- d3.selectAll(".symbol").style("opacity",1) -->
+			   
+				<!-- if (clicked !== d) { -->
+					<!-- d3.selectAll(".symbol") -->
+						<!-- .filter(function(e){ -->
+							<!-- return e.method !== d; -->
+					 <!-- }) -->
+					<!-- .style("opacity",0.1) -->
+					 <!-- clicked = d -->
+			   <!-- } -->
+				<!-- else{ -->
+				  <!-- clicked = "" -->
+				<!-- } -->
+		  <!-- }); -->
+	 
+		legend.append("text")
+		  .attr("x", width - 24)
+		  .attr("y", 9)
+		  .attr("dy", ".35em")
+		  .style("text-anchor", "end")
+		  .text(function(d) { return d; });
+	}, 1000);
   </script>
 </html>

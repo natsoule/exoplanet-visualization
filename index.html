@@ -199,7 +199,7 @@
 				if (clicked !== d) {
 					d3.selectAll(".node")
 						.filter(function(e){
-							return e.method !== d;
+							return e.data.method !== d;
 					 })
 					.style("opacity",0.1);
 					 clicked = d;

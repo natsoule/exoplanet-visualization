@@ -153,14 +153,6 @@
 	  var root = d3.hierarchy({children: classes})
 		  .sum(function(d) { 
 			return d.mass; });
-		  <!-- .each(function(d) { -->
-			<!-- if (id = d.data.id) { -->
-			  <!-- var id, i = id.lastIndexOf("."); -->
-			  <!-- d.id = id; -->
-			  <!-- d.package = id.slice(0, i); -->
-			  <!-- d.class = id.slice(i + 1); -->
-			<!-- } -->
-		  <!-- }); -->
 
 	  var node = svg.selectAll(".node")
 		.data(pack(root).leaves())
@@ -177,23 +169,46 @@
 		.style("fill", 
 			function(d) { return color(d.data.method); });
 
-	  <!-- node.append("clipPath") -->
-		  <!-- .attr("id", function(d) { return "clip-" + d.id; }) -->
-		<!-- .append("use") -->
-		  <!-- .attr("xlink:href", function(d) { return "#" + d.id; }); -->
-
-	  <!-- node.append("text") -->
-		  <!-- .attr("clip-path", function(d) { return "url(#clip-" + d.id + ")"; }) -->
-		<!-- .selectAll("tspan") -->
-		<!-- .data(function(d) { return d.class.split(/(?=[A-Z][^A-Z])/g); }) -->
-		<!-- .enter().append("tspan") -->
-		  <!-- .attr("x", 0) -->
-		  <!-- .attr("y", function(d, i, nodes) { return 13 + (i - nodes.length / 2 - 0.5) * 10; }) -->
-		  <!-- .text(function(d) { return d; }); -->
-
 	  node.append("title")
 		  .text(function(d) { 
-			return 'Name: ' + d.data.name + "\nMass (Jupiter Masses):" + d.data.mass; });
+			return 'Name: ' + d.data.name + "\nMethod: " + d.data.method + "\nJupiter Masses: " + d.data.mass; });
 	});
+	
+	var legend = svg.selectAll(".legend")
+		.data(color.domain())
+		.enter().append("g")
+		.attr("class", "legend")
+		.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+	legend.append("path")
+		.style("fill", function(d) { return color(d); })
+		//.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
+		.attr("d", function(d, i) { return d3.symbolCircle; })
+		.attr("transform", function(d, i) { 
+			return "translate(" + (width -10) + "," + 10 + ")";
+		});
+		<!-- .on("click",function(d){ -->
+		
+			<!-- d3.selectAll(".symbol").style("opacity",1) -->
+		   
+			<!-- if (clicked !== d) { -->
+				<!-- d3.selectAll(".symbol") -->
+					<!-- .filter(function(e){ -->
+						<!-- return e.method !== d; -->
+				 <!-- }) -->
+				<!-- .style("opacity",0.1) -->
+				 <!-- clicked = d -->
+		   <!-- } -->
+			<!-- else{ -->
+			  <!-- clicked = "" -->
+			<!-- } -->
+	  <!-- }); -->
+ 
+	legend.append("text")
+	  .attr("x", width - 24)
+	  .attr("y", 9)
+	  .attr("dy", ".35em")
+	  .style("text-anchor", "end")
+	  .text(function(d) { return d; });
   </script>
 </html>

@@ -175,6 +175,8 @@
 			return 'Name: ' + d.data.name + "\nMethod: " + d.data.method + "\nJupiter Masses: " + d.data.mass; });
 	});
 	
+	var clicked = "";
+	
 	//set timeout intorduces an async delay so the bubble chart can render first and populate the color domain before the legend gets calculated
 	setTimeout(function() {
 		var legend = svg.selectAll(".legend")
@@ -188,24 +190,24 @@
 			//.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
 			.attr("d", function(d, i) { return symbol.type(d3.symbolCircle)(); })
 			.attr("transform", function(d, i) { 
-				return "translate(" + (width -10) + "," + 10 + ")";
+				return "translate(" + (width -50) + "," + 10 + ")";
 			});
-			<!-- .on("click",function(d){ -->
+			.on("click",function(d){
 			
-				<!-- d3.selectAll(".symbol").style("opacity",1) -->
+				d3.selectall(".node").style("opacity",1)
 			   
-				<!-- if (clicked !== d) { -->
-					<!-- d3.selectAll(".symbol") -->
-						<!-- .filter(function(e){ -->
-							<!-- return e.method !== d; -->
-					 <!-- }) -->
-					<!-- .style("opacity",0.1) -->
-					 <!-- clicked = d -->
-			   <!-- } -->
-				<!-- else{ -->
-				  <!-- clicked = "" -->
-				<!-- } -->
-		  <!-- }); -->
+				if (clicked !== d) {
+					d3.selectall(".node")
+						.filter(function(e){
+							return e.method !== d;
+					 })
+					.style("opacity",0.1)
+					 clicked = d;
+			   }
+				else{
+				  clicked = "";
+				}
+		  });
 	 
 		legend.append("text")
 		  .attr("x", width - 24)

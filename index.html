@@ -43,10 +43,11 @@
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		data.foreach(function(d){
-		d.method = d.method;
-		d.name  = d.name;
-		d.period = +d.period;
-		d.distance = +d.distance;
+			d.method = d.method;
+			d.name  = d.name;
+			d.period = +d.period;
+			d.distance = +d.distance;
+		}
 	}));
 
 	x.domain([0.01, 10000000]).nice();

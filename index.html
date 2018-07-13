@@ -191,7 +191,7 @@
 			.attr("d", function(d, i) { return symbol.type(d3.symbolCircle)(); })
 			.attr("transform", function(d, i) { 
 				return "translate(" + (width -50) + "," + 10 + ")";
-			});
+			})
 			.on("click",function(d){
 			
 				d3.selectall(".node").style("opacity",1)

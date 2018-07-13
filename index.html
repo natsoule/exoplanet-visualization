@@ -48,87 +48,87 @@
 			d.period = +d.period;
 			d.distance = +d.distance;
 		});
-	});
 
-	x.domain([0.01, 10000000]).nice();
+		x.domain([0.01, 10000000]).nice();
 
-	y.domain([1,10000]).nice();
-  
-	svg.append('g')
-		.attr('transform', 'translate(0,' + height + ')')
-		.attr('class', 'x axis')
-		.call(xaxis);
-
-	svg.append('g')
-		.attr('transform', 'translate(0,0)')
-		.attr('class', 'y axis')
-		.call(yaxis);
-
-	svg.append('text')
-		.attr('x', 10)
-		.attr('y', 10)
-		.attr('class', 'label')
-		.text('orbital period (days)');
-
-	svg.append('text')
-		.attr('x', width)
-		.attr('y', height - 10)
-		.attr('text-anchor', 'end')
-		.attr('class', 'label')
-		.text('stellar distance (parsecs)');
-  	
-	// we use the ordinal scale symbols to generate symbols
-	// such as d3.symbolcross, etc..
-	// -> symbol.type(d3.symbolcross)()
-    svg.selectAll(".symbol")
-		.data(data)
-		.enter().append("path")
-		.attr("class", "symbol")
-		.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
-		.style("fill", function(d) { return color(d.method); })
-		.attr("title", function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nJupiter Masses: " + d.mass; })
-		.attr("transform", function(d) { 
-			return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
-		});
-  
-	var clicked = "";
-  
-	var legend = svg.selectAll(".legend")
-		.data(color.domain())
-		.enter().append("g")
-		.attr("class", "legend")
-		.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
-	legend.append("path")
-		.style("fill", function(d) { return color(d); })
-		.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
-		.attr("transform", function(d, i) { 
-			return "translate(" + (width -10) + "," + 10 + ")";
-		})
-		.on("click",function(d){
-		
-			d3.selectAll(".symbol").style("opacity",1);
-		   
-			if (clicked !== d) {
-				d3.selectAll(".symbol")
-					.filter(function(e){
-						return e.method !== d;
-				 })
-				.style("opacity",0.1);
-				 clicked = d;
-		   }
-			else{
-			  clicked = "";
-			}
-	  });
- 
-	legend.append("text")
-	  .attr("x", width - 24)
-	  .attr("y", 9)
-	  .attr("dy", ".35em")
-	  .style("text-anchor", "end")
-	  .text(function(d) { return d; });
+		y.domain([1,10000]).nice();
 	  
+		svg.append('g')
+			.attr('transform', 'translate(0,' + height + ')')
+			.attr('class', 'x axis')
+			.call(xaxis);
+
+		svg.append('g')
+			.attr('transform', 'translate(0,0)')
+			.attr('class', 'y axis')
+			.call(yaxis);
+
+		svg.append('text')
+			.attr('x', 10)
+			.attr('y', 10)
+			.attr('class', 'label')
+			.text('orbital period (days)');
+
+		svg.append('text')
+			.attr('x', width)
+			.attr('y', height - 10)
+			.attr('text-anchor', 'end')
+			.attr('class', 'label')
+			.text('stellar distance (parsecs)');
+		
+		// we use the ordinal scale symbols to generate symbols
+		// such as d3.symbolcross, etc..
+		// -> symbol.type(d3.symbolcross)()
+		svg.selectAll(".symbol")
+			.data(data)
+			.enter().append("path")
+			.attr("class", "symbol")
+			.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
+			.style("fill", function(d) { return color(d.method); })
+			.attr("title", function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nJupiter Masses: " + d.mass; })
+			.attr("transform", function(d) { 
+				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+			});
+	  
+		var clicked = "";
+	  
+		var legend = svg.selectAll(".legend")
+			.data(color.domain())
+			.enter().append("g")
+			.attr("class", "legend")
+			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+		legend.append("path")
+			.style("fill", function(d) { return color(d); })
+			.attr("d", function(d, i) { return symbol.type(symbols(d))(); })
+			.attr("transform", function(d, i) { 
+				return "translate(" + (width -10) + "," + 10 + ")";
+			})
+			.on("click",function(d){
+			
+				d3.selectAll(".symbol").style("opacity",1);
+			   
+				if (clicked !== d) {
+					d3.selectAll(".symbol")
+						.filter(function(e){
+							return e.method !== d;
+					 })
+					.style("opacity",0.1);
+					 clicked = d;
+			   }
+				else{
+				  clicked = "";
+				}
+		  });
+	 
+		legend.append("text")
+		  .attr("x", width - 24)
+		  .attr("y", 9)
+		  .attr("dy", ".35em")
+		  .style("text-anchor", "end")
+		  .text(function(d) { return d; });
+		  
+	});
 	  
 	/*Bubble chart viz*/
     <!-- var margin = {top: 20, right: 20, bottom: 30, left: 40}, -->

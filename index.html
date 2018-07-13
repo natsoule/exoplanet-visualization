@@ -18,20 +18,20 @@
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-	var x = d3.scalelog().base(10)
+	var x = d3.scaleLog().base(10)
 		.range([0, width]);
 
-	var y = d3.scalelog().base(10)
+	var y = d3.scaleLog().base(10)
 		.range([height, 0]);
   
-	var xaxis = d3.axisbottom()
+	var xaxis = d3.axisBottom()
 		.scale(x);
 
-	var yaxis = d3.axisleft()
+	var yaxis = d3.axisLeft()
 		.scale(y);
   
-	var color = d3.scaleordinal(d3.schemecategory20);
-	var symbols = d3.scaleordinal(d3.symbols);
+	var color = d3.scaleOrdinal(d3.schemeCategory20);
+	var symbols = d3.scaleOrdinal(d3.symbols);
 
 	var symbol = d3.symbol().size(100);
   
@@ -80,7 +80,7 @@
 	// we use the ordinal scale symbols to generate symbols
 	// such as d3.symbolcross, etc..
 	// -> symbol.type(d3.symbolcross)()
-    svg.selectall(".symbol")
+    svg.selectAll(".symbol")
 		.data(data)
 		.enter().append("path")
 		.attr("class", "symbol")
@@ -93,7 +93,7 @@
   
 	var clicked = "";
   
-	var legend = svg.selectall(".legend")
+	var legend = svg.selectAll(".legend")
 		.data(color.domain())
 		.enter().append("g")
 		.attr("class", "legend")
@@ -107,10 +107,10 @@
 		})
 		.on("click",function(d){
 		
-			d3.selectall(".symbol").style("opacity",1);
+			d3.selectAll(".symbol").style("opacity",1);
 		   
 			if (clicked !== d) {
-				d3.selectall(".symbol")
+				d3.selectAll(".symbol")
 					.filter(function(e){
 						return e.method !== d;
 				 })

@@ -1,13 +1,94 @@
 ﻿name,mass,method
-14 Her b,4.66,Radial Velocity
-16 Cyg B b,1.78,Radial Velocity
+DENIS-P J082303.1-491201 b,28.5,Astrometry
+2MASS J19383260+4603591 b,1.9,Eclipse Timing Variations
+DP Leo b,6.05,Eclipse Timing Variations
+UZ For b,6.3,Eclipse Timing Variations
+NN Ser c,7.33,Eclipse Timing Variations
+UZ For c,7.7,Eclipse Timing Variations
+NN Ser d,2.3,Eclipse Timing Variations
+RR Cae b,4.2,Eclipse Timing Variations
 1RXS J160929.1-210524 b,8,Imaging
-24 Boo b,0.91,Radial Velocity
 2MASS J01225093-2439505 b,24.5,Imaging
 2MASS J02192210-3925225 b,13.9,Imaging
-2MASS J19383260+4603591 b,1.9,Eclipse Timing Variations
 2MASS J21402931+1625183 A b,20.95,Imaging
 2MASS J22362452+4751425 b,12.5,Imaging
+CHXR 73 b,12.569,Imaging
+DH Tau b,11,Imaging
+GJ 504 b,4,Imaging
+GQ Lup b,20,Imaging
+GSC 06214-00210 b,16,Imaging
+GU Psc b,11.3,Imaging
+HN Peg b,21.9987,Imaging
+HR 2562 b,30,Imaging
+ROXs 42 B b,9,Imaging
+ROXs 12 b,16,Imaging
+WD 0806-661 b,7.5,Imaging
+VHS J125601.92-125723.9 b,11.2,Imaging
+Ross 458 c,6.28536,Imaging
+OGLE-2005-BLG-071L b,3.8,Microlensing
+OGLE-2011-BLG-0251L b,0.53,Microlensing
+MOA-2010-BLG-328L b,0.02895,Microlensing
+MOA-2010-BLG-353L b,0.27,Microlensing
+OGLE-2012-BLG-0563L b,0.39,Microlensing
+OGLE-2014-BLG-0676L b,3.09,Microlensing
+OGLE-2015-BLG-0051L b,0.72,Microlensing
+OGLE-2015-BLG-0954L b,3.9,Microlensing
+OGLE-2012-BLG-0950L b,0.11012,Microlensing
+OGLE-2014-BLG-1760L b,0.56,Microlensing
+MOA-2012-BLG-505L b,0.02108,Microlensing
+MOA-2012-BLG-006L b,8.4,Microlensing
+OGLE-2013-BLG-0132L b,0.29,Microlensing
+OGLE-2013-BLG-1721L b,0.64,Microlensing
+OGLE-2016-BLG-0263L b,4.1,Microlensing
+OGLE-2016-BLG-1195L b,0.0045,Microlensing
+OGLE-2017-BLG-0373L b,0.401,Microlensing
+OGLE-2017-BLG-1434L b,0.014,Microlensing
+TCP J05074264+2447555 b,0.02895,Microlensing
+UKIRT-2017-BLG-001L b,1.28,Microlensing
+MOA-bin-1L b,3.7,Microlensing
+OGLE-2003-BLG-235L b,2.6,Microlensing
+OGLE-2008-BLG-092L b,0.18,Microlensing
+OGLE-2008-BLG-355L b,4.6,Microlensing
+MOA-2008-BLG-379L b,4.1,Microlensing
+MOA-2011-BLG-322L b,11.6,Microlensing
+OGLE-2014-BLG-0124L b,0.51,Microlensing
+MOA-2011-BLG-293L b,4.8,Microlensing
+OGLE-2013-BLG-0102L b,12.569,Microlensing
+MOA-2011-BLG-028L b,0.09439,Microlensing
+OGLE-2005-BLG-390L b,0.017,Microlensing
+OGLE-2012-BLG-0724L b,0.47,Microlensing
+MOA-2007-BLG-400L b,0.83,Microlensing
+MOA-2008-BLG-310L b,0.07362,Microlensing
+OGLE-2011-BLG-0265L b,0.88,Microlensing
+MOA-2011-BLG-262L b,0.05663,Microlensing
+OGLE-2013-BLG-0341L B b,0.0073,Microlensing
+OGLE-2012-BLG-0406L b,2.73,Microlensing
+OGLE-2015-BLG-0966L b,0.06607,Microlensing
+MOA-2009-BLG-387L b,2.56,Microlensing
+MOA-2009-BLG-266L b,0.033,Microlensing
+MOA-2010-BLG-477L b,1.5,Microlensing
+MOA-2010-BLG-073L b,11,Microlensing
+MOA-2009-BLG-319L b,0.16,Microlensing
+OGLE-2012-BLG-0026L b,0.145,Microlensing
+OGLE-2006-BLG-109L b,0.73,Microlensing
+OGLE-2012-BLG-0026L c,0.86,Microlensing
+OGLE-2006-BLG-109L c,0.27,Microlensing
+MOA-2016-BLG-227L b,2.8,Microlensing
+MOA-2010-BLG-117L b,0.54,Microlensing
+OGLE-2017-BLG-0173L b,0.01029,Microlensing
+OGLE-2016-BLG-1190L b,13.38,Microlensing
+OGLE-2005-BLG-169L b,0.04436,Microlensing
+OGLE-2007-BLG-368L b,0.06,Microlensing
+OGLE-2016-BLG-0613L AB b,4.18,Microlensing
+OGLE-2007-BLG-349L AB c,0.25171,Microlensing
+KOI-55 b,0.0014,Orbital Brightness Modulation
+KOI-55 c,0.0021,Orbital Brightness Modulation
+Kepler-76 b,2.01,Orbital Brightness Modulation
+PSR B1620-26 b,2.5,Pulsar Timing
+V0391 Peg b,3.2,Pulsation Timing Variations
+14 Her b,4.66,Radial Velocity
+16 Cyg B b,1.78,Radial Velocity
+24 Boo b,0.91,Radial Velocity
 4 UMa b,7.1,Radial Velocity
 42 Dra b,3.88,Radial Velocity
 47 UMa b,2.53,Radial Velocity
@@ -36,47 +117,9 @@ BD-08 2823 b,0.04,Radial Velocity
 BD-08 2823 c,0.33,Radial Velocity
 BD-11 4672 b,0.53,Radial Velocity
 BD-17 63 b,2.85,Radial Velocity
-CHXR 73 b,12.569,Imaging
-CoRoT-1 b,1.03,Transit
-CoRoT-10 b,2.75,Transit
-CoRoT-11 b,2.33,Transit
-CoRoT-12 b,0.917,Transit
-CoRoT-13 b,1.308,Transit
-CoRoT-14 b,7.6,Transit
-CoRoT-16 b,0.535,Transit
-CoRoT-17 b,2.43,Transit
-CoRoT-18 b,3.47,Transit
-CoRoT-19 b,1.11,Transit
-CoRoT-2 b,3.47,Transit
-CoRoT-20 b,4.24,Transit
-CoRoT-22 b,0.038,Transit
-CoRoT-23 b,2.8,Transit
-CoRoT-24 b,0.018,Transit
-CoRoT-24 c,0.088,Transit
-CoRoT-25 b,0.27,Transit
-CoRoT-26 b,0.52,Transit
-CoRoT-27 b,10.39,Transit
-CoRoT-28 b,0.484,Transit
-CoRoT-29 b,0.85,Transit
-CoRoT-3 b,21.66,Transit
-CoRoT-4 b,0.72,Transit
-CoRoT-5 b,0.467,Transit
-CoRoT-6 b,2.96,Transit
-CoRoT-7 b,0.01,Transit
 CoRoT-7 c,0.02643,Radial Velocity
-CoRoT-8 b,0.22,Transit
-CoRoT-9 b,0.84,Transit
-CoRoTID 223977153 b,0.15,Transit
-DENIS-P J082303.1-491201 b,28.5,Astrometry
-DH Tau b,11,Imaging
-DP Leo b,6.05,Eclipse Timing Variations
-EPIC 211945201 b,0.08495,Transit
-EPIC 220674823 b,0.02832,Transit
-EPIC 220674823 c,0.01793,Transit
-GJ 1132 b,0.00513,Transit
 GJ 1148 b,0.30425,Radial Velocity
 GJ 1148 c,0.21414,Radial Velocity
-GJ 1214 b,0.0197,Transit
 GJ 163 b,0.03335,Radial Velocity
 GJ 163 c,0.0214,Radial Velocity
 GJ 163 d,0.0925,Radial Velocity
@@ -103,7 +146,6 @@ GJ 3998 b,0.00777,Radial Velocity
 GJ 3998 c,0.0197,Radial Velocity
 GJ 433 b,0.02,Radial Velocity
 GJ 436 b,0.07,Radial Velocity
-GJ 504 b,4,Imaging
 GJ 536 b,0.01686,Radial Velocity
 GJ 581 b,0.0497,Radial Velocity
 GJ 581 c,0.0173,Radial Velocity
@@ -129,94 +171,9 @@ GJ 876 b,2.2756,Radial Velocity
 GJ 876 c,0.7142,Radial Velocity
 GJ 876 d,0.021,Radial Velocity
 GJ 876 e,0.046,Radial Velocity
-GQ Lup b,20,Imaging
-GSC 06214-00210 b,16,Imaging
-GU Psc b,11.3,Imaging
-HAT-P-1 b,0.525,Transit
-HAT-P-11 b,0.09,Transit
-HAT-P-12 b,0.211,Transit
-HAT-P-13 b,0.851,Transit
 HAT-P-13 c,14.28,Radial Velocity
-HAT-P-15 b,1.94,Transit
-HAT-P-16 b,4.193,Transit
-HAT-P-17 b,0.58,Transit
 HAT-P-17 c,3.4,Radial Velocity
-HAT-P-18 b,0.197,Transit
-HAT-P-19 b,0.292,Transit
-HAT-P-20 b,7.246,Transit
-HAT-P-21 b,4.87,Transit
-HAT-P-22 b,2.47,Transit
-HAT-P-23 b,1.34,Transit
-HAT-P-24 b,0.75,Transit
-HAT-P-25 b,0.567,Transit
-HAT-P-26 b,0.07,Transit
-HAT-P-27 b,0.62,Transit
-HAT-P-28 b,0.626,Transit
-HAT-P-3 b,0.65,Transit
-HAT-P-31 b,2.27,Transit
-HAT-P-32 b,0.83,Transit
-HAT-P-36 b,1.53,Transit
-HAT-P-37 b,1.169,Transit
-HAT-P-38 b,0.267,Transit
-HAT-P-40 b,0.48,Transit
-HAT-P-42 b,1.044,Transit
-HAT-P-43 b,0.662,Transit
-HAT-P-44 b,0.352,Transit
 HAT-P-44 c,4,Radial Velocity
-HAT-P-45 b,0.892,Transit
-HAT-P-46 b,0.493,Transit
-HAT-P-5 b,0.98,Transit
-HAT-P-50 b,1.35,Transit
-HAT-P-51 b,0.309,Transit
-HAT-P-52 b,0.818,Transit
-HAT-P-53 b,1.484,Transit
-HAT-P-54 b,0.76,Transit
-HAT-P-55 b,0.582,Transit
-HAT-P-65 b,0.527,Transit
-HAT-P-66 b,0.783,Transit
-HAT-P-8 b,1.28,Transit
-HAT-P-9 b,0.78,Transit
-HATS-1 b,1.855,Transit
-HATS-10 b,0.526,Transit
-HATS-11 b,0.83,Transit
-HATS-13 b,0.543,Transit
-HATS-14 b,1.071,Transit
-HATS-15 b,2.17,Transit
-HATS-16 b,3.27,Transit
-HATS-17 b,1.338,Transit
-HATS-18 b,1.98,Transit
-HATS-2 b,1.345,Transit
-HATS-22 b,2.74,Transit
-HATS-23 b,1.47,Transit
-HATS-24 b,2.44,Transit
-HATS-25 b,0.613,Transit
-HATS-26 b,0.65,Transit
-HATS-28 b,0.672,Transit
-HATS-29 b,0.653,Transit
-HATS-3 b,0.55,Transit
-HATS-30 b,0.706,Transit
-HATS-31 b,0.88,Transit
-HATS-32 b,0.92,Transit
-HATS-33 b,1.192,Transit
-HATS-34 b,0.941,Transit
-HATS-35 b,1.222,Transit
-HATS-36 b,3.216,Transit
-HATS-39 b,0.63,Transit
-HATS-4 b,1.323,Transit
-HATS-42 b,1.88,Transit
-HATS-43 b,0.261,Transit
-HATS-44 b,0.56,Transit
-HATS-45 b,0.7,Transit
-HATS-46 b,0.173,Transit
-HATS-5 b,0.237,Transit
-HATS-50 b,0.39,Transit
-HATS-51 b,0.768,Transit
-HATS-52 b,2.24,Transit
-HATS-53 b,0.595,Transit
-HATS-6 b,0.319,Transit
-HATS-7 b,0.12,Transit
-HATS-8 b,0.138,Transit
-HATS-9 b,0.816,Transit
 HD 100777 b,1.03,Radial Velocity
 HD 10180 c,0.0416,Radial Velocity
 HD 10180 d,0.0378,Radial Velocity
@@ -451,8 +408,6 @@ HD 30177 b,9.46,Radial Velocity
 HD 30177 c,7.6,Radial Velocity
 HD 30562 b,1.22,Radial Velocity
 HD 30669 b,0.47,Radial Velocity
-HD 3167 b,0.01579,Transit
-HD 3167 c,0.03083,Transit
 HD 3167 d,0.02171,Radial Velocity
 HD 32518 b,3.04,Radial Velocity
 HD 32963 b,0.7,Radial Velocity
@@ -555,7 +510,6 @@ HD 87646 b,12.4,Radial Velocity
 HD 87883 b,1.54,Radial Velocity
 HD 88133 b,0.3,Radial Velocity
 HD 89307 b,2.11,Radial Velocity
-HD 89345 b,0.11232,Transit
 HD 90156 b,0.057,Radial Velocity
 HD 9174 b,1.11,Radial Velocity
 HD 92788 b,3.71,Radial Velocity
@@ -570,7 +524,6 @@ HD 99109 b,0.44,Radial Velocity
 HD 99492 b,0.07,Radial Velocity
 HIP 109384 b,1.56,Radial Velocity
 HIP 109600 b,2.68,Radial Velocity
-HIP 116454 b,0.04,Transit
 HIP 12961 b,0.36,Radial Velocity
 HIP 14810 b,3.38,Radial Velocity
 HIP 14810 c,1.28,Radial Velocity
@@ -587,9 +540,184 @@ HIP 75458 b,8.82,Radial Velocity
 HIP 79431 b,2.1,Radial Velocity
 HIP 8541 b,5.5,Radial Velocity
 HIP 91258 b,1.09,Radial Velocity
-HN Peg b,21.9987,Imaging
-HR 2562 b,30,Imaging
 HR 810 b,2.27,Radial Velocity
+K2-18 c,0.02363,Radial Velocity
+WASP-41 c,3.18,Radial Velocity
+TAP 26 b,1.66,Radial Velocity
+TYC 3318-01333-1 b,3.42,Radial Velocity
+V830 Tau b,0.7,Radial Velocity
+NGC 2682 YBP 1194 b,0.32,Radial Velocity
+NGC 2682 YBP 1514 b,0.4,Radial Velocity
+NGC 2682 YBP 401 b,0.46,Radial Velocity
+NGC 2682 Sand 978 b,2.18,Radial Velocity
+NGC 4349 127 b,5.9,Radial Velocity
+Pr0201 b,0.54,Radial Velocity
+XO-2 S b,0.26,Radial Velocity
+WASP-94 B b,0.618,Radial Velocity
+TYC 4282-00605-1 b,10.78,Radial Velocity
+TYC 1422-614-1 b,2.5,Radial Velocity
+Pr0211 b,1.88,Radial Velocity
+TYC 1422-614-1 c,10,Radial Velocity
+XO-2 S c,1.37,Radial Velocity
+WASP-8 c,9.45,Radial Velocity
+Pr0211 c,7.79,Radial Velocity
+Kepler-407 c,12.6,Radial Velocity
+Kepler-97 c,1.08,Radial Velocity
+Kepler-94 c,9.836,Radial Velocity
+Kepler-93 c,3,Radial Velocity
+Kepler-25 d,0.283,Radial Velocity
+Kepler-19 d,0.07079,Radial Velocity
+Kepler-48 e,2.067,Radial Velocity
+Kepler-424 c,6.97,Radial Velocity
+Kepler-56 d,5.61,Radial Velocity
+Kepler-68 d,0.84007,Radial Velocity
+Kepler-454 c,4.46,Radial Velocity
+Kepler-432 c,2.43,Radial Velocity
+Kepler-20 g,0.0628,Radial Velocity
+rho CrB b,1.0449,Radial Velocity
+gam 1 Leo b,8.78,Radial Velocity
+Proxima Cen b,0.004,Radial Velocity
+ups And c,1.981,Radial Velocity
+ups And d,4.132,Radial Velocity
+tau Cet e,0.01237,Radial Velocity
+tau Cet f,0.01237,Radial Velocity
+tau Cet g,0.00551,Radial Velocity
+tau Cet h,0.00576,Radial Velocity
+eps Eri b,1.55,Radial Velocity
+tau Boo b,4.32,Radial Velocity
+alf Tau b,6.47,Radial Velocity
+rho CrB c,0.07866,Radial Velocity
+YZ Cet b,0.00236,Radial Velocity
+Wolf 1061 b,0.00601,Radial Velocity
+YZ Cet c,0.00308,Radial Velocity
+Wolf 1061 c,0.01073,Radial Velocity
+YZ Cet d,0.00359,Radial Velocity
+Wolf 1061 d,0.02423,Radial Velocity
+psi 1 Dra B b,1.53,Radial Velocity
+Kapteyn c,0.022,Radial Velocity
+ups And b,0.6876,Radial Velocity
+WASP-47 c,1.57,Radial Velocity
+Ross 128 b,0.0044,Radial Velocity
+CoRoT-1 b,1.03,Transit
+CoRoT-10 b,2.75,Transit
+CoRoT-11 b,2.33,Transit
+CoRoT-12 b,0.917,Transit
+CoRoT-13 b,1.308,Transit
+CoRoT-14 b,7.6,Transit
+CoRoT-16 b,0.535,Transit
+CoRoT-17 b,2.43,Transit
+CoRoT-18 b,3.47,Transit
+CoRoT-19 b,1.11,Transit
+CoRoT-2 b,3.47,Transit
+CoRoT-20 b,4.24,Transit
+CoRoT-22 b,0.038,Transit
+CoRoT-23 b,2.8,Transit
+CoRoT-24 b,0.018,Transit
+CoRoT-24 c,0.088,Transit
+CoRoT-25 b,0.27,Transit
+CoRoT-26 b,0.52,Transit
+CoRoT-27 b,10.39,Transit
+CoRoT-28 b,0.484,Transit
+CoRoT-29 b,0.85,Transit
+CoRoT-3 b,21.66,Transit
+CoRoT-4 b,0.72,Transit
+CoRoT-5 b,0.467,Transit
+CoRoT-6 b,2.96,Transit
+CoRoT-7 b,0.01,Transit
+CoRoT-8 b,0.22,Transit
+CoRoT-9 b,0.84,Transit
+CoRoTID 223977153 b,0.15,Transit
+EPIC 211945201 b,0.08495,Transit
+EPIC 220674823 b,0.02832,Transit
+EPIC 220674823 c,0.01793,Transit
+GJ 1132 b,0.00513,Transit
+GJ 1214 b,0.0197,Transit
+HAT-P-1 b,0.525,Transit
+HAT-P-11 b,0.09,Transit
+HAT-P-12 b,0.211,Transit
+HAT-P-13 b,0.851,Transit
+HAT-P-15 b,1.94,Transit
+HAT-P-16 b,4.193,Transit
+HAT-P-17 b,0.58,Transit
+HAT-P-18 b,0.197,Transit
+HAT-P-19 b,0.292,Transit
+HAT-P-20 b,7.246,Transit
+HAT-P-21 b,4.87,Transit
+HAT-P-22 b,2.47,Transit
+HAT-P-23 b,1.34,Transit
+HAT-P-24 b,0.75,Transit
+HAT-P-25 b,0.567,Transit
+HAT-P-26 b,0.07,Transit
+HAT-P-27 b,0.62,Transit
+HAT-P-28 b,0.626,Transit
+HAT-P-3 b,0.65,Transit
+HAT-P-31 b,2.27,Transit
+HAT-P-32 b,0.83,Transit
+HAT-P-36 b,1.53,Transit
+HAT-P-37 b,1.169,Transit
+HAT-P-38 b,0.267,Transit
+HAT-P-40 b,0.48,Transit
+HAT-P-42 b,1.044,Transit
+HAT-P-43 b,0.662,Transit
+HAT-P-44 b,0.352,Transit
+HAT-P-45 b,0.892,Transit
+HAT-P-46 b,0.493,Transit
+HAT-P-5 b,0.98,Transit
+HAT-P-50 b,1.35,Transit
+HAT-P-51 b,0.309,Transit
+HAT-P-52 b,0.818,Transit
+HAT-P-53 b,1.484,Transit
+HAT-P-54 b,0.76,Transit
+HAT-P-55 b,0.582,Transit
+HAT-P-65 b,0.527,Transit
+HAT-P-66 b,0.783,Transit
+HAT-P-8 b,1.28,Transit
+HAT-P-9 b,0.78,Transit
+HATS-1 b,1.855,Transit
+HATS-10 b,0.526,Transit
+HATS-11 b,0.83,Transit
+HATS-13 b,0.543,Transit
+HATS-14 b,1.071,Transit
+HATS-15 b,2.17,Transit
+HATS-16 b,3.27,Transit
+HATS-17 b,1.338,Transit
+HATS-18 b,1.98,Transit
+HATS-2 b,1.345,Transit
+HATS-22 b,2.74,Transit
+HATS-23 b,1.47,Transit
+HATS-24 b,2.44,Transit
+HATS-25 b,0.613,Transit
+HATS-26 b,0.65,Transit
+HATS-28 b,0.672,Transit
+HATS-29 b,0.653,Transit
+HATS-3 b,0.55,Transit
+HATS-30 b,0.706,Transit
+HATS-31 b,0.88,Transit
+HATS-32 b,0.92,Transit
+HATS-33 b,1.192,Transit
+HATS-34 b,0.941,Transit
+HATS-35 b,1.222,Transit
+HATS-36 b,3.216,Transit
+HATS-39 b,0.63,Transit
+HATS-4 b,1.323,Transit
+HATS-42 b,1.88,Transit
+HATS-43 b,0.261,Transit
+HATS-44 b,0.56,Transit
+HATS-45 b,0.7,Transit
+HATS-46 b,0.173,Transit
+HATS-5 b,0.237,Transit
+HATS-50 b,0.39,Transit
+HATS-51 b,0.768,Transit
+HATS-52 b,2.24,Transit
+HATS-53 b,0.595,Transit
+HATS-6 b,0.319,Transit
+HATS-7 b,0.12,Transit
+HATS-8 b,0.138,Transit
+HATS-9 b,0.816,Transit
+HD 3167 b,0.01579,Transit
+HD 3167 c,0.03083,Transit
+HD 89345 b,0.11232,Transit
+HIP 116454 b,0.04,Transit
 K2-10 b,0.08495,Transit
 K2-105 b,0.09439,Transit
 K2-107 b,0.84,Transit
@@ -610,7 +738,6 @@ K2-155 b,0.01479,Transit
 K2-155 c,0.02045,Transit
 K2-155 d,0.01542,Transit
 K2-18 b,0.02504,Transit
-K2-18 c,0.02363,Radial Velocity
 K2-22 b,1.4,Transit
 K2-229 b,0.00815,Transit
 K2-229 c,0.06702,Transit
@@ -625,62 +752,6 @@ K2-32 d,0.03241,Transit
 K2-33 b,3.7,Transit
 K2-34 b,1.11,Transit
 K2-39 b,0.09,Transit
-OGLE-2005-BLG-071L b,3.8,Microlensing
-OGLE-2011-BLG-0251L b,0.53,Microlensing
-MOA-2010-BLG-328L b,0.02895,Microlensing
-MOA-2010-BLG-353L b,0.27,Microlensing
-OGLE-2012-BLG-0563L b,0.39,Microlensing
-OGLE-2014-BLG-0676L b,3.09,Microlensing
-OGLE-2015-BLG-0051L b,0.72,Microlensing
-OGLE-2015-BLG-0954L b,3.9,Microlensing
-OGLE-2012-BLG-0950L b,0.11012,Microlensing
-OGLE-2014-BLG-1760L b,0.56,Microlensing
-MOA-2012-BLG-505L b,0.02108,Microlensing
-MOA-2012-BLG-006L b,8.4,Microlensing
-OGLE-2013-BLG-0132L b,0.29,Microlensing
-OGLE-2013-BLG-1721L b,0.64,Microlensing
-OGLE-2016-BLG-0263L b,4.1,Microlensing
-OGLE-2016-BLG-1195L b,0.0045,Microlensing
-OGLE-2017-BLG-0373L b,0.401,Microlensing
-OGLE-2017-BLG-1434L b,0.014,Microlensing
-TCP J05074264+2447555 b,0.02895,Microlensing
-UKIRT-2017-BLG-001L b,1.28,Microlensing
-MOA-bin-1L b,3.7,Microlensing
-OGLE-2003-BLG-235L b,2.6,Microlensing
-OGLE-2008-BLG-092L b,0.18,Microlensing
-OGLE-2008-BLG-355L b,4.6,Microlensing
-MOA-2008-BLG-379L b,4.1,Microlensing
-MOA-2011-BLG-322L b,11.6,Microlensing
-OGLE-2014-BLG-0124L b,0.51,Microlensing
-MOA-2011-BLG-293L b,4.8,Microlensing
-OGLE-2013-BLG-0102L b,12.569,Microlensing
-MOA-2011-BLG-028L b,0.09439,Microlensing
-OGLE-2005-BLG-390L b,0.017,Microlensing
-OGLE-2012-BLG-0724L b,0.47,Microlensing
-MOA-2007-BLG-400L b,0.83,Microlensing
-MOA-2008-BLG-310L b,0.07362,Microlensing
-OGLE-2011-BLG-0265L b,0.88,Microlensing
-MOA-2011-BLG-262L b,0.05663,Microlensing
-OGLE-2013-BLG-0341L B b,0.0073,Microlensing
-OGLE-2012-BLG-0406L b,2.73,Microlensing
-OGLE-2015-BLG-0966L b,0.06607,Microlensing
-MOA-2009-BLG-387L b,2.56,Microlensing
-MOA-2009-BLG-266L b,0.033,Microlensing
-MOA-2010-BLG-477L b,1.5,Microlensing
-MOA-2010-BLG-073L b,11,Microlensing
-MOA-2009-BLG-319L b,0.16,Microlensing
-OGLE-2012-BLG-0026L b,0.145,Microlensing
-OGLE-2006-BLG-109L b,0.73,Microlensing
-OGLE-2012-BLG-0026L c,0.86,Microlensing
-OGLE-2006-BLG-109L c,0.27,Microlensing
-MOA-2016-BLG-227L b,2.8,Microlensing
-MOA-2010-BLG-117L b,0.54,Microlensing
-OGLE-2017-BLG-0173L b,0.01029,Microlensing
-OGLE-2016-BLG-1190L b,13.38,Microlensing
-OGLE-2005-BLG-169L b,0.04436,Microlensing
-OGLE-2007-BLG-368L b,0.06,Microlensing
-V0391 Peg b,3.2,Pulsation Timing Variations
-WASP-41 c,3.18,Radial Velocity
 KELT-14 b,1.284,Transit
 WASP-113 b,0.475,Transit
 WASP-114 b,1.769,Transit
@@ -697,15 +768,10 @@ Kepler-328 b,0.09,Transit
 Kepler-145 b,0.117,Transit
 Kepler-59 b,2.05,Transit
 Kepler-57 b,18.86,Transit
-Kepler-415 b,0.377,Transit Timing Variations
-Kepler-416 b,0.183,Transit Timing Variations
-Kepler-417 b,0.035,Transit Timing Variations
-Kepler-414 b,0.011,Transit Timing Variations
 Kepler-328 c,0.124,Transit
 Kepler-145 c,0.25,Transit
 Kepler-59 c,1.37,Transit
 Kepler-57 c,6.95,Transit
-Kepler-414 c,0.094,Transit Timing Variations
 Kepler-51 b,0.007,Transit
 Kepler-53 b,18.41,Transit
 Kepler-51 c,0.013,Transit
@@ -757,40 +823,7 @@ Kepler-36 b,0.014,Transit
 Kepler-36 c,0.025,Transit
 Kepler-32 b,4.1,Transit
 Kepler-32 c,0.5,Transit
-TAP 26 b,1.66,Radial Velocity
-TYC 3318-01333-1 b,3.42,Radial Velocity
 WASP-53 c,16.35,Transit
-V830 Tau b,0.7,Radial Velocity
-NGC 2682 YBP 1194 b,0.32,Radial Velocity
-NGC 2682 YBP 1514 b,0.4,Radial Velocity
-NGC 2682 YBP 401 b,0.46,Radial Velocity
-NGC 2682 Sand 978 b,2.18,Radial Velocity
-NGC 4349 127 b,5.9,Radial Velocity
-Pr0201 b,0.54,Radial Velocity
-XO-2 S b,0.26,Radial Velocity
-WASP-94 B b,0.618,Radial Velocity
-TYC 4282-00605-1 b,10.78,Radial Velocity
-TYC 1422-614-1 b,2.5,Radial Velocity
-Pr0211 b,1.88,Radial Velocity
-TYC 1422-614-1 c,10,Radial Velocity
-XO-2 S c,1.37,Radial Velocity
-WASP-8 c,9.45,Radial Velocity
-Pr0211 c,7.79,Radial Velocity
-Kepler-407 c,12.6,Radial Velocity
-Kepler-97 c,1.08,Radial Velocity
-Kepler-94 c,9.836,Radial Velocity
-Kepler-93 c,3,Radial Velocity
-Kepler-25 d,0.283,Radial Velocity
-Kepler-19 d,0.07079,Radial Velocity
-Kepler-48 e,2.067,Radial Velocity
-Kepler-424 c,6.97,Radial Velocity
-Kepler-56 d,5.61,Radial Velocity
-Kepler-68 d,0.84007,Radial Velocity
-Kepler-454 c,4.46,Radial Velocity
-Kepler-432 c,2.43,Radial Velocity
-Kepler-20 g,0.0628,Radial Velocity
-Kepler-19 c,0.04122,Transit Timing Variations
-KOI-142 c,0.626,Transit Timing Variations
 WASP-23 b,0.884,Transit
 Lupus-TR-3 b,0.81,Transit
 OGLE-TR-211 b,1.03,Transit
@@ -1006,12 +1039,9 @@ Kepler-11 d,0.023,Transit
 Kepler-11 e,0.025,Transit
 Kepler-11 f,0.006,Transit
 Kepler-11 g,0.079,Transit
-KOI-55 b,0.0014,Orbital Brightness Modulation
-KOI-55 c,0.0021,Orbital Brightness Modulation
 Kepler-91 b,0.81,Transit
 WASP-12 b,1.31,Transit
 TrES-2 b,1.49,Transit
-Kepler-76 b,2.01,Orbital Brightness Modulation
 Kepler-43 b,3.23,Transit
 Kepler-5 b,2.111,Transit
 Kepler-6 b,0.668,Transit
@@ -1024,14 +1054,6 @@ Kepler-8 b,0.59,Transit
 Kepler-10 b,0.0145,Transit
 Kepler-17 b,2.45,Transit
 Kepler-412 b,0.941,Transit
-UZ For b,6.3,Eclipse Timing Variations
-NN Ser c,7.33,Eclipse Timing Variations
-UZ For c,7.7,Eclipse Timing Variations
-NN Ser d,2.3,Eclipse Timing Variations
-OGLE-2016-BLG-0613L AB b,4.18,Microlensing
-OGLE-2007-BLG-349L AB c,0.25171,Microlensing
-RR Cae b,4.2,Eclipse Timing Variations
-PSR B1620-26 b,2.5,Pulsar Timing
 Kepler-1647 b,1.51968,Transit
 Kepler-38 b,0.384,Transit
 Kepler-413 b,0.211,Transit
@@ -1041,29 +1063,7 @@ Kepler-35 b,0.127,Transit
 Kepler-16 b,0.333,Transit
 Kepler-47 b,2,Transit
 Kepler-47 c,28,Transit
-rho CrB b,1.0449,Radial Velocity
-gam 1 Leo b,8.78,Radial Velocity
-Proxima Cen b,0.004,Radial Velocity
-ups And c,1.981,Radial Velocity
-ups And d,4.132,Radial Velocity
-tau Cet e,0.01237,Radial Velocity
-tau Cet f,0.01237,Radial Velocity
-tau Cet g,0.00551,Radial Velocity
-tau Cet h,0.00576,Radial Velocity
-eps Eri b,1.55,Radial Velocity
-tau Boo b,4.32,Radial Velocity
-alf Tau b,6.47,Radial Velocity
-rho CrB c,0.07866,Radial Velocity
-YZ Cet b,0.00236,Radial Velocity
-Wolf 1061 b,0.00601,Radial Velocity
-YZ Cet c,0.00308,Radial Velocity
-Wolf 1061 c,0.01073,Radial Velocity
-YZ Cet d,0.00359,Radial Velocity
-Wolf 1061 d,0.02423,Radial Velocity
-psi 1 Dra B b,1.53,Radial Velocity
-Kapteyn c,0.022,Radial Velocity
 KELT-4 A b,0.902,Transit
-ups And b,0.6876,Radial Velocity
 K2-95 b,0.03458,Transit
 WASP-85 A b,1.265,Transit
 K2-77 b,1.9,Transit
@@ -1075,7 +1075,6 @@ TRAPPIST-1 d,0.00129,Transit
 TRAPPIST-1 e,0.00195,Transit
 TRAPPIST-1 f,0.00214,Transit
 TRAPPIST-1 g,0.00422,Transit
-WASP-47 c,1.57,Radial Velocity
 WASP-28 b,0.907,Transit
 WASP-157 b,0.574,Transit
 WASP-151 b,0.31,Transit
@@ -1085,9 +1084,10 @@ K2-98 b,0.10131,Transit
 WASP-47 e,0.02863,Transit
 WASP-47 b,1.21,Transit
 WASP-47 d,0.05286,Transit
-Ross 128 b,0.0044,Radial Velocity
-ROXs 42 B b,9,Imaging
-ROXs 12 b,16,Imaging
-WD 0806-661 b,7.5,Imaging
-VHS J125601.92-125723.9 b,11.2,Imaging
-Ross 458 c,6.28536,Imaging
+Kepler-415 b,0.377,Transit Timing Variations
+Kepler-416 b,0.183,Transit Timing Variations
+Kepler-417 b,0.035,Transit Timing Variations
+Kepler-414 b,0.011,Transit Timing Variations
+Kepler-414 c,0.094,Transit Timing Variations
+Kepler-19 c,0.04122,Transit Timing Variations
+KOI-142 c,0.626,Transit Timing Variations

@@ -7,6 +7,13 @@
   </head>
   <body>
     <h1>Exoplanet Visualizations</h1> 
+	<svg></svg>
+	<form>
+		<div class="btn-group">
+		  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/exobubble.html'">Next</button>
+		  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/exotime.html'">Previous</button>
+		</div>
+	</form>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -35,7 +42,7 @@
 
 	var symbol = d3.symbol().size(100);
   
-	var svg = d3.select("body").append("svg")
+	var svg = d3.selectAll("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")

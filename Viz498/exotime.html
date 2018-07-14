@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Exo Planet Visualizations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+  </head>
+  <body>
+    <h1>Exoplanet Visualizations</h1> 
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
+  
+	/*scatter plot viz*/
+	var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+	var x = d3.scaleLinear()
+		.range([0, width]);
+
+	var y = d3.scaleLog().base(10)
+		.range([height, 0]);
+  
+	var xaxis = d3.axisBottom()
+		.scale(x);
+
+	var yaxis = d3.axisLeft()
+		.scale(y);
+  
+	var color = d3.scaleOrdinal(d3.schemeCategory20);
+	//var symbols = d3.scaleOrdinal(d3.symbols);
+
+	var symbol = d3.symbol().size(100);
+  
+	var svg = d3.select("body").append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+		.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	d3.csv('exoplanets_discovery_over_time.csv', function(error, data){
+		data.forEach(function(d){
+			d.method = d.method;
+			d.year  = +d.year;
+			d.count = +d.count;
+		});
+
+		x.domain([0.01, 10000000]).nice();
+
+		y.domain([1,10000]).nice();
+	  
+		svg.append('g')
+			.attr('transform', 'translate(0,' + height + ')')
+			.attr('class', 'x axis')
+			.call(xaxis);
+
+		svg.append('g')
+			.attr('transform', 'translate(0,0)')
+			.attr('class', 'y axis')
+			.call(yaxis);
+
+		svg.append('text')
+			.attr('x', 10)
+			.attr('y', 10)
+			.attr('class', 'label')
+			.text('discovery year');
+
+		svg.append('text')
+			.attr('x', width)
+			.attr('y', height - 10)
+			.attr('text-anchor', 'end')
+			.attr('class', 'label')
+			.text('number of planets discovered');
+		
+		// we use the ordinal scale symbols to generate symbols
+		// such as d3.symbolcross, etc..
+		// -> symbol.type(d3.symbolcross)()
+		svg.selectAll(".symbol")
+			.data(data)
+			.enter().append("path")
+			.attr("class", "symbol")
+			.attr("d", function(d, i) { return symbol.type(d3.symbolSquare)(); })
+			.style("fill", function(d) { return color(d.method); })			
+			.attr("transform", function(d) { 
+				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+			})
+			.append("title").text(function(d) { return 'Method: ' + d.method + "\nYear: " + d.year + "\nCount: " + d.count; });
+	  
+		var clicked = "";
+	  
+		var legend = svg.selectAll(".legend")
+			.data(color.domain())
+			.enter().append("g")
+			.attr("class", "legend")
+			.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+		legend.append("path")
+			.style("fill", function(d) { return color(d); })
+			.attr("d", function(d, i) { return symbol.type(d3.symbolSquare)(); })
+			.attr("transform", function(d, i) { 
+				return "translate(" + (width -10) + "," + 10 + ")";
+			})
+			.on("click",function(d){
+			
+				d3.selectAll(".symbol").style("opacity",1);
+			   
+				if (clicked !== d) {
+					d3.selectAll(".symbol")
+						.filter(function(e){
+							return e.method !== d;
+					 })
+					.style("opacity",0.1);
+					 clicked = d;
+			   }
+				else{
+				  clicked = "";
+				}
+		  });
+	 
+		legend.append("text")
+		  .attr("x", width - 24)
+		  .attr("y", 9)
+		  .attr("dy", ".35em")
+		  .style("text-anchor", "end")
+		  .text(function(d) { return d; });
+		  
+	});
+  </script>
+</html>

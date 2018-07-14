@@ -66,14 +66,14 @@
 			.attr('x', 10)
 			.attr('y', 10)
 			.attr('class', 'label')
-			.text('discovery year');
+			.text('number of planets discovered');
 
 		svg.append('text')
 			.attr('x', width)
 			.attr('y', height - 10)
 			.attr('text-anchor', 'end')
 			.attr('class', 'label')
-			.text('number of planets discovered');
+			.text('discovery year');
 		
 		// we use the ordinal scale symbols to generate symbols
 		// such as d3.symbolcross, etc..
@@ -85,7 +85,7 @@
 			.attr("d", function(d, i) { return symbol.type(d3.symbolSquare)(); })
 			.style("fill", function(d) { return color(d.method); })			
 			.attr("transform", function(d) { 
-				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+				return "translate(" + x(d.year) + "," + y(d.count) +")"; 
 			})
 			.append("title").text(function(d) { return 'Method: ' + d.method + "\nYear: " + d.year + "\nCount: " + d.count; });
 	  

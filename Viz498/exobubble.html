@@ -7,6 +7,12 @@
   </head>
   <body>
     <h1>Exoplanet Visualizations</h1> 
+	<svg></svg>
+	<form>
+		<div class="btn-group">		
+		  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exoscatter.html'">Previous</button>
+		</div>
+	</form>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -18,7 +24,7 @@
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-	var svg = d3.select("body").append("svg") 
+	var svg = d3.selectAll("svg") 
 		.attr("width", width + margin.left + margin.right) 
 		.attr("height", height + margin.top + margin.bottom) 
 	//var format = d3.format(",d"); 

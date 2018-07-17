@@ -89,8 +89,8 @@
 		// we use the ordinal scale symbols to generate symbols
 		// such as d3.symbolcross, etc..
 		// -> symbol.type(d3.symbolcross)()
-		var symbols = svg.selectAll(".symbol")
-		symbols.data(data)
+		var allSymbols = svg.selectAll(".symbol")
+		allSymbols.data(data)
 			.enter().append("path")
 			.datum(function(d) {return {x: x(d.period), y: y(d.distance), name: d.name, method: d.method, distance: d.distance};})
 			.attr("class", "symbol")

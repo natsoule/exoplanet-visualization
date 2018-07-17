@@ -96,10 +96,10 @@
 			.enter().append("path")
 			.attr("class", "symbol")
 			.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
-			.style("fill", function(d) { return color(d.method); });
-			<!-- .attr("transform", function(d) {  -->
-				<!-- return "translate(" + x(d.period) + "," + y(d.distance) +")";  -->
-			<!-- }) -->
+			.style("fill", function(d) { return color(d.method); })
+			.attr("transform", function(d) { 
+				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+			});
 			//.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
 			
 		svg.on("mousemove", function() {

@@ -17,6 +17,7 @@
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://raw.githubusercontent.com/d3/d3-plugins/master/fisheye/fisheye.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script>
   
@@ -36,6 +37,8 @@
 
 	var yaxis = d3.axisLeft()
 		.scale(y);
+		
+	var fisheye = d3.fisheye.circular().radius(120);
   
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
 	var symbols = d3.scaleOrdinal(d3.symbols);
@@ -86,16 +89,28 @@
 		// we use the ordinal scale symbols to generate symbols
 		// such as d3.symbolcross, etc..
 		// -> symbol.type(d3.symbolcross)()
-		svg.selectAll(".symbol")
-			.data(data)
+		var symbols = svg.selectAll(".symbol")
+		symbols.data(data)
 			.enter().append("path")
+			.datum(function() {return {x: x(d.period), y: y(d.distance), name: d.name, method: d.method, distance: d.distance};})
 			.attr("class", "symbol")
 			.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
 			.style("fill", function(d) { return color(d.method); })			
-			.attr("transform", function(d) { 
-				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
-			})
+			<!-- .attr("transform", function(d) {  -->
+				<!-- return "translate(" + x(d.period) + "," + y(d.distance) +")";  -->
+			<!-- }) -->
 			.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
+			
+		svg.on("mousemove", function() {
+			fisheye.focus(d3.mouse(this));			
+			symbols.each(function(d) { d.fisheye = fisheye(d); })
+				.attr("transform", function(d) { 
+					return "translate(" + d.fisheye.x + "," + d.fisheye.y +")"; 
+				});
+				//.attr("cx", function(d) { return d.fisheye.x; })
+				//.attr("r", function(d) { return d.fisheye.z * 2; });
+		});
+		
 	  
 		var clicked = "";
 	  

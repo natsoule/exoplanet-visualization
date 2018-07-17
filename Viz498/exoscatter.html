@@ -103,7 +103,7 @@
 			
 		svg.on("mousemove", function() {
 			fisheye.focus(d3.mouse(this));			
-			symbols.each(function(d) { d.fisheye = fisheye(d); })
+			allSymbols.each(function(d) { d.fisheye = fisheye(d); })
 				.attr("transform", function(d) { 
 					return "translate(" + d.fisheye.x + "," + d.fisheye.y +")"; 
 				});

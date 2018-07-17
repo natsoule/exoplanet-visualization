@@ -52,17 +52,19 @@
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
+		
+		x.domain([0.01, 10000000]).nice();
+		y.domain([1,10000]).nice();
+		
 		data.forEach(function(d){
 			d.method = d.method;
 			d.name  = d.name;
 			d.period = +d.period;
 			d.distance = +d.distance;
+			d.x = x(d.period);
+			d.y = y(d.distance);
 		});
-
-		x.domain([0.01, 10000000]).nice();
-
-		y.domain([1,10000]).nice();
-	  
+		
 		svg.append('g')
 			.attr('transform', 'translate(0,' + height + ')')
 			.attr('class', 'x axis')
@@ -92,14 +94,13 @@
 		var allSymbols = svg.selectAll(".symbol")
 		allSymbols.data(data)
 			.enter().append("path")
-			.datum(function(d) {return {x: x(d.period), y: y(d.distance), name: d.name, method: d.method, distance: d.distance};})
 			.attr("class", "symbol")
 			.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
-			.style("fill", function(d) { return color(d.method); })			
+			.style("fill", function(d) { return color(d.method); });
 			<!-- .attr("transform", function(d) {  -->
 				<!-- return "translate(" + x(d.period) + "," + y(d.distance) +")";  -->
 			<!-- }) -->
-			.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
+			//.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
 			
 		svg.on("mousemove", function() {
 			fisheye.focus(d3.mouse(this));			

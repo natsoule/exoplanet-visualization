@@ -38,7 +38,7 @@
 	var yaxis = d3.axisLeft()
 		.scale(y);
 		
-	var fisheye = d3.fisheye.circular().radius(120);
+	var fisheye = d3.fisheye.circular().radius(120).distortion(4);
   
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
 	var symbols = d3.scaleOrdinal(d3.symbols);
@@ -99,8 +99,8 @@
 			.style("fill", function(d) { return color(d.method); })
 			.attr("transform", function(d) { 
 				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
-			});
-			//.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
+			})
+			.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
 		
 	  
 		var clicked = "";
@@ -149,8 +149,6 @@
 				.attr("transform", function(d) { 
 					return "translate(" + d.fisheye.x + "," + d.fisheye.y +")"; 
 				});
-				//.attr("cx", function(d) { return d.fisheye.x; })
-				//.attr("r", function(d) { return d.fisheye.z * 2; });
 		});
   </script>
 </html>

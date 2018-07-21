@@ -40,13 +40,12 @@
 	var yaxis = d3.axisLeft()
 		.scale(y);
 		
-	<!-- var zoom = d3.zoom() -->
-		<!-- .x(x) -->
-		<!-- .y(y) -->
-		<!-- .scaleExtent([1, 10]) -->
-		<!-- .center([width / 2, height / 2]) -->
-		<!-- .size([width, height]) -->
-		<!-- .on("zoom", zoomed); -->
+	var zoomed = null;
+	// Pan and zoom
+	var zoom = d3.zoom()
+		.scaleExtent([.5, 20])
+		.extent([[0, 0], [width, height]])
+		.on("zoom", zoomed);
   
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
 	var symbols = d3.scaleOrdinal(d3.symbols);
@@ -74,12 +73,12 @@
 			d.distance = +d.distance;
 		});
 		
-		svg.append('g')
+		var gX = svg.append('g')
 			.attr('transform', 'translate(0,' + height + ')')
 			.attr('class', 'x axis')
 			.call(xaxis);
 
-		svg.append('g')
+		var gY = svg.append('g')
 			.attr('transform', 'translate(0,0)')
 			.attr('class', 'y axis')
 			.call(yaxis);
@@ -181,7 +180,22 @@
 		  <!-- var scale = zoom.scale(), translate = zoom.translate(); -->
 		  <!-- return [coordinates[0] * scale + translate[0], coordinates[1] * scale + translate[1]]; -->
 		<!-- } -->
+		
+		zoomed = function () {
+			// create new scale ojects based on event
+			var new_x = d3.event.transform.rescaleX(x);
+			var new_y = d3.event.transform.rescaleY(y);
+			// update axes
+			gX.call(xAxis.scale(new_x));
+			gY.call(yAxis.scale(new_y));
+			allSymbols.data(data)
+			 .attr("transform", function(d) { 
+				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+		});
+	}
 		  
 	});
+	
+	
   </script>
 </html>

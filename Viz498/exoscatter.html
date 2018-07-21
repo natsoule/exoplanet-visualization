@@ -94,7 +94,7 @@
 		// such as d3.symbolcross, etc..
 		// -> symbol.type(d3.symbolcross)()
 		var allSymbols = svg.selectAll(".symbol")
-		allSymbols.data(data)
+			.data(data)
 			.enter().append("path")
 			.attr("class", "symbol")
 			.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })

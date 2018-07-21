@@ -46,7 +46,7 @@
 	var symbol = d3.symbol().size(100);
   
 	var svg = d3.selectAll("svg")
-		.style("margin-left", margin.left)
+		.style("padding-left", margin.left)
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom);
 		
@@ -123,7 +123,7 @@
 			.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
 			.style("fill", function(d) { return color(d.method); })
 			.attr("transform", function(d) { 
-				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+				return "translate(" + x(d.distance) + "," + y(d.period) +")"; 
 			});
 			
 		allSymbols.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });			

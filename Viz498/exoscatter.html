@@ -46,6 +46,7 @@
 	var symbol = d3.symbol().size(100);
   
 	var svg = d3.selectAll("svg")
+		.style("margin-left", margin.left)
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom);
 		
@@ -114,7 +115,6 @@
 		// -> symbol.type(d3.symbolcross)()
 		var allSymbols = svg
 			.append("g")
-			.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 			.attr("clip-path", "url(#clip)")
 			.selectAll(".symbol")
 			.data(data)

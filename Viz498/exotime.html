@@ -134,5 +134,28 @@
 		  .text(function(d) { return d; });
 		  
 	});
+	
+	
+	const annotations = [
+        {
+          note: {
+            label: "First Exoplanet discovered",
+            title: "d3.annotationLabel"
+          },
+          x: 50,
+          y: 150,
+          dy: 137,
+          dx: 162
+        }].map(function(d){ d.color = "#E8336D"; return d})
+
+        const makeAnnotations = d3.annotation()
+          .type(d3.annotationLabel)
+          .annotations(annotations)
+
+        d3.select("svg")
+          .append("g")
+          //.attr("class", "annotation-group")
+          .call(makeAnnotations)
+	
   </script>
 </html>

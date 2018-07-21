@@ -48,7 +48,13 @@
 	var svg = d3.selectAll("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
+		.append("defs").append("clipPath")
+		.attr("id", "clip")
+		.append("rect")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
+		.attr("clip-path", "url(#clip)")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 		//.style("pointer-events", "all");
 		<!-- .call(d3.zoom().on("zoom", function () { -->
@@ -59,6 +65,12 @@
 			.attr("height", height).style("pointer-events", "all")
 			.attr("fill", "none")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+			
+	<!-- svg.append("defs").append("clipPath") -->
+		<!-- .attr("id", "clip") -->
+		<!-- .append("rect") -->
+		<!-- .attr("width", width + margin.left + margin.right) -->
+		<!-- .attr("height", height + margin.top + margin.bottom); -->
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		
@@ -114,7 +126,7 @@
 		
 		// Pan and zoom
 		rect.call(d3.zoom()
-			.scaleExtent([.5, 20])
+			.scaleExtent([0, 20])
 			.extent([[0, 0], [width, height]])
 			.on("zoom", function() {
 				// create new scale ojects based on event

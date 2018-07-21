@@ -57,24 +57,8 @@
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		
 		x.domain([0.01, 10000000]).nice();
-		y.domain([1,10000]).nice();
+		y.domain([1,10000]).nice();	
 		
-		// Pan and zoom
-		var zoom = d3.zoom()
-			.scaleExtent([.5, 20])
-			.extent([[0, 0], [width, height]])
-			.on("zoom", function() {
-				// create new scale ojects based on event
-				var new_x = d3.event.transform.rescaleX(x);
-				var new_y = d3.event.transform.rescaleY(y);
-				// update axes
-				gX.call(xAxis.scale(new_x));
-				gY.call(yAxis.scale(new_y));
-				allSymbols.data(data)
-				 .attr("transform", function(d) { 
-					return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
-				});
-			});
 		
 		data.forEach(function(d){
 			d.method = d.method;
@@ -120,6 +104,22 @@
 			})
 			.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
 		
+		// Pan and zoom
+		var zoom = d3.zoom()
+			.scaleExtent([.5, 20])
+			.extent([[0, 0], [width, height]])
+			.on("zoom", function() {
+				// create new scale ojects based on event
+				var new_x = d3.event.transform.rescaleX(x);
+				var new_y = d3.event.transform.rescaleY(y);
+				// update axes
+				gX.call(xAxis.scale(new_x));
+				gY.call(yAxis.scale(new_y));
+				allSymbols.data(data)
+				 .attr("transform", function(d) { 
+					return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+				});
+			});
 	  
 		var clicked = "";
 	  

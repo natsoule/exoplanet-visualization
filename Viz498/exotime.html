@@ -131,58 +131,100 @@
 		  .attr("y", 9)
 		  .attr("dy", ".35em")
 		  .style("text-anchor", "end")
-		  .text(function(d) { return d; });
+		  .text(function(d) { return d; });	  
 		  
 		  
 		  
+		<!-- <text y="380"><tspan x="10" dy="0">First exoplanet discovered:</tspan> -->
+		<!-- <tspan x="10" dy="15">Gamma Cephei A b</tspan></text> -->
+		<!-- <line x1="60" y1="400" x2="90" y2="445" stroke="black"></line> -->
+		
 		/*Annotations*/
-		svg.append('text')
-			.attr('x', 30)
-			.attr('y', 30)
-			//.attr('class', 'label')
-			.text('First exoplanet discovered:\nGamma Cephei A b');
-			
+		var lbl1 = svg.append('text')
+			.attr('y', 380);			
+		lbl1.append("tspan")
+			.attr("x",10)
+			.attr("dy",0)
+			.text("First exoplanet discovered:");
+		lbl1.append("tspan")
+			.attr("x",10)
+			.attr("dy",15)
+			.text("Gamma Cephei A b");
 		svg.append("line")
-			.attr("x1",0)
-			.attr("y1",0)
-			.attr("x2",50)
-			.attr("y2",50)
+			.attr("x1",60)
+			.attr("y1",400)
+			.attr("x2",90)
+			.attr("y2",445)
+			.attr("stroke","black");
 
-		svg.append('text')
-			.attr('x', 30)
-			.attr('y', 60)
-			//.attr('class', 'label')
-			.text('HARPS installed at La Silla Observatory in Chile, Method: Radial Velocity');
-			
+		
+		<!-- <text y="220"><tspan x="250" dy="0">HARPS installed at La Silla</tspan><tspan x="250" dy="15">Observatory in Chile</tspan> -->
+		<!-- <tspan x="250" dy="15">Method: Radial Velocity</tspan></text>	 -->
+		<!-- <line x1="320" y1="255" x2="380" y2="282" stroke="black"></line> -->
+		
+		/*Annotations*/
+		var lbl2 = svg.append('text')
+			.attr('y', 220);
+		lbl2.append("tspan")
+			.attr("x",250)
+			.attr("dy",0)
+			.text("HARPS installed at La Silla");
+		lbl2.append("tspan")
+			.attr("x",250)
+			.attr("dy",15)
+			.text("Observatory in Chile");
+		lbl2.append("tspan")
+			.attr("x",250)
+			.attr("dy",15)
+			.text("Method: Radial Velocity");
 		svg.append("line")
-			.attr("x1",0)
-			.attr("y1",0)
-			.attr("x2",50)
-			.attr("y2",50)
+			.attr("x1",320)
+			.attr("y1",255)
+			.attr("x2",380)
+			.attr("y2",282)
+			.attr("stroke","black");
 			
-		svg.append('text')
-			.attr('x', 30)
-			.attr('y', 60)
-			//.attr('class', 'label')
-			.text('Launch of Keppler Space Telescope');
+		<!-- <text y="140"><tspan x="400" dy="0">Keppler Telescope Launched</tspan><tspan x="400" dy="15">Method: Transit</tspan> -->
+		<!-- </text> -->
+		<!-- <line x1="500" y1="155" x2="540" y2="305" stroke="black"></line> -->
 			
+		var lbl3 = svg.append('text')
+			.attr('y', 140);
+		lbl3.append("tspan")
+			.attr("x",400)
+			.attr("dy",0)
+			.text("Keppler Telescope Launched");
+		lbl3.append("tspan")
+			.attr("x",400)
+			.attr("dy",15)
+			.text("Method: Transit");
 		svg.append("line")
-			.attr("x1",0)
-			.attr("y1",0)
-			.attr("x2",50)
-			.attr("y2",50)
+			.attr("x1",500)
+			.attr("y1",155)
+			.attr("x2",540)
+			.attr("y2",305)
+			.attr("stroke","black");
 			
-		svg.append('text')
-			.attr('x', 30)
-			.attr('y', 60)
-			//.attr('class', 'label')
-			.text('First Successful Microlensing discovery at OGLE');
-			
+		<!-- <text y="390"><tspan x="240" dy="0">First successful microlensing</tspan><tspan x="240" dy="15">discovery at OGLE</tspan> -->
+		<!-- </text> -->
+		<!-- <line x1="300" y1="407" x2="425" y2="445" stroke="black"></line> -->
+		
+		var lbl4 = svg.append('text')
+			.attr('y', 390);
+		lbl4.append("tspan")
+			.attr("x",240)
+			.attr("dy",0)
+			.text("First successful microlensing");
+		lbl4.append("tspan")
+			.attr("x",240)
+			.attr("dy",15)
+			.text("discovery at OGLE");
 		svg.append("line")
-			.attr("x1",0)
-			.attr("y1",0)
-			.attr("x2",50)
-			.attr("y2",50)
+			.attr("x1",300)
+			.attr("y1",407)
+			.attr("x2",425)
+			.attr("y2",445)
+			.attr("stroke","black");
 	});
 	
   </script>

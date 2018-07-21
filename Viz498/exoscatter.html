@@ -106,7 +106,7 @@
 			
 		allSymbols.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
 		
-		var rect = svg.append("rect").attr("with", width)
+		var rect = svg.append("rect").attr("width", width)
 			.attr("height", height).style("pointer-events", "all")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 		

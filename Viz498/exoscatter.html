@@ -40,7 +40,7 @@
 	var yaxis = d3.axisLeft()
 		.scale(y);
 		
-	var zoom = d3.behavior.zoom()
+	var zoom = d3.zoom()
 		.x(x)
 		.y(y)
 		.scaleExtent([1, 10])

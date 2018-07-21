@@ -101,14 +101,14 @@
 			.attr('x', 10)
 			.attr('y', 10)
 			.attr('class', 'label')
-			.text('orbital period (days)');
+			.text('stellar distance (parsecs)');
 
 		svg.append('text')
 			.attr('x', width)
 			.attr('y', height - 10)
 			.attr('text-anchor', 'end')
 			.attr('class', 'label')
-			.text('stellar distance (parsecs)');
+			.text('orbital period (days)');
 		
 		// we use the ordinal scale symbols to generate symbols
 		// such as d3.symbolcross, etc..
@@ -123,7 +123,7 @@
 			.attr("d", function(d, i) { return symbol.type(symbols(d.method))(); })
 			.style("fill", function(d) { return color(d.method); })
 			.attr("transform", function(d) { 
-				return "translate(" + x(d.distance) + "," + y(d.period) +")"; 
+				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
 			});
 			
 		allSymbols.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });			

@@ -13,8 +13,8 @@
 			<button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exotime.html'">Previous</button>
 			<button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exobubble.html'">Next</button>
 			<span width="50px"/>
-			<button type="button" class="btn btn-primary" data-zoom="+1">Zoom In</button>
-			<button type="button" class="btn btn-primary" data-zoom="-1">Zoom Out</button>
+			<!-- <button type="button" class="btn btn-primary" data-zoom="+1">Zoom In</button> -->
+			<!-- <button type="button" class="btn btn-primary" data-zoom="-1">Zoom Out</button> -->
 		</div>
 	</form>
   </body>
@@ -40,13 +40,13 @@
 	var yaxis = d3.axisLeft()
 		.scale(y);
 		
-	var zoom = d3.zoom()
-		.x(x)
-		.y(y)
-		.scaleExtent([1, 10])
-		.center([width / 2, height / 2])
-		.size([width, height])
-		.on("zoom", zoomed);
+	<!-- var zoom = d3.zoom() -->
+		<!-- .x(x) -->
+		<!-- .y(y) -->
+		<!-- .scaleExtent([1, 10]) -->
+		<!-- .center([width / 2, height / 2]) -->
+		<!-- .size([width, height]) -->
+		<!-- .on("zoom", zoomed); -->
   
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
 	var symbols = d3.scaleOrdinal(d3.symbols);
@@ -58,7 +58,8 @@
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-		.call(zoom);
+		.call(d3.zoom().on("zoom", function () {
+			svg.attr("transform", d3.event.transform);
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		
@@ -148,37 +149,37 @@
 		  .style("text-anchor", "end")
 		  .text(function(d) { return d; });
 		  
-		d3.selectAll("button[data-zoom]")
-			.on("click", clicked);
+		<!-- d3.selectAll("button[data-zoom]") -->
+			<!-- .on("click", clicked); -->
 
-		function zoomed() {
-		  svg.select(".x.axis").call(xAxis);
-		  svg.select(".y.axis").call(yAxis);
-		}
+		<!-- function zoomed() { -->
+		  <!-- svg.select(".x.axis").call(xAxis); -->
+		  <!-- svg.select(".y.axis").call(yAxis); -->
+		<!-- } -->
 
-		function clicked() {
-		  svg.call(zoom.event); // https://github.com/mbostock/d3/issues/2387
+		<!-- function clicked() { -->
+		  <!-- svg.call(zoom.event); // https://github.com/mbostock/d3/issues/2387 -->
 
-		  // Record the coordinates (in data space) of the center (in screen space).
-		  var center0 = zoom.center(), translate0 = zoom.translate(), coordinates0 = coordinates(center0);
-		  zoom.scale(zoom.scale() * Math.pow(2, +this.getAttribute("data-zoom")));
+		  <!-- // Record the coordinates (in data space) of the center (in screen space). -->
+		  <!-- var center0 = zoom.center(), translate0 = zoom.translate(), coordinates0 = coordinates(center0); -->
+		  <!-- zoom.scale(zoom.scale() * Math.pow(2, +this.getAttribute("data-zoom"))); -->
 
-		  // Translate back to the center.
-		  var center1 = point(coordinates0);
-		  zoom.translate([translate0[0] + center0[0] - center1[0], translate0[1] + center0[1] - center1[1]]);
+		  <!-- // Translate back to the center. -->
+		  <!-- var center1 = point(coordinates0); -->
+		  <!-- zoom.translate([translate0[0] + center0[0] - center1[0], translate0[1] + center0[1] - center1[1]]); -->
 
-		  svg.transition().duration(750).call(zoom.event);
-		}
+		  <!-- svg.transition().duration(750).call(zoom.event); -->
+		<!-- } -->
 
-		function coordinates(point) {
-		  var scale = zoom.scale(), translate = zoom.translate();
-		  return [(point[0] - translate[0]) / scale, (point[1] - translate[1]) / scale];
-		}
+		<!-- function coordinates(point) { -->
+		  <!-- var scale = zoom.scale(), translate = zoom.translate(); -->
+		  <!-- return [(point[0] - translate[0]) / scale, (point[1] - translate[1]) / scale]; -->
+		<!-- } -->
 
-		function point(coordinates) {
-		  var scale = zoom.scale(), translate = zoom.translate();
-		  return [coordinates[0] * scale + translate[0], coordinates[1] * scale + translate[1]];
-		}
+		<!-- function point(coordinates) { -->
+		  <!-- var scale = zoom.scale(), translate = zoom.translate(); -->
+		  <!-- return [coordinates[0] * scale + translate[0], coordinates[1] * scale + translate[1]]; -->
+		<!-- } -->
 		  
 	});
   </script>

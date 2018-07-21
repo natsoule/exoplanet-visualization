@@ -49,7 +49,7 @@
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
-		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 		//.style("pointer-events", "all");
 		<!-- .call(d3.zoom().on("zoom", function () { -->
 			<!-- svg.attr("transform", d3.event.transform); -->
@@ -108,7 +108,7 @@
 		
 		var rect = svg.append("rect").attr("with", width)
 			.attr("height", height).style("pointer-events", "all")
-			.translate(margin.left, margin.top);
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 		
 		// Pan and zoom
 		rect.call(d3.zoom()

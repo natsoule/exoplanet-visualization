@@ -10,15 +10,17 @@
 	<svg></svg>
 	<form>
 		<div class="btn-group">		
-		  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exotime.html'">Previous</button>
-		  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exobubble.html'">Next</button>
+			<button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exotime.html'">Previous</button>
+			<button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exobubble.html'">Next</button>
+			<span width="50px"/>
+			<button type="button" class="btn btn-primary" data-zoom="+1">Zoom In</button>
+			<button type="button" class="btn btn-primary" data-zoom="-1">Zoom Out</button>
 		</div>
 	</form>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="/Viz498/fisheye.js"></script>
   <script>
   
 	/*scatter plot viz*/
@@ -38,7 +40,13 @@
 	var yaxis = d3.axisLeft()
 		.scale(y);
 		
-	var fisheye = d3.fisheye.circular().radius(120).distortion(6);
+	var zoom = d3.behavior.zoom()
+		.x(x)
+		.y(y)
+		.scaleExtent([1, 10])
+		.center([width / 2, height / 2])
+		.size([width, height])
+		.on("zoom", zoomed);
   
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
 	var symbols = d3.scaleOrdinal(d3.symbols);
@@ -49,7 +57,8 @@
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
-		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+		.call(zoom);
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		
@@ -61,8 +70,6 @@
 			d.name  = d.name;
 			d.period = +d.period;
 			d.distance = +d.distance;
-			d.x = x(d.period);
-			d.y = y(d.distance);
 		});
 		
 		svg.append('g')
@@ -141,14 +148,38 @@
 		  .style("text-anchor", "end")
 		  .text(function(d) { return d; });
 		  
+		d3.selectAll("button[data-zoom]")
+			.on("click", clicked);
+
+		function zoomed() {
+		  svg.select(".x.axis").call(xAxis);
+		  svg.select(".y.axis").call(yAxis);
+		}
+
+		function clicked() {
+		  svg.call(zoom.event); // https://github.com/mbostock/d3/issues/2387
+
+		  // Record the coordinates (in data space) of the center (in screen space).
+		  var center0 = zoom.center(), translate0 = zoom.translate(), coordinates0 = coordinates(center0);
+		  zoom.scale(zoom.scale() * Math.pow(2, +this.getAttribute("data-zoom")));
+
+		  // Translate back to the center.
+		  var center1 = point(coordinates0);
+		  zoom.translate([translate0[0] + center0[0] - center1[0], translate0[1] + center0[1] - center1[1]]);
+
+		  svg.transition().duration(750).call(zoom.event);
+		}
+
+		function coordinates(point) {
+		  var scale = zoom.scale(), translate = zoom.translate();
+		  return [(point[0] - translate[0]) / scale, (point[1] - translate[1]) / scale];
+		}
+
+		function point(coordinates) {
+		  var scale = zoom.scale(), translate = zoom.translate();
+		  return [coordinates[0] * scale + translate[0], coordinates[1] * scale + translate[1]];
+		}
+		  
 	});
-	
-	svg.on("mousemove", function() {
-			fisheye.focus(d3.mouse(this));			
-			svg.selectAll(".symbol").each(function(d) { d.fisheye = fisheye(d); })
-				.attr("transform", function(d) { 
-					return "translate(" + d.fisheye.x + "," + d.fisheye.y +")"; 
-				});
-		});
   </script>
 </html>

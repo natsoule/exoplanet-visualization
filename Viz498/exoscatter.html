@@ -93,26 +93,8 @@
 			.attr('y', height - 10)
 			.attr('text-anchor', 'end')
 			.attr('class', 'label')
-			.text('stellar distance (parsecs)');
-			
-		function zoom() {
-			d3.zoom()
-				.scaleExtent([.5, 20])
-				.extent([[0, 0], [width, height]])
-				.on("zoom", function() {
-					// create new scale ojects based on event
-					var new_x = d3.event.transform.rescaleX(x);
-					var new_y = d3.event.transform.rescaleY(y);
-					// update axes
-					gX.call(xAxis.scale(new_x));
-					gY.call(yAxis.scale(new_y));
-					allSymbols.data(data)
-					 .attr("transform", function(d) { 
-						return "translate(" + new_x(d.period) + "," + new_y(d.distance) +")"; 
-					});
-				});
-			};
-		
+			.text('stellar distance (parsecs)');			
+				
 		// we use the ordinal scale symbols to generate symbols
 		// such as d3.symbolcross, etc..
 		// -> symbol.type(d3.symbolcross)()
@@ -131,6 +113,24 @@
 		
 		// Pan and zoom
 		rect.call(zoom);
+		
+		function zoom() {
+			d3.zoom()
+				.scaleExtent([.5, 20])
+				.extent([[0, 0], [width, height]])
+				.on("zoom", function() {
+					// create new scale ojects based on event
+					var new_x = d3.event.transform.rescaleX(x);
+					var new_y = d3.event.transform.rescaleY(y);
+					// update axes
+					gX.call(xAxis.scale(new_x));
+					gY.call(yAxis.scale(new_y));
+					allSymbols.data(data)
+					 .attr("transform", function(d) { 
+						return "translate(" + new_x(d.period) + "," + new_y(d.distance) +")"; 
+					});
+				});
+			};
 	  
 		var clicked = "";
 	  

@@ -130,7 +130,7 @@
 		
 		// Pan and zoom
 		rect.call(d3.zoom()
-			.scaleExtent([0, 20])
+			.scaleExtent([1, 20])
 			.extent([[0, 0], [width, height]])
 			.on("zoom", function() {
 				// create new scale ojects based on event

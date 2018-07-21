@@ -50,6 +50,9 @@
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		<!-- .call(d3.zoom().on("zoom", function () { -->
+			<!-- svg.attr("transform", d3.event.transform); -->
+		<!-- })); -->
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		
@@ -102,7 +105,7 @@
 			.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
 		
 		// Pan and zoom
-		var zoom = d3.zoom()
+		svg.call(d3.zoom()
 			.scaleExtent([.5, 20])
 			.extent([[0, 0], [width, height]])
 			.on("zoom", function() {
@@ -116,7 +119,7 @@
 				 .attr("transform", function(d) { 
 					return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
 				});
-			});
+			}));
 	  
 		var clicked = "";
 	  

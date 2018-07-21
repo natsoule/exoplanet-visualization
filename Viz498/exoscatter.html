@@ -34,10 +34,10 @@
 	var y = d3.scaleLog().base(10)
 		.range([height, 0]);
   
-	var xaxis = d3.axisBottom()
+	var xAxis = d3.axisBottom()
 		.scale(x);
 
-	var yaxis = d3.axisLeft()
+	var yAxis = d3.axisLeft()
 		.scale(y);		
 	  
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
@@ -70,12 +70,12 @@
 		var gX = svg.append('g')
 			.attr('transform', 'translate(0,' + height + ')')
 			.attr('class', 'x axis')
-			.call(xaxis);
+			.call(xAxis);
 
 		var gY = svg.append('g')
 			.attr('transform', 'translate(0,0)')
 			.attr('class', 'y axis')
-			.call(yaxis);
+			.call(yAxis);
 
 		svg.append('text')
 			.attr('x', 10)

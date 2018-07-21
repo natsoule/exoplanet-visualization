@@ -95,7 +95,7 @@
 			.attr('class', 'label')
 			.text('stellar distance (parsecs)');
 			
-		var zoom = function () {
+		function zoom() {
 			d3.zoom()
 				.scaleExtent([.5, 20])
 				.extent([[0, 0], [width, height]])

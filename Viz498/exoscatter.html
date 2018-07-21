@@ -117,7 +117,7 @@
 				gY.call(yAxis.scale(new_y));
 				allSymbols.data(data)
 				 .attr("transform", function(d) { 
-					return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
+					return "translate(" + new_x(d.period) + "," + new_y(d.distance) +")"; 
 				});
 			}));
 	  

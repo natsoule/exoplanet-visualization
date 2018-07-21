@@ -106,7 +106,7 @@
 			.style("fill", function(d) { return color(d.method); })
 			.attr("transform", function(d) { 
 				return "translate(" + x(d.period) + "," + y(d.distance) +")"; 
-			});
+			}).call(zoom);
 			
 		allSymbols.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });	
 		

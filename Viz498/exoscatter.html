@@ -50,7 +50,7 @@
 		.attr("height", height + margin.top + margin.bottom)
 		.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-		.style("pointer-events", "all");
+		//.style("pointer-events", "all");
 		<!-- .call(d3.zoom().on("zoom", function () { -->
 			<!-- svg.attr("transform", d3.event.transform); -->
 		<!-- })); -->
@@ -106,8 +106,12 @@
 			
 		allSymbols.append("title").text(function(d) { return 'Name: ' + d.name + "\nMethod: " + d.method + "\nDistance (parsecs): " + d.distance + "\nOrbital Period (days): " + d.period; });
 		
+		var rect = svg.append("rect").attr("with", width)
+			.attr("height", height).style("pointer-events", "all")
+			.translate(margin.left, margin.top);
+		
 		// Pan and zoom
-		svg.call(d3.zoom()
+		rect.call(d3.zoom()
 			.scaleExtent([.5, 20])
 			.extent([[0, 0], [width, height]])
 			.on("zoom", function() {

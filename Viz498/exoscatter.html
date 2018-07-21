@@ -113,9 +113,7 @@
 		
 		
 		// Pan and zoom
-		rect.call(zoom);
-		
-		function zoom() {
+		rect.call(function () {
 			d3.zoom()
 				.scaleExtent([.5, 20])
 				.extent([[0, 0], [width, height]])
@@ -131,7 +129,7 @@
 						return "translate(" + new_x(d.period) + "," + new_y(d.distance) +")"; 
 					});
 				});
-			};
+			});
 	  
 		var clicked = "";
 	  

@@ -133,29 +133,26 @@
 		  .style("text-anchor", "end")
 		  .text(function(d) { return d; });
 		  
+		  
+		  
+		/*Annotations*/
+		svg.append('text')
+			.attr('x', 30)
+			.attr('y', 30)
+			//.attr('class', 'label')
+			.text('First exoplanet discovered:\nGamma Cephei A b');
+			.append("line")
+			.attr("x1",0)
+			.attr("y1",0)
+			.attr("x2",50)
+			.attr("y2",50)
+
+		svg.append('text')
+			.attr('x', 30)
+			.attr('y', 60)
+			//.attr('class', 'label')
+			.text('HARPS installed at La Silla Observatory in Chile');
 	});
-	
-	
-	const annotations = [
-        {
-          note: {
-            label: "First Exoplanet discovered",
-            title: "d3.annotationLabel"
-          },
-          x: 50,
-          y: 150,
-          dy: 137,
-          dx: 162
-        }].map(function(d){ d.color = "#E8336D"; return d})
-
-        const makeAnnotations = d3.annotation()
-          .type(d3.annotationLabel)
-          .annotations(annotations)
-
-        d3.select("svg")
-          .append("g")
-          //.attr("class", "annotation-group")
-          .call(makeAnnotations)
 	
   </script>
 </html>

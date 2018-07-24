@@ -12,7 +12,13 @@
 		<div class="btn-group">		
 		  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exoscatter.html'">Next</button>
 		</div>
+		<div class="btn-group">
+			<button type="button" id="writeup-btn" class="btn btn-primary">About the Visualization</button>
+		</div>
 	</form>
+	<article id='about'>
+		This visualization depicts bla bla bla bla stuff about my stuff. I like it because it's nice.
+	<article>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -257,6 +263,11 @@
 			.attr("y2",445)
 			.attr("stroke","black")
 			.attr('class','micro');
+	});
+	
+	//writeup button behavior
+	$('#writeup-btn').click(function() {
+		$('#about').toggle();
 	});
 	
   </script>

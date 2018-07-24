@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Exo Planet Visualizations</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
-  </head>
-  <body>
-    <h1>Exoplanet Visualizations</h1> 
-	<svg></svg>
-	<form>
-		<div class="btn-group">		
-		  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exoscatter.html'">Next</button>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exo Planet Visualizations</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1>Exoplanet Visualizations</h1> 
+		<svg></svg>
+		<form>
+			<div class="btn-group">		
+			  <button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/Viz498/exoscatter.html'">Next</button>
+			</div>
+			<div class="btn-group">
+				<button type="button" id="writeup-btn" class="btn">About the Visualization</button>
+			</div>
+		</form>
+		<div class="card" id="about">
+			<div class="card-header">About the Visualization</div>
+			<div class="card-body">Content</div>
 		</div>
-		<div class="btn-group">
-			<button type="button" id="writeup-btn" class="btn btn-primary">About the Visualization</button>
-		</div>
-	</form>
-	<article id='about'>
-		This visualization depicts bla bla bla bla stuff about my stuff. I like it because it's nice.
-	<article>
-  </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script>
   
 	/*scatter plot viz*/
 	var margin = {top: 20, right: 20, bottom: 30, left: 40},

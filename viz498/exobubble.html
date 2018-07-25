@@ -41,20 +41,20 @@
 	  d.mass = +d.mass;
 	  return d;
 	}, function(error, classes) {
-	  if (error) throw error; 
+		if (error) throw error; 
 
-	  var root = d3.hierarchy({children: classes})
+		var root = d3.hierarchy({children: classes})
 		  .sum(function(d) { 
 			return d.mass; });
 
-	  var node = svg.selectAll(".node")
+		var node = svg.selectAll(".node")
 		.data(pack(root).leaves()) 
 		.enter().append("g") 
 		  .attr("class", "node") 
 		  .attr("transform", function(d) {  
 				return "translate(" + d.x + "," + d.y + ")"; }); 
 
-	  node.append("circle")
+		node.append("circle")
 		.attr("id", function(d) { 
 			return d.name; }) 
 		.attr("r", 
@@ -62,15 +62,10 @@
 		.style("fill", 
 			function(d) { return color(d.data.method); }); 
 
-	  node.append("title") 
+		node.append("title") 
 		  .text(function(d) {
 			return 'Name: ' + d.data.name + "\nMethod: " + d.data.method + "\nJupiter Masses: " + d.data.mass; }); 
-	});
-	
-	var clicked = "";
-	
-	//set timeout intorduces an async delay so the bubble chart can render first and populate the color domain before the legend gets calculated -->
-	setTimeout(function() { 
+			
 		var legend = svg.selectAll(".legend") 
 			.data(color.domain())
 			.enter().append("g") 
@@ -105,8 +100,11 @@
 		  .attr("x", width - 24)
 		  .attr("y", 9) 
 		  .attr("dy", ".35em") 
-		  //.style("text-anchor", "end") 
+		  .style("text-anchor", "end") 
 		  .text(function(d) { return d; }); 
-	}, 1000); 
+	});
+	
+	var clicked = "";
+	
   </script>
 </html>

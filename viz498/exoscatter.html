@@ -27,6 +27,8 @@
 	var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
+	
+	var format = d3.format("d");
 
 	var x = d3.scaleLog().base(10)
 		.range([0, width]);
@@ -35,13 +37,14 @@
 		.range([height, 0]);
   
 	var xAxis = d3.axisBottom()
-		.scale(x);
+		.scale(x).ticks(4).tickFormat(format);
 
 	var yAxis = d3.axisLeft()
-		.scale(y);		
+		.scale(y).ticks(4).tickFormat(format);
 	  
 	var color = d3.scaleOrdinal(d3.schemeCategory20);
 	var symbols = d3.scaleOrdinal(d3.symbols);
+	
 
 	var symbol = d3.symbol().size(100);
   

@@ -86,6 +86,7 @@
 			.on("click",function(d){ 
 			
 				d3.selectAll(".node").style("opacity",1); 
+				d3.selectAll(".transit").style("opacity",1);
 			   
 				if (clicked !== d) { 
 					d3.selectAll(".node") 
@@ -94,6 +95,12 @@
 					 }) 
 					.style("opacity",0.1); 
 					 clicked = d; 
+					 
+					if (d!=='Transit')
+					{
+						d3.selectAll(".transit")
+							.style("opacity",0.1);
+					}
 			   } 
 				else{ 
 				  clicked = "";
@@ -109,6 +116,25 @@
 	});
 	
 	var clicked = "";
+	
+	<!-- <text y="255"><tspan x="660" dy="0">Jupiter Size</tspan></text> -->
+	<!-- <line x1="680" y1="240" x2="638" y2="182" stroke="black"></line> -->
+	
+	/*Annotations*/
+		var lbl1 = svg.append('text')
+			.attr('y', 255)
+			.attr('class','transit');
+		lbl1.append("tspan")
+			.attr("x",660)
+			.attr("dy",0)
+			.text("Jupiter Size");
+		svg.append("line")
+			.attr("x1",680)
+			.attr("y1",240)
+			.attr("x2",638)
+			.attr("y2",182)
+			.attr("stroke","black")
+			.attr('class','transit');
 	
   </script>
 </html>

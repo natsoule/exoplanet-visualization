@@ -28,8 +28,8 @@
     height = 500 - margin.top - margin.bottom;
 
 	var svg = d3.selectAll("svg") 
-		.style("padding-left", margin.left)
-		.style("padding-top", margin.top)
+		.style("padding-left", margin.left + "px")
+		.style("padding-top", margin.top + "px")
 		.attr("width", width + margin.left + margin.right) 
 		.attr("height", height + margin.top + margin.bottom) 
 	//var format = d3.format(",d"); 

@@ -10,7 +10,7 @@
 		<h1>Exoplanet Visualizations</h1> 
 		<div class="alert alert-info">
 			Hover to see details, click colors in legend to filter, scroll wheel in the whitespace of the graph to zoom, drag to pan.
-		</div>
+		</div>		
 		<svg></svg>
 		<form>
 			<button type="button" class="btn btn-primary" onclick="window.location.href='http://natsoule.github.io/viz498/exotime.html'">Previous</button>
@@ -46,8 +46,8 @@
 	var symbol = d3.symbol().size(100);
   
 	var svg = d3.selectAll("svg")
-		.style("padding-left", margin.left)
-		.style("padding-top", margin.top)
+		.style("padding-left", margin.left + "px")
+		.style("padding-top", margin.top + "px")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom);
 		
@@ -56,24 +56,11 @@
 		.append("rect")
 		.attr("width", width)
 		.attr("height", height);
-		<!-- .append("g") -->
-		<!-- .attr("clip-path", "url(#clip)") -->
-		<!-- .attr("transform", "translate(" + margin.left + "," + margin.top + ")"); -->
-		//.style("pointer-events", "all");
-		<!-- .call(d3.zoom().on("zoom", function () { -->
-			<!-- svg.attr("transform", d3.event.transform); -->
-		<!-- })); -->
 		
 	var rect = svg.append("rect").attr("width", width)
 			.attr("height", height).style("pointer-events", "all")
 			.attr("fill", "none")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-			
-	<!-- svg.append("defs").append("clipPath") -->
-		<!-- .attr("id", "clip") -->
-		<!-- .append("rect") -->
-		<!-- .attr("width", width + margin.left + margin.right) -->
-		<!-- .attr("height", height + margin.top + margin.bottom); -->
 
 	d3.csv('exoplanets_spatial.csv', function(error, data){
 		
@@ -183,56 +170,9 @@
 		  .attr("dy", ".35em")
 		  .style("text-anchor", "end")
 		  .text(function(d) { return d; });
-		  
-		<!-- d3.selectAll("button[data-zoom]") -->
-			<!-- .on("click", clicked); -->
-
-		<!-- function zoomed() { -->
-		  <!-- svg.select(".x.axis").call(xAxis); -->
-		  <!-- svg.select(".y.axis").call(yAxis); -->
-		<!-- } -->
-
-		<!-- function clicked() { -->
-		  <!-- svg.call(zoom.event); // https://github.com/mbostock/d3/issues/2387 -->
-
-		  <!-- // Record the coordinates (in data space) of the center (in screen space). -->
-		  <!-- var center0 = zoom.center(), translate0 = zoom.translate(), coordinates0 = coordinates(center0); -->
-		  <!-- zoom.scale(zoom.scale() * Math.pow(2, +this.getAttribute("data-zoom"))); -->
-
-		  <!-- // Translate back to the center. -->
-		  <!-- var center1 = point(coordinates0); -->
-		  <!-- zoom.translate([translate0[0] + center0[0] - center1[0], translate0[1] + center0[1] - center1[1]]); -->
-
-		  <!-- svg.transition().duration(750).call(zoom.event); -->
-		<!-- } -->
-
-		<!-- function coordinates(point) { -->
-		  <!-- var scale = zoom.scale(), translate = zoom.translate(); -->
-		  <!-- return [(point[0] - translate[0]) / scale, (point[1] - translate[1]) / scale]; -->
-		<!-- } -->
-
-		<!-- function point(coordinates) { -->
-		  <!-- var scale = zoom.scale(), translate = zoom.translate(); -->
-		  <!-- return [coordinates[0] * scale + translate[0], coordinates[1] * scale + translate[1]]; -->
-		<!-- } -->	
 
 		  
 	});
-	
-	<!-- function zoomCallback(data) { -->
-		<!-- return function() { -->
-			<!-- // create new scale ojects based on event -->
-			<!-- var new_x = d3.event.transform.rescaleX(x); -->
-			<!-- var new_y = d3.event.transform.rescaleY(y); -->
-			<!-- // update axes -->
-			<!-- gX.call(xAxis.scale(new_x)); -->
-			<!-- gY.call(yAxis.scale(new_y)); -->
-			<!-- allSymbols.data(data) -->
-			 <!-- .attr("transform", function(d) {  -->
-				<!-- return "translate(" + x(d.period) + "," + y(d.distance) +")";  -->
-			<!-- }); -->
-		<!-- } -->
-	<!-- } -->
 	
   </script>
 </html>
